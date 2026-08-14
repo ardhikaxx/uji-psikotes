@@ -1,0 +1,868 @@
+{
+  "fields": [
+    {
+      "id": "information-technology",
+      "name": "Teknologi Informasi",
+      "description": "Pengembangan perangkat lunak, desain antarmuka, keamanan siber, dan analisis data.",
+      "icon": "Laptop",
+      "status": "active",
+      "positions": [
+        {
+          "id": "software-engineer",
+          "name": "Software Engineer",
+          "icon": "Code2",
+          "description": "Merancang, membangun, dan memelihara perangkat lunak berkualitas tinggi.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 22 },
+            { "name": "Tes Numerik", "weight": 18 },
+            { "name": "Tes Abstrak", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 12 },
+            { "name": "Tes Analisis Data", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 10 },
+            { "name": "Tes Kepribadian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "ui-ux-designer",
+          "name": "UI/UX Designer",
+          "icon": "Palette",
+          "description": "Merancang antarmuka dan pengalaman pengguna yang intuitif.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Visual", "weight": 22 },
+            { "name": "Tes Abstrak", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 18 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 8 }
+          ]
+        },
+        {
+          "id": "data-analyst",
+          "name": "Data Analyst",
+          "icon": "BarChart3",
+          "description": "Menganalisis data untuk mendukung pengambilan keputusan bisnis.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 26 },
+            { "name": "Tes Numerik", "weight": 22 },
+            { "name": "Tes Logika", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 8 },
+            { "name": "Tes Situasional (SJT)", "weight": 10 },
+            { "name": "Tes Kepribadian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "cyber-security-analyst",
+          "name": "Cyber Security Analyst",
+          "icon": "Shield",
+          "description": "Melindungi sistem dan data organisasi dari ancaman siber.",
+          "difficulty": "expert",
+          "duration": 2700,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 24 },
+            { "name": "Tes Abstrak", "weight": 14 },
+            { "name": "Tes Ketelitian", "weight": 16 },
+            { "name": "Tes Numerik", "weight": 12 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Kepribadian", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering",
+      "name": "Software Engineering",
+      "description": "Spesialisasi pengembangan web, mobile, dan jaminan kualitas perangkat lunak.",
+      "icon": "FileCode2",
+      "status": "active",
+      "positions": [
+        {
+          "id": "web-developer",
+          "name": "Web Developer",
+          "icon": "Globe",
+          "description": "Membangun aplikasi web front-end dan back-end.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 22 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Abstrak", "weight": 10 },
+            { "name": "Tes Verbal", "weight": 12 },
+            { "name": "Tes Ketelitian", "weight": 12 },
+            { "name": "Tes Analisis Data", "weight": 8 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 8 }
+          ]
+        },
+        {
+          "id": "mobile-developer",
+          "name": "Mobile Developer",
+          "icon": "Smartphone",
+          "description": "Mengembangkan aplikasi mobile untuk iOS dan Android.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 22 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Abstrak", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 12 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 8 },
+            { "name": "Tes Analisis Data", "weight": 6 }
+          ]
+        },
+        {
+          "id": "qa-engineer",
+          "name": "QA Engineer",
+          "icon": "TestTube",
+          "description": "Memastikan kualitas perangkat lunak melalui pengujian sistematis.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Ketelitian", "weight": 24 },
+            { "name": "Tes Logika", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Abstrak", "weight": 8 },
+            { "name": "Tes Kepribadian", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance-accounting",
+      "name": "Keuangan & Akuntansi",
+      "description": "Akuntansi, audit, dan analisis keuangan untuk berbagai industri.",
+      "icon": "Calculator",
+      "status": "active",
+      "positions": [
+        {
+          "id": "accountant",
+          "name": "Akuntan",
+          "icon": "Calculator",
+          "description": "Mengelola pembukuan, pelaporan keuangan, dan perpajakan.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 28 },
+            { "name": "Tes Analisis Data", "weight": 18 },
+            { "name": "Tes Ketelitian", "weight": 20 },
+            { "name": "Tes Logika", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 8 },
+            { "name": "Tes Situasional (SJT)", "weight": 8 },
+            { "name": "Tes Kepribadian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "auditor",
+          "name": "Auditor",
+          "icon": "FileSearch",
+          "description": "Memeriksa kepatuhan dan efektivitas pengendalian internal.",
+          "difficulty": "expert",
+          "duration": 2700,
+          "categoryWeights": [
+            { "name": "Tes Ketelitian", "weight": 24 },
+            { "name": "Tes Numerik", "weight": 20 },
+            { "name": "Tes Analisis Data", "weight": 16 },
+            { "name": "Tes Logika", "weight": 16 },
+            { "name": "Tes Situasional (SJT)", "weight": 10 },
+            { "name": "Tes Verbal", "weight": 8 },
+            { "name": "Tes Kepribadian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "financial-analyst",
+          "name": "Financial Analyst",
+          "icon": "TrendingUp",
+          "description": "Menganalisis performa keuangan dan menyusun proyeksi bisnis.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 26 },
+            { "name": "Tes Numerik", "weight": 24 },
+            { "name": "Tes Logika", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 10 },
+            { "name": "Tes Kepribadian", "weight": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "human-resource",
+      "name": "Human Resource",
+      "description": "Pengelolaan sumber daya manusia, rekrutmen, dan pengembangan karyawan.",
+      "icon": "Users",
+      "status": "active",
+      "positions": [
+        {
+          "id": "hr-manager",
+          "name": "HR Manager",
+          "icon": "UserCog",
+          "description": "Mengelola strategi SDM, budaya perusahaan, dan kebijakan kepegawaian.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 32 },
+            { "name": "Tes Situasional (SJT)", "weight": 26 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Logika", "weight": 12 },
+            { "name": "Tes Numerik", "weight": 8 },
+            { "name": "Tes Ketelitian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "recruiter",
+          "name": "Recruiter",
+          "icon": "UserPlus",
+          "description": "Mencari, menilai, dan menempatkan kandidat terbaik.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 28 },
+            { "name": "Tes Situasional (SJT)", "weight": 28 },
+            { "name": "Tes Verbal", "weight": 18 },
+            { "name": "Tes Ketelitian", "weight": 10 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 6 }
+          ]
+        },
+        {
+          "id": "training-officer",
+          "name": "Training & Development Officer",
+          "icon": "GraduationCap",
+          "description": "Merancang dan mengelola program pelatihan karyawan.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 26 },
+            { "name": "Tes Situasional (SJT)", "weight": 24 },
+            { "name": "Tes Verbal", "weight": 18 },
+            { "name": "Tes Logika", "weight": 12 },
+            { "name": "Tes Ketelitian", "weight": 8 },
+            { "name": "Tes Numerik", "weight": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marketing-digital",
+      "name": "Pemasaran & Digital",
+      "description": "Pemasaran digital, optimasi mesin pencari, dan pembuatan konten.",
+      "icon": "Megaphone",
+      "status": "active",
+      "positions": [
+        {
+          "id": "digital-marketing",
+          "name": "Digital Marketing",
+          "icon": "TrendingUp",
+          "description": "Merancang dan mengeksekusi kampanye pemasaran digital.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 18 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Situasional (SJT)", "weight": 18 },
+            { "name": "Tes Kepribadian", "weight": 16 },
+            { "name": "Tes Numerik", "weight": 14 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 8 }
+          ]
+        },
+        {
+          "id": "seo-specialist",
+          "name": "SEO Specialist",
+          "icon": "Search",
+          "description": "Meningkatkan peringkat situs di mesin pencari.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 20 },
+            { "name": "Tes Verbal", "weight": 18 },
+            { "name": "Tes Logika", "weight": 14 },
+            { "name": "Tes Ketelitian", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 12 },
+            { "name": "Tes Numerik", "weight": 8 }
+          ]
+        },
+        {
+          "id": "content-creator",
+          "name": "Content Creator",
+          "icon": "Clapperboard",
+          "description": "Memproduksi konten visual dan tulisan yang menarik.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Visual", "weight": 18 },
+            { "name": "Tes Verbal", "weight": 20 },
+            { "name": "Tes Kepribadian", "weight": 20 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Abstrak", "weight": 10 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "customer-service-sales",
+      "name": "Layanan Pelanggan & Penjualan",
+      "description": "Layanan pelanggan, penjualan, dan komunikasi interpersonal.",
+      "icon": "Headphones",
+      "status": "active",
+      "positions": [
+        {
+          "id": "customer-service",
+          "name": "Customer Service",
+          "icon": "Headphones",
+          "description": "Memberikan layanan dan solusi terbaik bagi pelanggan.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 30 },
+            { "name": "Tes Situasional (SJT)", "weight": 30 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 8 },
+            { "name": "Tes Logika", "weight": 6 }
+          ]
+        },
+        {
+          "id": "sales-executive",
+          "name": "Sales Executive",
+          "icon": "BadgeDollarSign",
+          "description": "Mencapai target penjualan dan membangun hubungan pelanggan.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 28 },
+            { "name": "Tes Situasional (SJT)", "weight": 26 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Numerik", "weight": 12 },
+            { "name": "Tes Logika", "weight": 8 },
+            { "name": "Tes Ketelitian", "weight": 10 }
+          ]
+        },
+        {
+          "id": "telemarketing",
+          "name": "Telemarketing",
+          "icon": "PhoneCall",
+          "description": "Menawarkan produk dan layanan melalui telepon.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 26 },
+            { "name": "Tes Situasional (SJT)", "weight": 26 },
+            { "name": "Tes Verbal", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 10 },
+            { "name": "Tes Logika", "weight": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "administration",
+      "name": "Administrasi",
+      "description": "Administrasi perkantoran, kesekretariatan, dan manajemen dokumen.",
+      "icon": "FolderOpen",
+      "status": "active",
+      "positions": [
+        {
+          "id": "admin-staff",
+          "name": "Admin Staff",
+          "icon": "ClipboardList",
+          "description": "Mengelola administrasi, arsip, dan data perkantoran.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Ketelitian", "weight": 28 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Logika", "weight": 12 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 14 }
+          ]
+        },
+        {
+          "id": "executive-secretary",
+          "name": "Executive Secretary",
+          "icon": "FileText",
+          "description": "Mendukung eksekutif dalam pengelolaan jadwal dan komunikasi.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Verbal", "weight": 20 },
+            { "name": "Tes Ketelitian", "weight": 24 },
+            { "name": "Tes Situasional (SJT)", "weight": 18 },
+            { "name": "Tes Kepribadian", "weight": 18 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supply-chain-logistics",
+      "name": "Supply Chain & Logistik",
+      "description": "Manajemen rantai pasok, logistik, dan pengadaan barang.",
+      "icon": "Truck",
+      "status": "active",
+      "positions": [
+        {
+          "id": "supply-chain-analyst",
+          "name": "Supply Chain Analyst",
+          "icon": "GitBranch",
+          "description": "Menganalisis dan mengoptimalkan alur rantai pasok.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 22 },
+            { "name": "Tes Numerik", "weight": 20 },
+            { "name": "Tes Logika", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 8 },
+            { "name": "Tes Kepribadian", "weight": 8 }
+          ]
+        },
+        {
+          "id": "logistics-coordinator",
+          "name": "Logistics Coordinator",
+          "icon": "Package",
+          "description": "Mengkoordinasikan pengiriman, pergudangan, dan distribusi.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 18 },
+            { "name": "Tes Ketelitian", "weight": 22 },
+            { "name": "Tes Logika", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Verbal", "weight": 12 },
+            { "name": "Tes Analisis Data", "weight": 8 },
+            { "name": "Tes Kepribadian", "weight": 10 }
+          ]
+        },
+        {
+          "id": "purchasing-staff",
+          "name": "Purchasing Staff",
+          "icon": "ShoppingCart",
+          "description": "Mengelola pengadaan barang dan negosiasi pemasok.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Ketelitian", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 18 },
+            { "name": "Tes Logika", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Verbal", "weight": 12 },
+            { "name": "Tes Analisis Data", "weight": 10 },
+            { "name": "Tes Kepribadian", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufaktur",
+      "description": "Produksi, pengendalian mutu, dan operasional pabrik.",
+      "icon": "Factory",
+      "status": "active",
+      "positions": [
+        {
+          "id": "production-supervisor",
+          "name": "Production Supervisor",
+          "icon": "Settings2",
+          "description": "Mengawasi proses produksi dan tim lini pabrik.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Situasional (SJT)", "weight": 20 },
+            { "name": "Tes Logika", "weight": 16 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 18 },
+            { "name": "Tes Kepribadian", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Analisis Data", "weight": 6 }
+          ]
+        },
+        {
+          "id": "quality-control-inspector",
+          "name": "Quality Control Inspector",
+          "icon": "ScanSearch",
+          "description": "Memeriksa kualitas produk sesuai standar spesifikasi.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Ketelitian", "weight": 36 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Logika", "weight": 14 },
+            { "name": "Tes Visual", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Teknik (Engineering)",
+      "description": "Teknik mesin, elektro, dan sipil untuk berbagai proyek industri.",
+      "icon": "Wrench",
+      "status": "active",
+      "positions": [
+        {
+          "id": "mechanical-engineer",
+          "name": "Mechanical Engineer",
+          "icon": "Cog",
+          "description": "Merancang dan memelihara sistem mekanik.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 22 },
+            { "name": "Tes Logika", "weight": 18 },
+            { "name": "Tes Abstrak", "weight": 14 },
+            { "name": "Tes Analisis Data", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 12 }
+          ]
+        },
+        {
+          "id": "electrical-engineer",
+          "name": "Electrical Engineer",
+          "icon": "Zap",
+          "description": "Merancang dan mengelola sistem kelistrikan.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 22 },
+            { "name": "Tes Logika", "weight": 20 },
+            { "name": "Tes Abstrak", "weight": 14 },
+            { "name": "Tes Analisis Data", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 12 }
+          ]
+        },
+        {
+          "id": "civil-engineer",
+          "name": "Civil Engineer",
+          "icon": "Building2",
+          "description": "Merancang dan mengawasi konstruksi infrastruktur.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 24 },
+            { "name": "Tes Logika", "weight": 18 },
+            { "name": "Tes Abstrak", "weight": 10 },
+            { "name": "Tes Analisis Data", "weight": 12 },
+            { "name": "Tes Verbal", "weight": 10 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "healthcare",
+      "name": "Kesehatan",
+      "description": "Tenaga medis dan paramedis untuk layanan kesehatan.",
+      "icon": "Stethoscope",
+      "status": "active",
+      "positions": [
+        {
+          "id": "nurse",
+          "name": "Perawat",
+          "icon": "HeartPulse",
+          "description": "Memberikan asuhan keperawatan kepada pasien.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 24 },
+            { "name": "Tes Situasional (SJT)", "weight": 26 },
+            { "name": "Tes Verbal", "weight": 14 },
+            { "name": "Tes Ketelitian", "weight": 16 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 10 }
+          ]
+        },
+        {
+          "id": "general-practitioner",
+          "name": "Dokter Umum",
+          "icon": "Stethoscope",
+          "description": "Memberikan pelayanan medis dan diagnosis awal.",
+          "difficulty": "expert",
+          "duration": 2700,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 14 },
+            { "name": "Tes Ketelitian", "weight": 18 },
+            { "name": "Tes Situasional (SJT)", "weight": 22 },
+            { "name": "Tes Verbal", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 14 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Pendidikan",
+      "description": "Pendidik dan tenaga kependidikan di sekolah dan kampus.",
+      "icon": "BookOpen",
+      "status": "active",
+      "positions": [
+        {
+          "id": "teacher",
+          "name": "Guru",
+          "icon": "BookOpen",
+          "description": "Mengajar dan membimbing siswa di sekolah.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Verbal", "weight": 22 },
+            { "name": "Tes Kepribadian", "weight": 22 },
+            { "name": "Tes Situasional (SJT)", "weight": 20 },
+            { "name": "Tes Logika", "weight": 12 },
+            { "name": "Tes Numerik", "weight": 14 },
+            { "name": "Tes Ketelitian", "weight": 10 }
+          ]
+        },
+        {
+          "id": "lecturer",
+          "name": "Dosen",
+          "icon": "GraduationCap",
+          "description": "Mengajar dan melakukan penelitian di perguruan tinggi.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Verbal", "weight": 20 },
+            { "name": "Tes Logika", "weight": 18 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Analisis Data", "weight": 12 },
+            { "name": "Tes Kepribadian", "weight": 14 },
+            { "name": "Tes Situasional (SJT)", "weight": 12 },
+            { "name": "Tes Ketelitian", "weight": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hospitality-tourism",
+      "name": "Hospitality & Pariwisata",
+      "description": "Layanan hotel, restoran, dan industri pariwisata.",
+      "icon": "Hotel",
+      "status": "active",
+      "positions": [
+        {
+          "id": "front-office-staff",
+          "name": "Front Office Staff",
+          "icon": "ConciergeBell",
+          "description": "Menyambut tamu dan mengelola reservasi hotel.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Kepribadian", "weight": 28 },
+            { "name": "Tes Situasional (SJT)", "weight": 26 },
+            { "name": "Tes Verbal", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 12 },
+            { "name": "Tes Numerik", "weight": 10 },
+            { "name": "Tes Logika", "weight": 8 }
+          ]
+        },
+        {
+          "id": "tour-guide",
+          "name": "Tour Guide",
+          "icon": "Map",
+          "description": "Memandu wisatawan dan menjelaskan objek wisata.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Verbal", "weight": 24 },
+            { "name": "Tes Kepribadian", "weight": 24 },
+            { "name": "Tes Situasional (SJT)", "weight": 22 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Numerik", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retail-ecommerce",
+      "name": "Retail & E-Commerce",
+      "description": "Operasional ritel, toko, dan perdagangan elektronik.",
+      "icon": "ShoppingBag",
+      "status": "active",
+      "positions": [
+        {
+          "id": "store-supervisor",
+          "name": "Store Supervisor",
+          "icon": "Store",
+          "description": "Mengawasi operasional toko dan tim kasir.",
+          "difficulty": "easy",
+          "duration": 1800,
+          "categoryWeights": [
+            { "name": "Tes Situasional (SJT)", "weight": 24 },
+            { "name": "Tes Kepribadian", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 12 },
+            { "name": "Tes Logika", "weight": 14 }
+          ]
+        },
+        {
+          "id": "ecommerce-specialist",
+          "name": "E-Commerce Specialist",
+          "icon": "ShoppingCart",
+          "description": "Mengelola toko online, katalog, dan konversi penjualan.",
+          "difficulty": "medium",
+          "duration": 2100,
+          "categoryWeights": [
+            { "name": "Tes Analisis Data", "weight": 18 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Kepribadian", "weight": 16 },
+            { "name": "Tes Verbal", "weight": 14 },
+            { "name": "Tes Logika", "weight": 10 },
+            { "name": "Tes Ketelitian", "weight": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bumn-government",
+      "name": "BUMN & Instansi Pemerintah",
+      "description": "Seleksi CPNS, ASN, BUMN, TNI, dan POLRI.",
+      "icon": "Landmark",
+      "status": "active",
+      "positions": [
+        {
+          "id": "cpns-asn",
+          "name": "CPNS / ASN",
+          "icon": "Landmark",
+          "description": "Seleksi kompetensi dasar dan bidang untuk calon PNS.",
+          "difficulty": "professional",
+          "duration": 2700,
+          "categoryWeights": [
+            { "name": "Tes Verbal", "weight": 22 },
+            { "name": "Tes Numerik", "weight": 22 },
+            { "name": "Tes Logika", "weight": 22 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Kepribadian", "weight": 18 }
+          ]
+        },
+        {
+          "id": "bumn-bank-officer",
+          "name": "BUMN Bank Officer",
+          "icon": "Banknote",
+          "description": "Seleksi perbankan BUMN dan lembaga keuangan negara.",
+          "difficulty": "professional",
+          "duration": 2400,
+          "categoryWeights": [
+            { "name": "Tes Numerik", "weight": 22 },
+            { "name": "Tes Analisis Data", "weight": 16 },
+            { "name": "Tes Logika", "weight": 16 },
+            { "name": "Tes Kepribadian", "weight": 18 },
+            { "name": "Tes Situasional (SJT)", "weight": 14 },
+            { "name": "Tes Verbal", "weight": 8 },
+            { "name": "Tes Ketelitian", "weight": 6 }
+          ]
+        },
+        {
+          "id": "tni-polri",
+          "name": "TNI / POLRI",
+          "icon": "ShieldCheck",
+          "description": "Tes psikologi untuk seleksi anggota TNI dan POLRI.",
+          "difficulty": "expert",
+          "duration": 2700,
+          "categoryWeights": [
+            { "name": "Tes Logika", "weight": 20 },
+            { "name": "Tes Numerik", "weight": 16 },
+            { "name": "Tes Verbal", "weight": 14 },
+            { "name": "Tes Kepribadian", "weight": 22 },
+            { "name": "Tes Situasional (SJT)", "weight": 16 },
+            { "name": "Tes Ketelitian", "weight": 12 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mining",
+      "name": "Pertambangan",
+      "description": "Eksplorasi dan operasional pertambangan mineral dan energi.",
+      "icon": "Pickaxe",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "telecommunications",
+      "name": "Telekomunikasi",
+      "description": "Infrastruktur jaringan dan layanan telekomunikasi.",
+      "icon": "Signal",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "construction",
+      "name": "Konstruksi",
+      "description": "Manajemen proyek konstruksi dan infrastruktur.",
+      "icon": "HardHat",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "legal",
+      "name": "Hukum & Legal",
+      "description": "Praktik hukum, kepatuhan, dan manajemen risiko legal.",
+      "icon": "Scale",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "insurance",
+      "name": "Asuransi",
+      "description": "Produk asuransi jiwa, kesehatan, dan umum.",
+      "icon": "ShieldCheck",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "research",
+      "name": "Riset & Pengembangan",
+      "description": "Penelitian ilmiah dan pengembangan produk.",
+      "icon": "FlaskConical",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "media",
+      "name": "Media & Jurnalistik",
+      "description": "Jurnalistik, penyiaran, dan produksi media.",
+      "icon": "Newspaper",
+      "status": "coming-soon",
+      "positions": []
+    },
+    {
+      "id": "energy",
+      "name": "Energi",
+      "description": "Energi terbarukan, migas, dan ketenagalistrikan.",
+      "icon": "BatteryCharging",
+      "status": "coming-soon",
+      "positions": []
+    }
+  ]
+}
