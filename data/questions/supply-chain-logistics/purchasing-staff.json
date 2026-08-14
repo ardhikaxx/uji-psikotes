@@ -1,0 +1,972 @@
+{
+  "metadata": {
+    "id": "purchasing-staff",
+    "fieldId": "supply-chain-logistics",
+    "positionId": "purchasing-staff",
+    "fieldName": "Supply Chain & Logistik",
+    "positionName": "Purchasing Staff",
+    "title": "Purchasing Staff - Simulasi Psikotes Kerja",
+    "description": "Mengelola pengadaan barang dan negosiasi pemasok.",
+    "duration": 2100,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 44,
+    "categoryWeights": [
+      {
+        "name": "Tes Ketelitian",
+        "weight": 20
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 18
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 14
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 16
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 12
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 10
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "purchasing-staff-001",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "purchasing-staff-002",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "purchasing-staff-003",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "purchasing-staff-004",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor seri perangkat: SN-2026-0417-Q. Manakah penulisan yang sama persis?",
+      "options": [
+        "SN-2026-0417-Q",
+        "SN-2026-0471-Q",
+        "SN-2026-0417-O",
+        "SN-2026-0417-QQ",
+        "SN-2026-0417"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis dengan SN-2026-0417-Q. Opsi lain memiliki kesalahan digit, huruf, atau jumlah karakter.",
+      "id": "purchasing-staff-005",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "purchasing-staff-006",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "purchasing-staff-007",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "purchasing-staff-008",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 4, 9, 16, 25, ...",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "40"
+      ],
+      "correctIndex": 3,
+      "explanation": "Deret bilangan kuadrat: 1², 2², 3², 4², 5², maka berikutnya 6² = 36.",
+      "steps": [
+        "Pola: n²",
+        "6² = 36"
+      ],
+      "id": "purchasing-staff-009",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk dibeli seharga Rp 500.000 dan dijual seharga Rp 600.000. Berapa persen keuntungan yang diperoleh?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Keuntungan = 600.000 - 500.000 = 100.000. Persentase = 100.000 / 500.000 × 100% = 20%.",
+      "steps": [
+        "Keuntungan = Rp 100.000",
+        "100.000 / 500.000 = 0,2",
+        "0,2 × 100% = 20%"
+      ],
+      "id": "purchasing-staff-010",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapakah rata-rata dari bilangan 12, 15, 18, 21, dan 24?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rata-rata = (12+15+18+21+24) / 5 = 90 / 5 = 18.",
+      "steps": [
+        "Jumlah = 90",
+        "Rata-rata = 90 / 5 = 18"
+      ],
+      "id": "purchasing-staff-011",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "purchasing-staff-012",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "purchasing-staff-013",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan umur A dan B adalah 3 : 5. Jika jumlah umur mereka 40 tahun, berapakah umur A?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total bagian = 3 + 5 = 8. Umur A = 3/8 × 40 = 15 tahun.",
+      "steps": [
+        "Total bagian = 8",
+        "Umur A = 3/8 × 40 = 15"
+      ],
+      "id": "purchasing-staff-014",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "purchasing-staff-015",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "purchasing-staff-016",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "logical",
+      "text": "Setelah perusahaan melakukan rekrutmen massal, kualitas rata-rata karyawan baru dinilai lebih rendah dalam evaluasi tahunan. Pernyataan yang paling tepat adalah...",
+      "options": [
+        "Rekrutmen massal pasti menurunkan kualitas",
+        "Semua karyawan baru berkualitas rendah",
+        "Perlu evaluasi proses seleksi untuk memastikan penyebabnya",
+        "Rekrutmen massal meningkatkan kualitas",
+        "Karyawan lama lebih buruk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubungan ini perlu diselidiki melalui evaluasi proses seleksi, bukan langsung menyimpulkan sebab-akibat.",
+      "id": "purchasing-staff-017",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui bahwa Q tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "P benar",
+        "P tidak benar",
+        "P dan Q benar",
+        "Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: Jika P → Q dan Q salah, maka P pasti salah.",
+      "steps": [
+        "P → Q",
+        "¬Q",
+        "Maka ¬P (P tidak benar)"
+      ],
+      "id": "purchasing-staff-018",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang kasir menemukan selisih uang di akhir shift. Langkah pertama yang paling tepat dilakukan adalah...",
+      "options": [
+        "Menutup kekurangan dari uang pribadi",
+        "Menghitung ulang dan mencocokkan dengan transaksi",
+        "Menyalahkan rekan kerja",
+        "Mengabaikan selisih tersebut",
+        "Langsung melaporkan tanpa pemeriksaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Langkah paling objektif adalah menghitung ulang dan menelusuri transaksi untuk menemukan sumber selisih.",
+      "id": "purchasing-staff-019",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang klien mengeluh produk yang dikirim dalam keadaan rusak. Prioritas tindakan yang paling tepat adalah...",
+      "options": [
+        "Menolak klaim klien",
+        "Menyalahkan pihak ekspedisi",
+        "Mengganti produk dan mengevaluasi sistem pengemasan",
+        "Mengabaikan keluhan",
+        "Menunda semua pengiriman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penyelesaian terbaik adalah mengganti produk sebagai solusi jangka pendek dan memperbaiki pengemasan untuk jangka panjang.",
+      "id": "purchasing-staff-020",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "purchasing-staff-021",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "purchasing-staff-022",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "sjt",
+      "text": "Biaya pengiriman meningkat tajam dan melebihi anggaran. Keputusan terbaik adalah...",
+      "options": [
+        "Menghentikan semua pengiriman.",
+        "Mengevaluasi rute dan moda pengiriman untuk efisiensi.",
+        "Menambah anggaran tanpa analisis.",
+        "Mengabaikan kenaikan biaya."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.33
+      ],
+      "explanation": "Optimasi rute dan moda adalah cara efektif mengendalikan biaya logistik.",
+      "id": "purchasing-staff-023",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pemasok utama Anda tidak dapat memenuhi pesanan mendadak. Apa yang Anda lakukan?",
+      "options": [
+        "Menunggu pemasok.",
+        "Mencari pemasok alternatif dan menegosiasikan prioritas.",
+        "Membatalkan seluruh pesanan.",
+        "Menambah pesanan ke pemasok yang sama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Memiliki opsi pemasok alternatif adalah praktik manajemen risiko yang baik.",
+      "id": "purchasing-staff-024",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Ada kesalahan pengiriman yang menyebabkan pelanggan menerima barang salah. Tindakan pertama adalah...",
+      "options": [
+        "Menyalahkan kurir.",
+        "Menangani pengiriman ulang dan menelusuri penyebab kesalahan.",
+        "Mengabaikan karena sudah terlanjur.",
+        "Menunggu pelanggan mengeluh."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Perbaikan segera dan analisis akar masalah menjaga kepercayaan pelanggan.",
+      "id": "purchasing-staff-025",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Kualitas barang dari pemasok menurun. Sebelum memutuskan, Anda akan...",
+      "options": [
+        "Langsung mengganti pemasok.",
+        "Mendiskusikan dengan pemasok dan menetapkan standar kualitas yang jelas.",
+        "Mengabaikan penurunan kualitas.",
+        "Menerima barang tanpa pemeriksaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi dan penetapan standar adalah langkah pertama sebelum mengganti pemasok.",
+      "id": "purchasing-staff-026",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan perbedaan stok antara catatan sistem dan fisik di gudang. Langkah pertama adalah...",
+      "options": [
+        "Mengabaikan karena perbedaan kecil.",
+        "Melakukan stock opname ulang untuk menemukan penyebab.",
+        "Menyesuaikan catatan agar sama.",
+        "Menyalahkan staf gudang."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menelusuri penyebab selisih stok adalah prosedur yang benar.",
+      "id": "purchasing-staff-027",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pengiriman penting tertunda karena kapasitas gudang penuh. Tindakan terbaik Anda adalah...",
+      "options": [
+        "Menunda pengiriman tanpa informasi.",
+        "Mencari alternatif pengiriman dan mengomunikasikan opsi kepada pihak terkait.",
+        "Mengirim lebih banyak barang ke gudang.",
+        "Mengabaikan masalah."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.17
+      ],
+      "explanation": "Solusi alternatif dengan komunikasi proaktif menjaga rantai pasok tetap berjalan.",
+      "id": "purchasing-staff-028",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "purchasing-staff-029",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Manakah kalimat yang paling efektif dan tidak ambigu?",
+      "options": [
+        "Karena hujan deras, maka dari itu rapat ditunda oleh panitia hingga waktu yang belum ditentukan.",
+        "Rapat ditunda karena hujan deras dan belum ditentukan waktunya.",
+        "Hujan deras sehingga rapat ditunda oleh karena itu waktunya belum ditentukan.",
+        "Karena rapat ditunda oleh panitia, maka hujan deras dan waktunya belum ditentukan.",
+        "Rapat ditunda, oleh karena itu hujan deras dan belum ditentukan waktunya."
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat B paling ringkas, jelas, dan tidak ambigu dibandingkan kalimat lainnya yang berbelit-belit.",
+      "id": "purchasing-staff-030",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Air : Es = Uap : ...",
+      "options": [
+        "Hujan",
+        "Cair",
+        "Air",
+        "Api",
+        "Embun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air yang didinginkan menjadi es; uap yang didinginkan kembali menjadi air.",
+      "id": "purchasing-staff-031",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "purchasing-staff-032",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "purchasing-staff-033",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "purchasing-staff-034",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan tabel populasi berikut, berapakah total populasi dari tiga wilayah dengan populasi terbesar?",
+      "options": [
+        "2,5 juta",
+        "2,8 juta",
+        "3,0 juta",
+        "3,2 juta",
+        "3,5 juta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiga terbesar: Wilayah A (1,2 juta), Wilayah B (1,0 juta), Wilayah C (0,8 juta). Total = 3,0 juta.",
+      "chart": {
+        "type": "table",
+        "title": "Populasi per Wilayah (juta)",
+        "labels": [
+          "Wilayah A",
+          "Wilayah B",
+          "Wilayah C",
+          "Wilayah D",
+          "Wilayah E"
+        ],
+        "datasets": [
+          {
+            "label": "Populasi (juta)",
+            "values": [
+              1.2,
+              1,
+              0.8,
+              0.6,
+              0.4
+            ]
+          }
+        ]
+      },
+      "id": "purchasing-staff-035",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "purchasing-staff-036",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "purchasing-staff-037",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "personality",
+      "text": "Saya kadang mengabaikan kualitas demi menyelesaikan tugas lebih cepat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-038",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-039",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya aktif menyampaikan pendapat dalam rapat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-040",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang merasa sedih atau putus asa.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-041",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih fokus pada kepentingan saya sendiri daripada orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-042",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-043",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah kehilangan ketenangan saat menghadapi tekanan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "purchasing-staff-044",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
