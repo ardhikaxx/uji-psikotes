@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "id": "customer-service",
+    "fieldId": "customer-service-sales",
+    "positionId": "customer-service",
+    "fieldName": "Layanan Pelanggan & Penjualan",
+    "positionName": "Customer Service",
+    "title": "Customer Service - Simulasi Psikotes Kerja",
+    "description": "Memberikan layanan dan solusi terbaik bagi pelanggan.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 37,
+    "categoryWeights": [
+      {
+        "name": "Tes Kepribadian",
+        "weight": 30
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 30
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 16
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 10
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 8
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "personality",
+      "text": "Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-001",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mempercayai niat baik orang lain sampai terbukti sebaliknya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-002",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih mengutamakan kerja sama daripada bersaing dengan rekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-003",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mencoba metode kerja baru meskipun cara lama sudah berjalan baik.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-004",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-005",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa suasana hati saya berubah-ubah tanpa sebab yang jelas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-006",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-007",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-008",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terbuka terhadap sudut pandang yang berbeda dari pendapat saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-009",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyusun daftar prioritas sebelum memulai pekerjaan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang membantu rekan kerja yang sedang kewalahan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa tersinggung oleh komentar orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-012",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-013",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa berenergi saat berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "customer-service-014",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda membicarakan pelanggan dengan nada negatif setelah pelanggan tersebut pergi. Anda...",
+      "options": [
+        "Ikut membicarakan pelanggan.",
+        "Mengalihkan pembicaraan ke hal yang lebih positif.",
+        "Membicarakan pelanggan lain.",
+        "Diam dan ikut tertawa."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menjaga profesionalisme berarti tidak menjelekkan pelanggan.",
+      "id": "customer-service-015",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan marah karena produknya terlambat. Anda menangani keluhan tersebut. Respons terbaik adalah...",
+      "options": [
+        "Membantah bahwa keterlambatan bukan kesalahan Anda.",
+        "Mendengarkan, meminta maaf, dan menawarkan solusi nyata.",
+        "Menutup telepon.",
+        "Menyalahkan bagian pengiriman."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Empati dan solusi adalah kunci penanganan pelanggan yang marah.",
+      "id": "customer-service-016",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda tidak tahu jawaban atas pertanyaan teknis pelanggan. Apa yang Anda lakukan?",
+      "options": [
+        "Menebak-nebak jawaban.",
+        "Mengakui dengan jujur dan mencari jawaban yang benar lalu menghubungi kembali.",
+        "Memberikan jawaban yang diinginkan pelanggan.",
+        "Mengalihkan topik."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Kejujuran dan tindak lanjut lebih baik daripada jawaban yang salah.",
+      "id": "customer-service-017",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda melihat rekan penjualan memberi janji berlebihan kepada pelanggan untuk menutup transaksi. Apa yang Anda lakukan?",
+      "options": [
+        "Ikut menjanjikan hal yang sama.",
+        "Mengingatkan rekan secara pribadi tentang risiko janji berlebihan.",
+        "Melaporkan langsung tanpa komunikasi.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Memberi tahu rekan secara pribadi lebih bijak sebelum melibatkan atasan.",
+      "id": "customer-service-018",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Satu antrean pelanggan sangat panjang sementara rekan Anda masih berbicara santai. Tindakan Anda adalah...",
+      "options": [
+        "Menunggu rekan selesai berbicara.",
+        "Meminta rekan membantu atau mengambil alih sebagian pelanggan.",
+        "Mengabaikan antrean.",
+        "Memperlambat layanan Anda."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Inisiatif membantu mengurangi antrean adalah perilaku tim yang baik.",
+      "id": "customer-service-019",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan meminta kompensasi atas keluhan yang sudah dijelaskan sebagai kesalahan pelanggan sendiri. Anda...",
+      "options": [
+        "Memberikan kompensasi penuh untuk menghindari konflik.",
+        "Menjelaskan dengan sopan dan menawarkan kompensasi yang adil sesuai kebijakan.",
+        "Menolak kasar.",
+        "Mengabaikan pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.17,
+        0.33
+      ],
+      "explanation": "Solusi yang adil dan sopan menjaga kepuasan tanpa merugikan perusahaan.",
+      "id": "customer-service-020",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pelanggan setia Anda meminta rekomendasi produk yang justru lebih murah daripada yang biasa ia beli. Apa yang Anda lakukan?",
+      "options": [
+        "Menjual produk yang lebih mahal untuk menaikkan komisi.",
+        "Memberikan rekomendasi jujur sesuai kebutuhan pelanggan.",
+        "Menghindari pertanyaan.",
+        "Berbohong bahwa produk murah tidak tersedia."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Kejujuran membangun kepercayaan dan loyalitas jangka panjang.",
+      "id": "customer-service-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pelanggan meminta diskon di luar kebijakan. Anda tahu kebijakan perusahaan tidak mengizinkan. Apa yang Anda lakukan?",
+      "options": [
+        "Memberikan diskon agar pelanggan puas.",
+        "Menjelaskan kebijakan dengan sopan dan menawarkan alternatif yang diizinkan.",
+        "Berbohong bahwa diskon tidak tersedia.",
+        "Mengalihkan ke rekan tanpa penjelasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Menjelaskan kebijakan dengan sopan sambil menawarkan solusi adalah cara profesional.",
+      "id": "customer-service-022",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Dokter : Rumah Sakit = Guru : ...",
+      "options": [
+        "Pasar",
+        "Sekolah",
+        "Bank",
+        "Kantor",
+        "Museum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dokter bekerja di rumah sakit, seperti guru bekerja di sekolah.",
+      "id": "customer-service-023",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "customer-service-024",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "customer-service-025",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "customer-service-026",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "customer-service-027",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"eksplisit\" adalah...",
+      "options": [
+        "Jelas",
+        "Tegas",
+        "Implisit",
+        "Terbuka",
+        "Gamblang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eksplisit berarti jelas dan terang-terangan. Lawannya adalah \"implisit\" yang berarti tersirat.",
+      "id": "customer-service-028",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "customer-service-029",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "customer-service-030",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "customer-service-031",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "customer-service-032",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "customer-service-033",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 3, 5, 8, 13, ...",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setiap suku adalah jumlah dua suku sebelumnya: 8 + 13 = 21.",
+      "steps": [
+        "8 + 13 = 21"
+      ],
+      "id": "customer-service-034",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "customer-service-035",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "customer-service-036",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "customer-service-037",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    }
+  ]
+}
