@@ -1,0 +1,1248 @@
+{
+  "metadata": {
+    "id": "quality-control-inspector",
+    "fieldId": "manufacturing",
+    "positionId": "quality-control-inspector",
+    "fieldName": "Manufaktur",
+    "positionName": "Quality Control Inspector",
+    "title": "Quality Control Inspector - Simulasi Psikotes Kerja",
+    "description": "Memeriksa kualitas produk sesuai standar spesifikasi.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 38,
+    "categoryWeights": [
+      {
+        "name": "Tes Ketelitian",
+        "weight": 36
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 14
+      },
+      {
+        "name": "Tes Visual",
+        "weight": 10
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 12
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 12
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "quality-control-inspector-001",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "quality-control-inspector-002",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "quality-control-inspector-003",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "quality-control-inspector-004",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "quality-control-inspector-005",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "quality-control-inspector-006",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "quality-control-inspector-007",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor seri perangkat: SN-2026-0417-Q. Manakah penulisan yang sama persis?",
+      "options": [
+        "SN-2026-0417-Q",
+        "SN-2026-0471-Q",
+        "SN-2026-0417-O",
+        "SN-2026-0417-QQ",
+        "SN-2026-0417"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis dengan SN-2026-0417-Q. Opsi lain memiliki kesalahan digit, huruf, atau jumlah karakter.",
+      "id": "quality-control-inspector-008",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "quality-control-inspector-009",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "quality-control-inspector-010",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "quality-control-inspector-011",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua kode barang berikut.\nKode A: XRT-8921-YZ\nKode B: XRT-8291-YZ\n\nPernyataan yang paling tepat adalah...",
+      "options": [
+        "Kode A dan B identik",
+        "Kode A dan B berbeda pada urutan angka 9 dan 2",
+        "Kode A dan B berbeda pada huruf akhir",
+        "Kode A lebih panjang dari B",
+        "Kode A dan B sama sekali tidak berhubungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kode A berisi \"8921\" sedangkan kode B berisi \"8291\", jadi perbedaannya terletak pada urutan angka 9 dan 2.",
+      "id": "quality-control-inspector-012",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "quality-control-inspector-013",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "quality-control-inspector-014",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan berat A, B, dan C adalah 2 : 3 : 5. Jika berat total ketiganya 80 kg, berapakah berat C?",
+      "options": [
+        "32 kg",
+        "36 kg",
+        "40 kg",
+        "44 kg",
+        "48 kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total bagian = 2 + 3 + 5 = 10. Berat C = 5/10 × 80 = 40 kg.",
+      "steps": [
+        "Total bagian = 10",
+        "C = 5/10 × 80 = 40 kg"
+      ],
+      "id": "quality-control-inspector-015",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "quality-control-inspector-016",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan pola bilangan segitiga berikut: 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih bertambah 1: +2, +3, +4, +5, maka berikutnya +6 → 21.",
+      "steps": [
+        "Selisih: 2, 3, 4, 5",
+        "Berikutnya +6",
+        "15 + 6 = 21"
+      ],
+      "id": "quality-control-inspector-017",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk naik harganya 15% menjadi Rp 1.150.000. Berapakah harga produk sebelum kenaikan?",
+      "options": [
+        "Rp 950.000",
+        "Rp 975.000",
+        "Rp 1.000.000",
+        "Rp 1.025.000",
+        "Rp 1.050.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga baru = 115% dari harga lama. Harga lama = 1.150.000 / 1,15 = 1.000.000.",
+      "steps": [
+        "1.150.000 / 1,15 = 1.000.000"
+      ],
+      "id": "quality-control-inspector-018",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "quality-control-inspector-019",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "logical",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "quality-control-inspector-020",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang klien mengeluh produk yang dikirim dalam keadaan rusak. Prioritas tindakan yang paling tepat adalah...",
+      "options": [
+        "Menolak klaim klien",
+        "Menyalahkan pihak ekspedisi",
+        "Mengganti produk dan mengevaluasi sistem pengemasan",
+        "Mengabaikan keluhan",
+        "Menunda semua pengiriman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penyelesaian terbaik adalah mengganti produk sebagai solusi jangka pendek dan memperbaiki pengemasan untuk jangka panjang.",
+      "id": "quality-control-inspector-021",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Semua atlet berlatih keras setiap hari. Sebagian atlet adalah pelajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua pelajar berlatih keras",
+        "Sebagian pelajar berlatih keras",
+        "Semua atlet adalah pelajar",
+        "Tidak ada pelajar yang atlet",
+        "Pelajar tidak pernah berlatih"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena sebagian atlet adalah pelajar dan semua atlet berlatih keras, maka sebagian pelajar berlatih keras.",
+      "steps": [
+        "Semua atlet berlatih keras",
+        "Sebagian atlet pelajar → sebagian pelajar berlatih keras"
+      ],
+      "id": "quality-control-inspector-022",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "quality-control-inspector-023",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Setelah perusahaan melakukan rekrutmen massal, kualitas rata-rata karyawan baru dinilai lebih rendah dalam evaluasi tahunan. Pernyataan yang paling tepat adalah...",
+      "options": [
+        "Rekrutmen massal pasti menurunkan kualitas",
+        "Semua karyawan baru berkualitas rendah",
+        "Perlu evaluasi proses seleksi untuk memastikan penyebabnya",
+        "Rekrutmen massal meningkatkan kualitas",
+        "Karyawan lama lebih buruk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubungan ini perlu diselidiki melalui evaluasi proses seleksi, bukan langsung menyimpulkan sebab-akibat.",
+      "id": "quality-control-inspector-024",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan rotasi 180° dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rotasi 180° membuat segitiga menghadap ke bawah.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "quality-control-inspector-025",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan cermin (refleksi vertikal) dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Refleksi vertikal mengubah arah panah kanan-atas menjadi kiri-atas, yaitu rotasi 135°.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -32,
+              32,
+              32,
+              0,
+              12.8,
+              -32,
+              32
+            ],
+            "fill": "#2563eb",
+            "rotation": 45,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 45,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 135,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 225,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 315,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "quality-control-inspector-026",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola pergerakan titik pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titik bergerak searah jarum jam: atas → kanan → bawah → kiri. Kotak kosong = titik di kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 16,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 184,
+            "y": 50,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 184,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 66,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 134,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 134,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 66,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "quality-control-inspector-027",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola ukuran pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran membesar secara berurutan dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 44,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 60,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 76,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 76,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 88,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 44,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "quality-control-inspector-028",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahan baku yang tidak sesuai spesifikasi sudah digunakan. Tindakan terbaik adalah...",
+      "options": [
+        "Mengabaikan karena sudah terlanjur.",
+        "Melaporkan dan mengevaluasi produk yang terdampak.",
+        "Menyembunyikan temuan.",
+        "Menyalahkan supplier."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Pelaporan dan evaluasi dampak menjaga mutu dan kepatuhan.",
+      "id": "quality-control-inspector-029",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Target produksi dinaikkan tetapi kualitas mulai menurun. Anda...",
+      "options": [
+        "Terus mengejar target dan mengabaikan kualitas.",
+        "Menyampaikan dampak pada kualitas dan menegosiasikan target realistis.",
+        "Mengurangi standar kualitas.",
+        "Berhenti memproduksi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keseimbangan antara target dan kualitas perlu dikomunikasikan secara jujur.",
+      "id": "quality-control-inspector-030",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Lini produksi Anda berhenti karena mesin rusak. Operator menunggu perbaikan. Apa yang Anda lakukan?",
+      "options": [
+        "Menyuruh operator pulang.",
+        "Mengkoordinasikan perbaikan segera dan mengatur ulang pekerjaan.",
+        "Membiarkan mesin menyala.",
+        "Menunggu perbaikan selesai tanpa komunikasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Koordinasi perbaikan dan pengaturan pekerjaan menjaga produktivitas.",
+      "id": "quality-control-inspector-031",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda melihat seorang operator tidak memakai alat pelindung diri. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena sedang dikejar target.",
+        "Menghentikan pekerjaan dan mengingatkan pentingnya keselamatan.",
+        "Ikut tidak memakai APD.",
+        "Menegur dengan kasar."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Keselamatan kerja adalah prioritas utama yang tidak bisa ditawar.",
+      "id": "quality-control-inspector-032",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mengenal rekan kerja secara lebih dekat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-033",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mencoba metode kerja baru meskipun cara lama sudah berjalan baik.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-034",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang merasa sedih atau putus asa.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-035",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati mempelajari hal-hal baru di luar bidang pekerjaan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-036",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa lelah setelah menghabiskan waktu lama bersama banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-037",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menghargai pendapat orang lain meskipun berbeda dengan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "quality-control-inspector-038",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
