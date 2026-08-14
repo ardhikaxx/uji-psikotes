@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "id": "front-office-staff",
+    "fieldId": "hospitality-tourism",
+    "positionId": "front-office-staff",
+    "fieldName": "Hospitality & Pariwisata",
+    "positionName": "Front Office Staff",
+    "title": "Front Office Staff - Simulasi Psikotes Kerja",
+    "description": "Menyambut tamu dan mengelola reservasi hotel.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 36,
+    "categoryWeights": [
+      {
+        "name": "Tes Kepribadian",
+        "weight": 28
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 26
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 16
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 12
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 10
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 8
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "personality",
+      "text": "Saya jarang penasaran terhadap topik-topik di luar keahlian saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-001",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati diskusi tentang gagasan dan visi jangka panjang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-002",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-003",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-004",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-005",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-006",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-007",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menetapkan target yang jelas dan berusaha keras mencapainya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-008",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya tetap tenang dan stabil saat menghadapi situasi sulit.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-009",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung pendiam dalam situasi sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya kadang mengabaikan kualitas demi menyelesaikan tugas lebih cepat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang membantu rekan kerja yang sedang kewalahan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "front-office-staff-012",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Wisatawan merasa kecewa karena cuaca buruk mengganggu jadwal wisata. Anda...",
+      "options": [
+        "Mengabaikan kekecewaan.",
+        "Menawarkan aktivitas alternatif dan mengelola ekspektasi dengan jujur.",
+        "Menjanjikan cuaca akan membaik.",
+        "Membatalkan semua aktivitas."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Fleksibilitas dan alternatif menjaga pengalaman tetap menyenangkan.",
+      "id": "front-office-staff-013",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu VIP meminta layanan yang di luar standar fasilitas. Anda...",
+      "options": [
+        "Menolak semua permintaan.",
+        "Mengevaluasi kemungkinan dan memberikan yang terbaik sesuai kebijakan.",
+        "Menjanjikan semua permintaan.",
+        "Mengabaikan tamu VIP."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Melayani dengan yang terbaik namun tetap dalam batas kebijakan.",
+      "id": "front-office-staff-014",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rombongan wisatawan Anda terlambat karena bus rusak. Sebagai tour guide, Anda...",
+      "options": [
+        "Membiarkan rombongan menunggu.",
+        "Mengomunikasikan situasi dan menyusun rencana alternatif.",
+        "Membatalkan tur.",
+        "Menyalahkan sopir."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi dan rencana alternatif menjaga pengalaman wisatawan.",
+      "id": "front-office-staff-015",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu menawarkan tip besar agar Anda melanggar aturan hotel. Anda...",
+      "options": [
+        "Menerima tip dan melanggar aturan.",
+        "Menolak dengan sopan dan tetap mematuhi aturan.",
+        "Menerima tip tanpa melanggar.",
+        "Melaporkan tamu."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Integritas lebih penting daripada imbalan.",
+      "id": "front-office-staff-016",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Terjadi overbooking di hotel Anda. Tamu yang sudah memesan tidak mendapat kamar. Tindakan terbaik adalah...",
+      "options": [
+        "Menyuruh tamu mencari hotel lain.",
+        "Mencari kamar alternatif, menawarkan kompensasi, dan meminta maaf.",
+        "Mengabaikan reservasi.",
+        "Menempatkan tamu di ruang staf."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menangani overbooking dengan solusi dan kompensasi menjaga reputasi hotel.",
+      "id": "front-office-staff-017",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda sedang kewalahan menangani banyak tamu saat check-in. Anda...",
+      "options": [
+        "Pura-pura tidak melihat.",
+        "Membantu rekan agar antrean cepat teratasi.",
+        "Memperlambat pekerjaan Anda.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Kerja sama tim meningkatkan kualitas layanan.",
+      "id": "front-office-staff-018",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu mengeluh kamar belum bersih saat check-in. Respons terbaik Anda adalah...",
+      "options": [
+        "Menjelaskan bahwa itu bukan kesalahan Anda.",
+        "Meminta maaf dan segera menangani pembersihan kamar.",
+        "Mengabaikan keluhan.",
+        "Menawarkan kamar dengan biaya tambahan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Permintaan maaf dan solusi cepat adalah standar layanan hotel.",
+      "id": "front-office-staff-019",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Matahari : Terang = Hujan : ...",
+      "options": [
+        "Basah",
+        "Panas",
+        "Berawan",
+        "Mendung",
+        "Kering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matahari menghasilkan terang, hujan menghasilkan basah.",
+      "id": "front-office-staff-020",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Manakah kalimat yang paling efektif dan tidak ambigu?",
+      "options": [
+        "Karena hujan deras, maka dari itu rapat ditunda oleh panitia hingga waktu yang belum ditentukan.",
+        "Rapat ditunda karena hujan deras dan belum ditentukan waktunya.",
+        "Hujan deras sehingga rapat ditunda oleh karena itu waktunya belum ditentukan.",
+        "Karena rapat ditunda oleh panitia, maka hujan deras dan waktunya belum ditentukan.",
+        "Rapat ditunda, oleh karena itu hujan deras dan belum ditentukan waktunya."
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat B paling ringkas, jelas, dan tidak ambigu dibandingkan kalimat lainnya yang berbelit-belit.",
+      "id": "front-office-staff-021",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "front-office-staff-022",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"transparan\" dalam konteks perusahaan adalah...",
+      "options": [
+        "Tertutup",
+        "Terbuka",
+        "Rumit",
+        "Terbatas",
+        "Serius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalam konteks perusahaan, transparan berarti terbuka dan jujur dalam menyampaikan informasi.",
+      "id": "front-office-staff-023",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "front-office-staff-024",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"opini\" adalah...",
+      "options": [
+        "Fakta",
+        "Pendapat",
+        "Perintah",
+        "Keputusan",
+        "Himbauan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opini berarti pandangan atau pendapat seseorang, sehingga sinonimnya adalah \"pendapat\".",
+      "id": "front-office-staff-025",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "front-office-staff-026",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "front-office-staff-027",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "front-office-staff-028",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "front-office-staff-029",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "front-office-staff-030",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "front-office-staff-031",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "front-office-staff-032",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "front-office-staff-033",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua atlet berlatih keras setiap hari. Sebagian atlet adalah pelajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua pelajar berlatih keras",
+        "Sebagian pelajar berlatih keras",
+        "Semua atlet adalah pelajar",
+        "Tidak ada pelajar yang atlet",
+        "Pelajar tidak pernah berlatih"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena sebagian atlet adalah pelajar dan semua atlet berlatih keras, maka sebagian pelajar berlatih keras.",
+      "steps": [
+        "Semua atlet berlatih keras",
+        "Sebagian atlet pelajar → sebagian pelajar berlatih keras"
+      ],
+      "id": "front-office-staff-034",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "front-office-staff-035",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Iklan perusahaan meningkat dan penjualan juga meningkat dalam tiga bulan berturut-turut. Pernyataan yang paling hati-hati adalah...",
+      "options": [
+        "Iklan terbukti menjadi satu-satunya penyebab kenaikan penjualan",
+        "Ada kaitan antara iklan dan penjualan, namun perlu data lanjutan",
+        "Penjualan naik tanpa pengaruh iklan",
+        "Iklan harus dihentikan agar penjualan lebih tinggi",
+        "Tidak ada hubungan apa pun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kenaikan bersamaan tidak membuktikan kausalitas tunggal; kesimpulan yang hati-hati adalah terdapat kaitan yang perlu diverifikasi.",
+      "id": "front-office-staff-036",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    }
+  ]
+}
