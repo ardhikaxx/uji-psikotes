@@ -1,0 +1,1946 @@
+{
+  "metadata": {
+    "id": "electrical-engineer",
+    "fieldId": "engineering",
+    "positionId": "electrical-engineer",
+    "fieldName": "Teknik (Engineering)",
+    "positionName": "Electrical Engineer",
+    "title": "Electrical Engineer - Simulasi Psikotes Kerja",
+    "description": "Merancang dan mengelola sistem kelistrikan.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 50,
+    "categoryWeights": [
+      {
+        "name": "Tes Numerik",
+        "weight": 22
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 20
+      },
+      {
+        "name": "Tes Abstrak",
+        "weight": 14
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 10
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 10
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 12
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 12
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 5, 11, 23, 47, ...",
+      "options": [
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: ×2 + 1. 47 × 2 + 1 = 95.",
+      "steps": [
+        "5×2+1=11",
+        "11×2+1=23",
+        "23×2+1=47",
+        "47×2+1=95"
+      ],
+      "id": "electrical-engineer-001",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "electrical-engineer-002",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "electrical-engineer-003",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "electrical-engineer-004",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Urutkan pecahan berikut dari yang terkecil: 1/3, 1/4, 1/2, 1/5",
+      "options": [
+        "1/2, 1/3, 1/4, 1/5",
+        "1/5, 1/4, 1/3, 1/2",
+        "1/4, 1/5, 1/3, 1/2",
+        "1/3, 1/5, 1/4, 1/2",
+        "1/5, 1/3, 1/4, 1/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semakin besar penyebut, semakin kecil nilainya. Urutan terkecil: 1/5, 1/4, 1/3, 1/2.",
+      "steps": [
+        "1/5 = 0,2",
+        "1/4 = 0,25",
+        "1/3 ≈ 0,33",
+        "1/2 = 0,5"
+      ],
+      "id": "electrical-engineer-005",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Dalam sebuah kelas terdapat 40 siswa dan 65% di antaranya lulus ujian. Berapakah jumlah siswa yang lulus?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "explanation": "0,65 × 40 = 26 siswa.",
+      "steps": [
+        "65% = 0,65",
+        "0,65 × 40 = 26"
+      ],
+      "id": "electrical-engineer-006",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan pola bilangan segitiga berikut: 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih bertambah 1: +2, +3, +4, +5, maka berikutnya +6 → 21.",
+      "steps": [
+        "Selisih: 2, 3, 4, 5",
+        "Berikutnya +6",
+        "15 + 6 = 21"
+      ],
+      "id": "electrical-engineer-007",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "electrical-engineer-008",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "electrical-engineer-009",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "electrical-engineer-010",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "electrical-engineer-011",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "logical",
+      "text": "Semua karyawan di perusahaan X rajin bekerja. Budi adalah karyawan di perusahaan X. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi tidak rajin bekerja",
+        "Budi rajin bekerja",
+        "Budi adalah manajer",
+        "Sebagian karyawan rajin bekerja",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua karyawan rajin bekerja dan Budi adalah karyawan, maka Budi pasti rajin bekerja.",
+      "steps": [
+        "Premis 1: semua karyawan rajin",
+        "Premis 2: Budi karyawan",
+        "Kesimpulan: Budi rajin"
+      ],
+      "id": "electrical-engineer-012",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "electrical-engineer-013",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang kasir menemukan selisih uang di akhir shift. Langkah pertama yang paling tepat dilakukan adalah...",
+      "options": [
+        "Menutup kekurangan dari uang pribadi",
+        "Menghitung ulang dan mencocokkan dengan transaksi",
+        "Menyalahkan rekan kerja",
+        "Mengabaikan selisih tersebut",
+        "Langsung melaporkan tanpa pemeriksaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Langkah paling objektif adalah menghitung ulang dan menelusuri transaksi untuk menemukan sumber selisih.",
+      "id": "electrical-engineer-014",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Sebagian siswa gemar matematika. Semua siswa yang gemar matematika rajin belajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa rajin belajar",
+        "Sebagian siswa rajin belajar",
+        "Semua yang rajin belajar gemar matematika",
+        "Tidak ada siswa yang rajin belajar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian siswa gemar matematika dan mereka rajin belajar, sehingga sebagian siswa rajin belajar.",
+      "steps": [
+        "Sebagian siswa → matematika",
+        "Gemar matematika → rajin",
+        "Sebagian siswa rajin"
+      ],
+      "id": "electrical-engineer-015",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "electrical-engineer-016",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui P benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P tidak benar",
+        "P dan Q salah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens: P benar dan P → Q, maka Q benar.",
+      "steps": [
+        "P → Q",
+        "P",
+        "Maka Q"
+      ],
+      "id": "electrical-engineer-017",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua pelanggan yang puas akan kembali membeli. Rudi membeli kembali. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Rudi pasti puas",
+        "Belum tentu Rudi puas",
+        "Rudi tidak puas",
+        "Semua pembeli puas",
+        "Tidak ada yang membeli kembali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepuasan adalah salah satu penyebab pembelian ulang, namun belum tentu satu-satunya.",
+      "id": "electrical-engineer-018",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "electrical-engineer-019",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Jumlah kecelakaan lalu lintas menurun setelah perbaikan penerangan jalan di kawasan tersebut. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Penerangan pasti satu-satunya penyebab penurunan",
+        "Perbaikan penerangan berkontribusi pada penurunan kecelakaan",
+        "Kecelakaan meningkat",
+        "Penerangan tidak berpengaruh",
+        "Pengemudi menjadi lebih buruk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perbaikan penerangan adalah salah satu faktor yang wajar berkontribusi, meski perlu data tambahan untuk memastikan.",
+      "id": "electrical-engineer-020",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "electrical-engineer-021",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-022",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-023",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setengah lingkaran berputar: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 150,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 150,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 360,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-024",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jumlah sudut bintang bertambah satu setiap langkah: 3, 4, 5, maka berikutnya 6 sudut.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "star",
+            "x": 50,
+            "y": 50,
+            "pointsCount": 3,
+            "size": 76,
+            "innerRadius": 16,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 150,
+            "y": 50,
+            "pointsCount": 4,
+            "size": 80,
+            "innerRadius": 17,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 50,
+            "y": 150,
+            "pointsCount": 5,
+            "size": 84,
+            "innerRadius": 18,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 5,
+              "size": 84,
+              "innerRadius": 18,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 6,
+              "size": 88,
+              "innerRadius": 19,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 4,
+              "size": 80,
+              "innerRadius": 17,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 3,
+              "size": 76,
+              "innerRadius": 16,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-025",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran terus membesar dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 36,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 52,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 80,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 52,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 36,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-026",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titik bergerak searah jarum jam: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 16,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 184,
+            "y": 50,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 184,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 66,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 134,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 134,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 66,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-027",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Segitiga berputar 90° searah jarum jam: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "electrical-engineer-028",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "electrical-engineer-029",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "electrical-engineer-030",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "electrical-engineer-031",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "electrical-engineer-032",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "electrical-engineer-033",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "electrical-engineer-034",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "electrical-engineer-035",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nama pada dokumen: Dr. SRI WAHYUNI, S.E., M.M.\nManakah penulisan yang benar dan sesuai?",
+      "options": [
+        "Dr. SRI WAHYUNI, S.E., M.M.",
+        "Dr. SRI WAHYUNI, S.E., M.M",
+        "Dr. SRI WAHYUNI S.E. M.M.",
+        "Dr. SRI WAHYUNI, S.E, M.M.",
+        "Dr. SRI WAHYUNI, S.E., MM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis sesuai dengan penulisan asli termasuk tanda titik dan koma.",
+      "id": "electrical-engineer-036",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "electrical-engineer-037",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "electrical-engineer-038",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda ditugaskan mengevaluasi proyek yang kemungkinan besar melebihi anggaran. Anda...",
+      "options": [
+        "Menyembunyikan pembengkakan agar terlihat baik.",
+        "Melaporkan proyeksi biaya secara jujur dan mengusulkan langkah mitigasi.",
+        "Menghentikan proyek tanpa informasi.",
+        "Mengalihkan biaya ke proyek lain."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pelaporan jujur dan mitigasi adalah tanggung jawab profesional.",
+      "id": "electrical-engineer-039",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Klien meminta percepatan jadwal yang berisiko pada mutu pekerjaan. Anda...",
+      "options": [
+        "Menyetujui tanpa analisis.",
+        "Menjelaskan risiko dan menegosiasikan jadwal yang aman.",
+        "Menolak semua permintaan klien.",
+        "Mempercepat tanpa kontrol mutu."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Jadwal dan mutu harus seimbang; komunikasikan risikonya.",
+      "id": "electrical-engineer-040",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tim Anda berbeda pendapat tentang metode teknis terbaik. Sebagai engineer, Anda akan...",
+      "options": [
+        "Memutuskan sendiri sesuai preferensi.",
+        "Membandingkan metode berdasarkan data dan membahas bersama tim.",
+        "Mengambil keputusan berdasarkan senioritas.",
+        "Menunda keputusan tanpa batas."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keputusan teknis terbaik didasarkan pada analisis data dan diskusi tim.",
+      "id": "electrical-engineer-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Peralatan di lapangan menunjukkan pembacaan yang tidak normal. Tindakan pertama Anda adalah...",
+      "options": [
+        "Mengabaikan pembacaan.",
+        "Menghentikan operasi dan memverifikasi pembacaan.",
+        "Menyetel ulang peralatan tanpa verifikasi.",
+        "Menunggu peralatan rusak."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Verifikasi pembacaan yang tidak normal adalah langkah keselamatan standar.",
+      "id": "electrical-engineer-042",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa rekan memotong proses pemeriksaan kualitas untuk mengejar deadline. Apa yang Anda lakukan?",
+      "options": [
+        "Ikut memotong proses.",
+        "Mengingatkan rekan tentang risiko dan konsekuensi.",
+        "Melaporkan langsung tanpa komunikasi.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Mengingatkan rekan secara pribadi adalah langkah pertama yang profesional.",
+      "id": "electrical-engineer-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan potensi bahaya pada desain proyek yang sudah disetujui. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena sudah disetujui.",
+        "Melaporkan temuan dan mengusulkan perbaikan desain.",
+        "Menyembunyikan temuan agar proyek berjalan.",
+        "Langsung mengubah desain tanpa komunikasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keselamatan dan kepatuhan teknis harus diutamakan meskipun desain sudah disetujui.",
+      "id": "electrical-engineer-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah memulai percakapan dengan orang yang baru dikenal.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-045",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang membantu rekan kerja yang sedang kewalahan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-046",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-047",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-048",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-049",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya memperhatikan detail kecil saat mengerjakan tugas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "electrical-engineer-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
