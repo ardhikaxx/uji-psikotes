@@ -1,0 +1,1225 @@
+{
+  "metadata": {
+    "id": "accountant",
+    "fieldId": "finance-accounting",
+    "positionId": "accountant",
+    "fieldName": "Keuangan & Akuntansi",
+    "positionName": "Akuntan",
+    "title": "Akuntan - Simulasi Psikotes Kerja",
+    "description": "Mengelola pembukuan, pelaporan keuangan, dan perpajakan.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 52,
+    "categoryWeights": [
+      {
+        "name": "Tes Numerik",
+        "weight": 28
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 18
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 20
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 12
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 8
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 8
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "numeric",
+      "text": "Hasil dari 5/6 - 1/3 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "4/6",
+        "1",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samakan penyebut: 1/3 = 2/6. Maka 5/6 - 2/6 = 3/6 = 1/2.",
+      "steps": [
+        "1/3 = 2/6",
+        "5/6 - 2/6 = 3/6",
+        "3/6 = 1/2"
+      ],
+      "id": "accountant-001",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "accountant-002",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapakah rata-rata dari bilangan 12, 15, 18, 21, dan 24?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rata-rata = (12+15+18+21+24) / 5 = 90 / 5 = 18.",
+      "steps": [
+        "Jumlah = 90",
+        "Rata-rata = 90 / 5 = 18"
+      ],
+      "id": "accountant-003",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 4, 9, 16, 25, ...",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "40"
+      ],
+      "correctIndex": 3,
+      "explanation": "Deret bilangan kuadrat: 1², 2², 3², 4², 5², maka berikutnya 6² = 36.",
+      "steps": [
+        "Pola: n²",
+        "6² = 36"
+      ],
+      "id": "accountant-004",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "accountant-005",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "accountant-006",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2/3 × 3/4 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "5/7",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "(2 × 3) / (3 × 4) = 6/12 = 1/2.",
+      "steps": [
+        "2/3 × 3/4 = 6/12",
+        "6/12 disederhanakan menjadi 1/2"
+      ],
+      "id": "accountant-007",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "accountant-008",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Harga sebuah barang setelah mendapat diskon 20% adalah Rp 200.000. Berapakah harga awal barang tersebut?",
+      "options": [
+        "Rp 220.000",
+        "Rp 230.000",
+        "Rp 240.000",
+        "Rp 250.000",
+        "Rp 260.000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Harga setelah diskon 20% berarti 80% dari harga awal. Harga awal = 200.000 / 0,8 = 250.000.",
+      "steps": [
+        "Harga akhir = 80% × harga awal",
+        "Harga awal = 200.000 / 0,8 = 250.000"
+      ],
+      "id": "accountant-009",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 5, 11, 23, 47, ...",
+      "options": [
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: ×2 + 1. 47 × 2 + 1 = 95.",
+      "steps": [
+        "5×2+1=11",
+        "11×2+1=23",
+        "23×2+1=47",
+        "47×2+1=95"
+      ],
+      "id": "accountant-010",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "accountant-011",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "accountant-012",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan umur A dan B adalah 3 : 5. Jika jumlah umur mereka 40 tahun, berapakah umur A?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total bagian = 3 + 5 = 8. Umur A = 3/8 × 40 = 15 tahun.",
+      "steps": [
+        "Total bagian = 8",
+        "Umur A = 3/8 × 40 = 15"
+      ],
+      "id": "accountant-013",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "accountant-014",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan tabel populasi berikut, berapakah total populasi dari tiga wilayah dengan populasi terbesar?",
+      "options": [
+        "2,5 juta",
+        "2,8 juta",
+        "3,0 juta",
+        "3,2 juta",
+        "3,5 juta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiga terbesar: Wilayah A (1,2 juta), Wilayah B (1,0 juta), Wilayah C (0,8 juta). Total = 3,0 juta.",
+      "chart": {
+        "type": "table",
+        "title": "Populasi per Wilayah (juta)",
+        "labels": [
+          "Wilayah A",
+          "Wilayah B",
+          "Wilayah C",
+          "Wilayah D",
+          "Wilayah E"
+        ],
+        "datasets": [
+          {
+            "label": "Populasi (juta)",
+            "values": [
+              1.2,
+              1,
+              0.8,
+              0.6,
+              0.4
+            ]
+          }
+        ]
+      },
+      "id": "accountant-015",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "accountant-016",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "accountant-017",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "accountant-018",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "accountant-019",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "accountant-020",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "accountant-021",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram pangsa pasar berikut, berapakah pangsa pasar gabungan dari perusahaan B dan C?",
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pangsa pasar B = 20% dan C = 15%, sehingga gabungannya 20% + 15% = 35%.",
+      "chart": {
+        "type": "pie",
+        "title": "Pangsa Pasar",
+        "labels": [
+          "Perusahaan A",
+          "Perusahaan B",
+          "Perusahaan C",
+          "Perusahaan D",
+          "Lainnya"
+        ],
+        "datasets": [
+          {
+            "label": "Pangsa (%)",
+            "values": [
+              35,
+              20,
+              15,
+              18,
+              12
+            ]
+          }
+        ]
+      },
+      "id": "accountant-022",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "accountant-023",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua kode barang berikut.\nKode A: XRT-8921-YZ\nKode B: XRT-8291-YZ\n\nPernyataan yang paling tepat adalah...",
+      "options": [
+        "Kode A dan B identik",
+        "Kode A dan B berbeda pada urutan angka 9 dan 2",
+        "Kode A dan B berbeda pada huruf akhir",
+        "Kode A lebih panjang dari B",
+        "Kode A dan B sama sekali tidak berhubungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kode A berisi \"8921\" sedangkan kode B berisi \"8291\", jadi perbedaannya terletak pada urutan angka 9 dan 2.",
+      "id": "accountant-024",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "accountant-025",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "accountant-026",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "accountant-027",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor seri perangkat: SN-2026-0417-Q. Manakah penulisan yang sama persis?",
+      "options": [
+        "SN-2026-0417-Q",
+        "SN-2026-0471-Q",
+        "SN-2026-0417-O",
+        "SN-2026-0417-QQ",
+        "SN-2026-0417"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis dengan SN-2026-0417-Q. Opsi lain memiliki kesalahan digit, huruf, atau jumlah karakter.",
+      "id": "accountant-028",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Kode produk: KRM-4500-GREY-XXL. Manakah yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GRAY-XXL"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E menulis \"GRAY\" sedangkan data asli \"GREY\". Opsi lainnya identik.",
+      "id": "accountant-029",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "accountant-030",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "accountant-031",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "accountant-032",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "logical",
+      "text": "Semakin tinggi suhu ruangan, semakin cepat es mencair. Faktor yang menjadi penyebab mencairnya es pada pernyataan tersebut adalah...",
+      "options": [
+        "Volume es",
+        "Suhu ruangan",
+        "Jenis es",
+        "Waktu",
+        "Kelembapan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pernyataan menunjukkan hubungan sebab-akibat di mana suhu ruangan yang tinggi menyebabkan es mencair lebih cepat.",
+      "id": "accountant-033",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "accountant-034",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang kasir menemukan selisih uang di akhir shift. Langkah pertama yang paling tepat dilakukan adalah...",
+      "options": [
+        "Menutup kekurangan dari uang pribadi",
+        "Menghitung ulang dan mencocokkan dengan transaksi",
+        "Menyalahkan rekan kerja",
+        "Mengabaikan selisih tersebut",
+        "Langsung melaporkan tanpa pemeriksaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Langkah paling objektif adalah menghitung ulang dan menelusuri transaksi untuk menemukan sumber selisih.",
+      "id": "accountant-035",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "accountant-036",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Tidak ada logam yang berwujud cair pada suhu ruangan, kecuali raksa. Zat X berwujud cair pada suhu ruangan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Zat X pasti bukan logam",
+        "Zat X adalah logam",
+        "Zat X mungkin adalah raksa",
+        "Zat X pasti raksa",
+        "Tidak ada logam cair"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karena satu-satunya logam cair adalah raksa, zat X yang cair bisa jadi raksa, namun bisa juga zat non-logam.",
+      "id": "accountant-037",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua X adalah Y. Semua Y adalah Z. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua Z adalah X",
+        "Semua X adalah Z",
+        "Semua Y adalah X",
+        "Sebagian Z bukan Y",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua X bagian dari Y, dan semua Y bagian dari Z, maka semua X bagian dari Z.",
+      "steps": [
+        "X ⊆ Y",
+        "Y ⊆ Z",
+        "Maka X ⊆ Z"
+      ],
+      "id": "accountant-038",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "verbal",
+      "text": "Penulis : Novel = Komposer : ...",
+      "options": [
+        "Film",
+        "Lukisan",
+        "Lagu",
+        "Puisi",
+        "Teater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penulis menciptakan novel, komposer menciptakan lagu.",
+      "id": "accountant-039",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Matahari : Terang = Hujan : ...",
+      "options": [
+        "Basah",
+        "Panas",
+        "Berawan",
+        "Mendung",
+        "Kering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matahari menghasilkan terang, hujan menghasilkan basah.",
+      "id": "accountant-040",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"efisien\" adalah...",
+      "options": [
+        "Boros",
+        "Tepat guna",
+        "Lambat",
+        "Kurang",
+        "Banyak"
+      ],
+      "correctIndex": 1,
+      "explanation": "Efisien berarti tidak membuang-buang sumber daya atau tepat guna.",
+      "id": "accountant-041",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "accountant-042",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "sjt",
+      "text": "Klien mengirimkan bukti transaksi yang tampak tidak wajar: tanggal berbeda dari catatan Anda. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan perbedaan tanggal.",
+        "Mengklarifikasi dengan klien dan mencocokkan dokumen asli.",
+        "Mengubah catatan agar sesuai.",
+        "Menolak seluruh transaksi tanpa pengecekan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Verifikasi dokumen dan klarifikasi adalah bagian penting dari keandalan pencatatan.",
+      "id": "accountant-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Atasan meminta Anda mencatat pengeluaran fiktif untuk menaikkan beban usaha. Apa yang Anda lakukan?",
+      "options": [
+        "Mematuhi perintah atasan.",
+        "Menolak dan menjelaskan konsekuensi pelanggaran, lalu melaporkan sesuai prosedur.",
+        "Mencatat sebagian agar tidak mencolok.",
+        "Berpura-pura lupa."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Praktik akuntansi yang tidak jujur adalah pelanggaran etika dan hukum; tolak dengan tegas.",
+      "id": "accountant-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan meminta Anda menaikkan nilai tagihan agar ia bisa mereklamasi lebih banyak dari kantornya. Apa tindakan Anda?",
+      "options": [
+        "Menaikkan nilai karena pelanggan selalu benar.",
+        "Menolak dan menjelaskan bahwa hal itu melanggar aturan.",
+        "Menaikkan sedikit agar tidak ketahuan.",
+        "Menyerahkan keputusan kepada pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Praktik tersebut adalah kecurangan; tolak dengan sopan namun tegas.",
+      "id": "accountant-045",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan audit Anda mencurigai manipulasi pada satu akun, tetapi belum ada bukti kuat. Apa tindakan terbaik?",
+      "options": [
+        "Mengabaikan kecurigaan tanpa bukti.",
+        "Melakukan pengujian lebih mendalam pada akun tersebut.",
+        "Menghentikan seluruh audit.",
+        "Menyampaikan kecurigaan kepada klien."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Kecurigaan dalam audit harus diuji lebih dalam melalui prosedur audit.",
+      "id": "accountant-046",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-047",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya memperhatikan detail kecil saat mengerjakan tugas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-048",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung pendiam dalam situasi sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-049",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa tersinggung oleh komentar orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-051",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka bekerja sendiri daripada berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "accountant-052",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
