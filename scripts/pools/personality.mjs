@@ -1,0 +1,78 @@
+function p(text, dimension, reverse = false) {
+  return {
+    type: "personality",
+    subtype: "big-five",
+    category: "Tes Kepribadian",
+    text,
+    options: [
+      "Sangat Tidak Setuju",
+      "Tidak Setuju",
+      "Netral",
+      "Setuju",
+      "Sangat Setuju",
+    ],
+    correctIndex: -1,
+    useLikert: true,
+    likert: { dimension, reverse },
+    explanation:
+      "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+  };
+}
+
+export const personalityPool = [
+  // Openness
+  p("Saya menikmati mempelajari hal-hal baru di luar bidang pekerjaan saya.", "Openness"),
+  p("Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.", "Openness"),
+  p("Saya tertarik pada seni, musik, atau aktivitas kreatif.", "Openness"),
+  p("Saya senang mencoba metode kerja baru meskipun cara lama sudah berjalan baik.", "Openness"),
+  p("Saya mudah terbuka terhadap sudut pandang yang berbeda dari pendapat saya.", "Openness"),
+  p("Saya jarang penasaran terhadap topik-topik di luar keahlian saya.", "Openness", true),
+  p("Saya lebih suka rutinitas yang tetap daripada situasi yang berubah-ubah.", "Openness", true),
+  p("Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.", "Openness", true),
+  p("Saya suka mendalami konsep-konsep abstrak dan teoritis.", "Openness"),
+  p("Saya menikmati diskusi tentang gagasan dan visi jangka panjang.", "Openness"),
+  // Conscientiousness
+  p("Saya selalu menyelesaikan pekerjaan tepat waktu.", "Conscientiousness"),
+  p("Saya menyusun daftar prioritas sebelum memulai pekerjaan.", "Conscientiousness"),
+  p("Saya memperhatikan detail kecil saat mengerjakan tugas.", "Conscientiousness"),
+  p("Saya dapat diandalkan dalam memenuhi komitmen kepada rekan kerja.", "Conscientiousness"),
+  p("Saya menjaga kerapian dan keteraturan lingkungan kerja saya.", "Conscientiousness"),
+  p("Saya sering menunda pekerjaan hingga mendekati tenggat waktu.", "Conscientiousness", true),
+  p("Saya mudah terganggu oleh hal-hal yang tidak penting saat bekerja.", "Conscientiousness", true),
+  p("Saya kadang mengabaikan kualitas demi menyelesaikan tugas lebih cepat.", "Conscientiousness", true),
+  p("Saya menetapkan target yang jelas dan berusaha keras mencapainya.", "Conscientiousness"),
+  p("Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.", "Conscientiousness"),
+  // Extraversion
+  p("Saya merasa berenergi saat berinteraksi dengan banyak orang.", "Extraversion"),
+  p("Saya mudah memulai percakapan dengan orang yang baru dikenal.", "Extraversion"),
+  p("Saya menikmati menjadi pusat perhatian dalam pertemuan tim.", "Extraversion"),
+  p("Saya aktif menyampaikan pendapat dalam rapat.", "Extraversion"),
+  p("Saya senang bekerja dalam tim yang dinamis dan ramai.", "Extraversion"),
+  p("Saya lebih suka bekerja sendiri daripada berinteraksi dengan banyak orang.", "Extraversion", true),
+  p("Saya cenderung pendiam dalam situasi sosial.", "Extraversion", true),
+  p("Saya merasa lelah setelah menghabiskan waktu lama bersama banyak orang.", "Extraversion", true),
+  p("Saya senang mengenal rekan kerja secara lebih dekat.", "Extraversion"),
+  p("Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.", "Extraversion"),
+  // Agreeableness
+  p("Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.", "Agreeableness"),
+  p("Saya senang membantu rekan kerja yang sedang kewalahan.", "Agreeableness"),
+  p("Saya lebih mengutamakan kerja sama daripada bersaing dengan rekan.", "Agreeableness"),
+  p("Saya bersedia memaafkan kesalahan orang lain.", "Agreeableness"),
+  p("Saya mempercayai niat baik orang lain sampai terbukti sebaliknya.", "Agreeableness"),
+  p("Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.", "Agreeableness", true),
+  p("Saya cenderung bersikap keras kepala dalam berdebat.", "Agreeableness", true),
+  p("Saya lebih fokus pada kepentingan saya sendiri daripada orang lain.", "Agreeableness", true),
+  p("Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.", "Agreeableness"),
+  p("Saya menghargai pendapat orang lain meskipun berbeda dengan saya.", "Agreeableness"),
+  // Neuroticism
+  p("Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.", "Neuroticism"),
+  p("Saya mudah merasa tersinggung oleh komentar orang lain.", "Neuroticism"),
+  p("Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.", "Neuroticism"),
+  p("Saya mudah kehilangan ketenangan saat menghadapi tekanan.", "Neuroticism"),
+  p("Saya sering merasa suasana hati saya berubah-ubah tanpa sebab yang jelas.", "Neuroticism"),
+  p("Saya tetap tenang dan stabil saat menghadapi situasi sulit.", "Neuroticism", true),
+  p("Saya jarang merasa sedih atau putus asa.", "Neuroticism", true),
+  p("Saya mampu mengendalikan emosi saya dengan baik.", "Neuroticism", true),
+  p("Kritik dari atasan membuat saya merasa sangat tertekan.", "Neuroticism"),
+  p("Saya merasa percaya diri ketika menghadapi tantangan baru.", "Neuroticism", true),
+];
