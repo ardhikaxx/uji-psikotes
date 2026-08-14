@@ -1,0 +1,2008 @@
+{
+  "metadata": {
+    "id": "cyber-security-analyst",
+    "fieldId": "information-technology",
+    "positionId": "cyber-security-analyst",
+    "fieldName": "Teknologi Informasi",
+    "positionName": "Cyber Security Analyst",
+    "title": "Cyber Security Analyst - Simulasi Psikotes Kerja",
+    "description": "Melindungi sistem dan data organisasi dari ancaman siber.",
+    "duration": 2700,
+    "difficulty": "expert",
+    "maxScore": 100,
+    "totalQuestions": 55,
+    "categoryWeights": [
+      {
+        "name": "Tes Logika",
+        "weight": 24
+      },
+      {
+        "name": "Tes Abstrak",
+        "weight": 14
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 16
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 12
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 14
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 10
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "logical",
+      "text": "Semua anggota koperasi rutin menabung. Sinta tidak menabung. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sinta adalah anggota koperasi",
+        "Sinta bukan anggota koperasi",
+        "Semua penabung adalah anggota koperasi",
+        "Sinta menabung",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua anggota menabung dan Sinta tidak menabung, maka Sinta bukan anggota koperasi.",
+      "steps": [
+        "Anggota → menabung",
+        "Sinta: tidak menabung",
+        "Sinta bukan anggota"
+      ],
+      "id": "cyber-security-analyst-001",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui bahwa Q tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "P benar",
+        "P tidak benar",
+        "P dan Q benar",
+        "Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: Jika P → Q dan Q salah, maka P pasti salah.",
+      "steps": [
+        "P → Q",
+        "¬Q",
+        "Maka ¬P (P tidak benar)"
+      ],
+      "id": "cyber-security-analyst-002",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "cyber-security-analyst-003",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "cyber-security-analyst-004",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Sebagian siswa gemar matematika. Semua siswa yang gemar matematika rajin belajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa rajin belajar",
+        "Sebagian siswa rajin belajar",
+        "Semua yang rajin belajar gemar matematika",
+        "Tidak ada siswa yang rajin belajar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian siswa gemar matematika dan mereka rajin belajar, sehingga sebagian siswa rajin belajar.",
+      "steps": [
+        "Sebagian siswa → matematika",
+        "Gemar matematika → rajin",
+        "Sebagian siswa rajin"
+      ],
+      "id": "cyber-security-analyst-005",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua X adalah Y. Semua Y adalah Z. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua Z adalah X",
+        "Semua X adalah Z",
+        "Semua Y adalah X",
+        "Sebagian Z bukan Y",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua X bagian dari Y, dan semua Y bagian dari Z, maka semua X bagian dari Z.",
+      "steps": [
+        "X ⊆ Y",
+        "Y ⊆ Z",
+        "Maka X ⊆ Z"
+      ],
+      "id": "cyber-security-analyst-006",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "cyber-security-analyst-007",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "cyber-security-analyst-008",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "cyber-security-analyst-009",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Tidak ada kucing yang bisa terbang. Semua burung bisa terbang. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua kucing adalah burung",
+        "Kucing bisa terbang",
+        "Kucing bukan burung",
+        "Burung tidak bisa terbang",
+        "Sebagian kucing bisa terbang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karena kucing tidak bisa terbang sedangkan semua burung bisa terbang, maka tidak ada kucing yang merupakan burung.",
+      "steps": [
+        "Kucing: tidak terbang",
+        "Burung: terbang",
+        "Maka kucing bukan burung"
+      ],
+      "id": "cyber-security-analyst-010",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Dua orang anggota tim berselisih pendapat mengenai pendekatan penyelesaian proyek. Tindakan manajer yang paling tepat adalah...",
+      "options": [
+        "Memihak salah satu anggota",
+        "Mendengarkan keduanya secara objektif lalu memutuskan bersama",
+        "Mengabaikan konflik",
+        "Memecat salah satu anggota",
+        "Menunda proyek selamanya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manajer yang baik mendengar semua pihak secara objektif dan melibatkan tim dalam pengambilan keputusan.",
+      "id": "cyber-security-analyst-011",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "cyber-security-analyst-012",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang klien mengeluh produk yang dikirim dalam keadaan rusak. Prioritas tindakan yang paling tepat adalah...",
+      "options": [
+        "Menolak klaim klien",
+        "Menyalahkan pihak ekspedisi",
+        "Mengganti produk dan mengevaluasi sistem pengemasan",
+        "Mengabaikan keluhan",
+        "Menunda semua pengiriman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penyelesaian terbaik adalah mengganti produk sebagai solusi jangka pendek dan memperbaiki pengemasan untuk jangka panjang.",
+      "id": "cyber-security-analyst-013",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran terus membesar dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 36,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 52,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 80,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 52,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 36,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-014",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah sisi bertambah satu setiap langkah: segitiga (3), segi empat (4), segi lima (5), maka berikutnya segi enam (6).",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -40,
+              34.64,
+              20,
+              -34.64,
+              20
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -40,
+              40,
+              0,
+              0,
+              40,
+              -40,
+              0
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -40,
+              38.04,
+              -12.36,
+              23.51,
+              32.36,
+              -23.51,
+              32.36,
+              -38.04,
+              -12.36
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                34.64,
+                20,
+                -34.64,
+                20
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                40,
+                0,
+                0,
+                40,
+                -40,
+                0
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                38.04,
+                -12.36,
+                23.51,
+                32.36,
+                -23.51,
+                32.36,
+                -38.04,
+                -12.36
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                34.64,
+                -20,
+                34.64,
+                20,
+                0,
+                40,
+                -34.64,
+                20,
+                -34.64,
+                -20
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-015",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setengah lingkaran berputar: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 150,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 150,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 360,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-016",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-017",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-018",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jumlah sudut bintang bertambah satu setiap langkah: 3, 4, 5, maka berikutnya 6 sudut.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "star",
+            "x": 50,
+            "y": 50,
+            "pointsCount": 3,
+            "size": 76,
+            "innerRadius": 16,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 150,
+            "y": 50,
+            "pointsCount": 4,
+            "size": 80,
+            "innerRadius": 17,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 50,
+            "y": 150,
+            "pointsCount": 5,
+            "size": 84,
+            "innerRadius": 18,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 5,
+              "size": 84,
+              "innerRadius": 18,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 6,
+              "size": 88,
+              "innerRadius": 19,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 4,
+              "size": 80,
+              "innerRadius": 17,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 3,
+              "size": 76,
+              "innerRadius": 16,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-019",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warna bergantian biru → merah → biru → merah. Bentuk tetap lingkaran.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f43f5e",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-020",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Urutan bentuk mengikuti siklus: lingkaran → belah ketupat → segitiga → persegi.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 60,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -38,
+              38,
+              0,
+              0,
+              38,
+              -38,
+              0
+            ],
+            "fill": "#f59e0b",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -38,
+                38,
+                0,
+                0,
+                38,
+                -38,
+                0
+              ],
+              "fill": "#f59e0b",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#8b5cf6",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cyber-security-analyst-021",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nama pada dokumen: Dr. SRI WAHYUNI, S.E., M.M.\nManakah penulisan yang benar dan sesuai?",
+      "options": [
+        "Dr. SRI WAHYUNI, S.E., M.M.",
+        "Dr. SRI WAHYUNI, S.E., M.M",
+        "Dr. SRI WAHYUNI S.E. M.M.",
+        "Dr. SRI WAHYUNI, S.E, M.M.",
+        "Dr. SRI WAHYUNI, S.E., MM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis sesuai dengan penulisan asli termasuk tanda titik dan koma.",
+      "id": "cyber-security-analyst-022",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua kode barang berikut.\nKode A: XRT-8921-YZ\nKode B: XRT-8291-YZ\n\nPernyataan yang paling tepat adalah...",
+      "options": [
+        "Kode A dan B identik",
+        "Kode A dan B berbeda pada urutan angka 9 dan 2",
+        "Kode A dan B berbeda pada huruf akhir",
+        "Kode A lebih panjang dari B",
+        "Kode A dan B sama sekali tidak berhubungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kode A berisi \"8921\" sedangkan kode B berisi \"8291\", jadi perbedaannya terletak pada urutan angka 9 dan 2.",
+      "id": "cyber-security-analyst-023",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "cyber-security-analyst-024",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "cyber-security-analyst-025",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "cyber-security-analyst-026",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "cyber-security-analyst-027",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Kode produk: KRM-4500-GREY-XXL. Manakah yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GRAY-XXL"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E menulis \"GRAY\" sedangkan data asli \"GREY\". Opsi lainnya identik.",
+      "id": "cyber-security-analyst-028",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "cyber-security-analyst-029",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "cyber-security-analyst-030",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 5/6 - 1/3 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "4/6",
+        "1",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samakan penyebut: 1/3 = 2/6. Maka 5/6 - 2/6 = 3/6 = 1/2.",
+      "steps": [
+        "1/3 = 2/6",
+        "5/6 - 2/6 = 3/6",
+        "3/6 = 1/2"
+      ],
+      "id": "cyber-security-analyst-031",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2,5 × 0,4 adalah...",
+      "options": [
+        "0,8",
+        "1",
+        "1,2",
+        "1,5",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "2,5 × 0,4 = 1,0.",
+      "steps": [
+        "Kalikan: 25 × 4 = 100",
+        "Ada 2 angka desimal, jadi 1,00 = 1"
+      ],
+      "id": "cyber-security-analyst-032",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 5, 11, 23, 47, ...",
+      "options": [
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: ×2 + 1. 47 × 2 + 1 = 95.",
+      "steps": [
+        "5×2+1=11",
+        "11×2+1=23",
+        "23×2+1=47",
+        "47×2+1=95"
+      ],
+      "id": "cyber-security-analyst-033",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "cyber-security-analyst-034",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 3, 5, 8, 13, ...",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setiap suku adalah jumlah dua suku sebelumnya: 8 + 13 = 21.",
+      "steps": [
+        "8 + 13 = 21"
+      ],
+      "id": "cyber-security-analyst-035",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 4 pekerja dapat menyelesaikan sebuah pekerjaan dalam 12 hari, berapa hari yang dibutuhkan 6 pekerja (dengan kecepatan yang sama)?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perbandingan berbalik nilai: 4 × 12 = 6 × n, maka n = 48/6 = 8 hari.",
+      "steps": [
+        "Total beban kerja = 4 × 12 = 48",
+        "n = 48 / 6 = 8 hari"
+      ],
+      "id": "cyber-security-analyst-036",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bug kecil pada produk yang akan dirilis hari ini. Perbaikan memerlukan waktu tambahan dan bisa menunda rilis. Keputusan terbaik adalah...",
+      "options": [
+        "Merilis tanpa perbaikan karena bug dianggap kecil.",
+        "Menginformasikan kepada tim dan mengevaluasi dampak bug sebelum memutuskan rilis.",
+        "Menunda rilis tanpa memberi tahu siapa pun.",
+        "Memperbaiki secara diam-diam tanpa memberi tahu tim."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Keputusan rilis harus berdasarkan evaluasi dampak yang transparan bersama tim.",
+      "id": "cyber-security-analyst-037",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menerima tugas dokumentasi yang membosankan, sementara proyek inti lebih menarik. Apa yang Anda lakukan?",
+      "options": [
+        "Menunda dokumentasi hingga akhir tenggat.",
+        "Mengerjakan proyek inti dan mengabaikan dokumentasi.",
+        "Menyelesaikan dokumentasi tepat waktu karena merupakan bagian dari tanggung jawab.",
+        "Meminta rekan lain mengerjakan dokumentasi Anda."
+      ],
+      "correctIndex": 2,
+      "sjtScores": [
+        0.33,
+        0.17,
+        1,
+        0.5
+      ],
+      "explanation": "Profesionalisme berarti menyelesaikan semua tanggung jawab, termasuk yang tidak menarik.",
+      "id": "cyber-security-analyst-038",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa rekan Anda membagikan kredensial server kepada orang yang tidak berwenang. Tindakan terbaik adalah...",
+      "options": [
+        "Mengabaikan karena bukan urusan Anda.",
+        "Melaporkan ke atasan atau tim keamanan sesuai prosedur.",
+        "Membagikan kredensial Anda juga agar tidak ketinggalan.",
+        "Menegur rekan secara pribadi tanpa melaporkan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.17,
+        0.66
+      ],
+      "explanation": "Insiden keamanan harus dilaporkan melalui jalur resmi untuk mencegah dampak lebih besar.",
+      "id": "cyber-security-analyst-039",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Produk Anda mendapatkan ulasan negatif karena antarmuka yang sulit digunakan. Sebagai bagian tim, respons terbaik adalah...",
+      "options": [
+        "Mengabaikan ulasan karena pengguna tidak memahami produk.",
+        "Menganalisis umpan balik dan memperbaiki antarmuka pada iterasi berikutnya.",
+        "Menghapus ulasan negatif.",
+        "Menyalahkan tim desain."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Umpan balik pengguna adalah bahan penting untuk perbaikan produk.",
+      "id": "cyber-security-analyst-040",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Sebuah sistem produksi mengalami gangguan di tengah hari kerja dan banyak pengguna terdampak. Anda adalah engineer yang bertanggung jawab. Apa tindakan paling tepat?",
+      "options": [
+        "Segera mengomunikasikan status insiden dan mulai menangani prioritas tertinggi sambil memulihkan layanan.",
+        "Menutup semua sistem agar tidak ada yang terpengaruh tanpa koordinasi.",
+        "Menunggu laporan lengkap dari pengguna sebelum bertindak.",
+        "Mengalihkan tanggung jawab ke tim lain tanpa informasi."
+      ],
+      "correctIndex": 0,
+      "sjtScores": [
+        1,
+        0.33,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi insiden yang cepat dan penanganan prioritas adalah praktik terbaik dalam manajemen insiden IT.",
+      "id": "cyber-security-analyst-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda meminta kode yang sudah Anda tulis agar ia dapat menyalinnya untuk menyelesaikan tugasnya. Padahal kode tersebut belum diuji. Apa yang sebaiknya Anda lakukan?",
+      "options": [
+        "Memberikan kode tersebut karena membantu rekan adalah hal baik.",
+        "Menolak mentah-mentah dan meminta ia mengerjakan sendiri.",
+        "Menjelaskan bahwa kode belum diuji dan menawarkan membantu mengerjakan bersama dengan benar.",
+        "Membiarkan rekan menyalin tanpa komentar."
+      ],
+      "correctIndex": 2,
+      "sjtScores": [
+        0.5,
+        0.17,
+        1,
+        0.33
+      ],
+      "explanation": "Membantu rekan dengan integritas (kode yang benar dan teruji) lebih baik daripada sekadar menyalin.",
+      "id": "cyber-security-analyst-042",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang klien meminta fitur baru yang bertentangan dengan spesifikasi keamanan sistem. Apa yang Anda lakukan?",
+      "options": [
+        "Mengikuti permintaan klien apa pun risikonya.",
+        "Menolak permintaan dan mengakhiri hubungan.",
+        "Menjelaskan risiko keamanan dan menawarkan alternatif yang aman.",
+        "Diam-diam menerapkan fitur tanpa menyebut risikonya."
+      ],
+      "correctIndex": 2,
+      "sjtScores": [
+        0.17,
+        0.17,
+        1,
+        0.33
+      ],
+      "explanation": "Profesional IT wajib mengutamakan keamanan sambil tetap melayani kebutuhan klien.",
+      "id": "cyber-security-analyst-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tim Anda melewati tenggat sprint karena estimasi yang salah. Pimpinan menanyakan penyebabnya. Sikap terbaik Anda adalah...",
+      "options": [
+        "Menyalahkan anggota tim lain.",
+        "Mengakui kesalahan estimasi dan mengusulkan perbaikan proses.",
+        "Menyembunyikan keterlambatan dan berharap tidak ketahuan.",
+        "Menyerahkan tanggung jawab sepenuhnya kepada pimpinan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pengakuan jujur dan fokus pada perbaikan proses menunjukkan kedewasaan profesional.",
+      "id": "cyber-security-analyst-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Kapal : Laut = Kereta : ...",
+      "options": [
+        "Rel",
+        "Bandara",
+        "Terminal",
+        "Jalan",
+        "Pelabuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapal berjalan di laut, kereta berjalan di rel.",
+      "id": "cyber-security-analyst-045",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "cyber-security-analyst-046",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"realistis\" adalah...",
+      "options": [
+        "Praktis",
+        "Idealistis",
+        "Logis",
+        "Objektif",
+        "Konkret"
+      ],
+      "correctIndex": 1,
+      "explanation": "Realistis berarti sesuai kenyataan. Lawannya adalah \"idealistis\" yang berdasarkan cita-cita semata.",
+      "id": "cyber-security-analyst-047",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Manakah kalimat yang paling efektif dan tidak ambigu?",
+      "options": [
+        "Karena hujan deras, maka dari itu rapat ditunda oleh panitia hingga waktu yang belum ditentukan.",
+        "Rapat ditunda karena hujan deras dan belum ditentukan waktunya.",
+        "Hujan deras sehingga rapat ditunda oleh karena itu waktunya belum ditentukan.",
+        "Karena rapat ditunda oleh panitia, maka hujan deras dan waktunya belum ditentukan.",
+        "Rapat ditunda, oleh karena itu hujan deras dan belum ditentukan waktunya."
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat B paling ringkas, jelas, dan tidak ambigu dibandingkan kalimat lainnya yang berbelit-belit.",
+      "id": "cyber-security-analyst-048",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"eksplisit\" adalah...",
+      "options": [
+        "Jelas",
+        "Tegas",
+        "Implisit",
+        "Terbuka",
+        "Gamblang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eksplisit berarti jelas dan terang-terangan. Lawannya adalah \"implisit\" yang berarti tersirat.",
+      "id": "cyber-security-analyst-049",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "personality",
+      "text": "Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-051",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-052",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa berenergi saat berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-053",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-054",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka rutinitas yang tetap daripada situasi yang berubah-ubah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "cyber-security-analyst-055",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
