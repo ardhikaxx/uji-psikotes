@@ -1,0 +1,1038 @@
+{
+  "metadata": {
+    "id": "ecommerce-specialist",
+    "fieldId": "retail-ecommerce",
+    "positionId": "ecommerce-specialist",
+    "fieldName": "Retail & E-Commerce",
+    "positionName": "E-Commerce Specialist",
+    "title": "E-Commerce Specialist - Simulasi Psikotes Kerja",
+    "description": "Mengelola toko online, katalog, dan konversi penjualan.",
+    "duration": 2100,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 43,
+    "categoryWeights": [
+      {
+        "name": "Tes Analisis Data",
+        "weight": 18
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 16
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 16
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 14
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 10
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-001",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-002",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-003",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-004",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-005",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-006",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram pangsa pasar berikut, berapakah pangsa pasar gabungan dari perusahaan B dan C?",
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pangsa pasar B = 20% dan C = 15%, sehingga gabungannya 20% + 15% = 35%.",
+      "chart": {
+        "type": "pie",
+        "title": "Pangsa Pasar",
+        "labels": [
+          "Perusahaan A",
+          "Perusahaan B",
+          "Perusahaan C",
+          "Perusahaan D",
+          "Lainnya"
+        ],
+        "datasets": [
+          {
+            "label": "Pangsa (%)",
+            "values": [
+              35,
+              20,
+              15,
+              18,
+              12
+            ]
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-007",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "ecommerce-specialist-008",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "ecommerce-specialist-009",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "ecommerce-specialist-010",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 6, 12, 20, 30, ...",
+      "options": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih antar suku bertambah 2 setiap langkah: +4, +6, +8, +10, maka suku berikutnya +12 → 42.",
+      "steps": [
+        "Selisih: 4, 6, 8, 10",
+        "Selisih berikutnya 12",
+        "30 + 12 = 42"
+      ],
+      "id": "ecommerce-specialist-011",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "ecommerce-specialist-012",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "ecommerce-specialist-013",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "ecommerce-specialist-014",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2,5 × 0,4 adalah...",
+      "options": [
+        "0,8",
+        "1",
+        "1,2",
+        "1,5",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "2,5 × 0,4 = 1,0.",
+      "steps": [
+        "Kalikan: 25 × 4 = 100",
+        "Ada 2 angka desimal, jadi 1,00 = 1"
+      ],
+      "id": "ecommerce-specialist-015",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan rekan kasir memberikan diskon tanpa izin kepada temannya. Anda...",
+      "options": [
+        "Ikut memberikan diskon.",
+        "Mengingatkan rekan tentang prosedur.",
+        "Melaporkan tanpa komunikasi.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Mengingatkan rekan adalah langkah pertama sebelum melapor.",
+      "id": "ecommerce-specialist-016",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pelanggan online mengeluh produk tidak sesuai gambar. Anda...",
+      "options": [
+        "Menyalahkan pelanggan.",
+        "Menanggapi dengan empati dan menawarkan pengembalian/penukaran.",
+        "Mengabaikan keluhan.",
+        "Menghapus ulasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Empati dan solusi menjaga kepercayaan pelanggan online.",
+      "id": "ecommerce-specialist-017",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Stok produk utama menipis menjelang promo besar. Anda...",
+      "options": [
+        "Menunggu stok habis.",
+        "Menambah stok dari pemasok dan menyusun strategi penjualan.",
+        "Menaikkan harga.",
+        "Menghentikan promo."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Persiapan stok dan strategi adalah kunci menghadapi promo.",
+      "id": "ecommerce-specialist-018",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Sebuah produk di situs e-commerce Anda salah harga (terlalu murah) dan banyak pesanan masuk. Anda...",
+      "options": [
+        "Membatalkan semua pesanan tanpa informasi.",
+        "Mengomunikasikan kesalahan dan menawarkan kompensasi yang adil.",
+        "Mengirim produk dengan harga salah.",
+        "Mengabaikan pesanan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi transparan dan kompensasi adil adalah penanganan yang tepat.",
+      "id": "ecommerce-specialist-019",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan mengembalikan produk tanpa struk. Menurut kebijakan toko, pengembalian butuh struk. Anda...",
+      "options": [
+        "Menolak tanpa penjelasan.",
+        "Menjelaskan kebijakan dan mencari solusi alternatif yang diizinkan.",
+        "Menerima pengembalian tanpa syarat.",
+        "Mengabaikan pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Penjelasan kebijakan dengan solusi alternatif menjaga kepuasan pelanggan.",
+      "id": "ecommerce-specialist-020",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Target penjualan bulan ini sulit dicapai. Sebagai supervisor toko, Anda...",
+      "options": [
+        "Menyerah sebelum bulan berakhir.",
+        "Menganalisis data penjualan dan menyusun strategi promosi.",
+        "Memaksa staf bekerja lembur tanpa rencana.",
+        "Menurunkan target."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Analisis data dan strategi adalah pendekatan yang tepat.",
+      "id": "ecommerce-specialist-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Staf toko Anda melayani pelanggan dengan tidak ramah. Anda...",
+      "options": [
+        "Mengabaikan.",
+        "Menegur secara pribadi dan memberikan contoh layanan yang baik.",
+        "Memecat langsung.",
+        "Menegur di depan pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Pembinaan dan contoh yang baik lebih efektif daripada hukuman.",
+      "id": "ecommerce-specialist-022",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menjaga kerapian dan keteraturan lingkungan kerja saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-023",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang bekerja dalam tim yang dinamis dan ramai.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-024",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersedia memaafkan kesalahan orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-025",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-026",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering menunda pekerjaan hingga mendekati tenggat waktu.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-027",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya memperhatikan detail kecil saat mengerjakan tugas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-028",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terbuka terhadap sudut pandang yang berbeda dari pendapat saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "ecommerce-specialist-029",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "ecommerce-specialist-030",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "ecommerce-specialist-031",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "ecommerce-specialist-032",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Bekerja jarak jauh (remote working) semakin populer setelah pandemi. Banyak perusahaan melaporkan peningkatan produktivitas, namun juga tantangan dalam membangun budaya tim. Beberapa karyawan merasa terisolasi dan sulit memisahkan waktu kerja dan waktu pribadi.\" Berdasarkan paragraf tersebut, pernyataan yang paling tepat adalah...",
+      "options": [
+        "Semua karyawan merasa produktif bekerja jarak jauh",
+        "Remote working hanya membawa dampak positif",
+        "Remote working membawa manfaat dan tantangan sekaligus",
+        "Remote working akan segera ditinggalkan perusahaan",
+        "Karyawan tidak menyukai remote working"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paragraf menyebutkan peningkatan produktivitas sekaligus tantangan, sehingga kesimpulan yang tepat adalah manfaat dan tantangan muncul bersamaan.",
+      "id": "ecommerce-specialist-033",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Budaya belajar berkelanjutan terbukti meningkatkan daya saing perusahaan. Karyawan yang rutin mengikuti pelatihan cenderung lebih adaptif terhadap perubahan teknologi dan menunjukkan kinerja lebih stabil dalam jangka panjang.\" Pernyataan yang TIDAK sesuai dengan isi paragraf adalah...",
+      "options": [
+        "Pelatihan rutin membuat karyawan lebih adaptif",
+        "Kinerja stabil berkaitan dengan budaya belajar",
+        "Daya saing perusahaan meningkat dengan budaya belajar",
+        "Semua karyawan yang ikut pelatihan langsung promosi jabatan",
+        "Budaya belajar berkelanjutan bernilai positif bagi perusahaan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paragraf tidak menyebutkan kaitan langsung antara pelatihan dan promosi jabatan, sehingga pernyataan D tidak sesuai isi.",
+      "id": "ecommerce-specialist-034",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "ecommerce-specialist-035",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang klien mengeluh produk yang dikirim dalam keadaan rusak. Prioritas tindakan yang paling tepat adalah...",
+      "options": [
+        "Menolak klaim klien",
+        "Menyalahkan pihak ekspedisi",
+        "Mengganti produk dan mengevaluasi sistem pengemasan",
+        "Mengabaikan keluhan",
+        "Menunda semua pengiriman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penyelesaian terbaik adalah mengganti produk sebagai solusi jangka pendek dan memperbaiki pengemasan untuk jangka panjang.",
+      "id": "ecommerce-specialist-036",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "ecommerce-specialist-037",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "ecommerce-specialist-038",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semakin tinggi suhu ruangan, semakin cepat es mencair. Faktor yang menjadi penyebab mencairnya es pada pernyataan tersebut adalah...",
+      "options": [
+        "Volume es",
+        "Suhu ruangan",
+        "Jenis es",
+        "Waktu",
+        "Kelembapan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pernyataan menunjukkan hubungan sebab-akibat di mana suhu ruangan yang tinggi menyebabkan es mencair lebih cepat.",
+      "id": "ecommerce-specialist-039",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "ecommerce-specialist-040",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "ecommerce-specialist-041",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "ecommerce-specialist-042",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "ecommerce-specialist-043",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    }
+  ]
+}
