@@ -1,0 +1,939 @@
+{
+  "metadata": {
+    "id": "logistics-coordinator",
+    "fieldId": "supply-chain-logistics",
+    "positionId": "logistics-coordinator",
+    "fieldName": "Supply Chain & Logistik",
+    "positionName": "Logistics Coordinator",
+    "title": "Logistics Coordinator - Simulasi Psikotes Kerja",
+    "description": "Mengkoordinasikan pengiriman, pergudangan, dan distribusi.",
+    "duration": 2100,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 44,
+    "categoryWeights": [
+      {
+        "name": "Tes Numerik",
+        "weight": 18
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 22
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 14
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 16
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 12
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 8
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "numeric",
+      "text": "Perbandingan berat A, B, dan C adalah 2 : 3 : 5. Jika berat total ketiganya 80 kg, berapakah berat C?",
+      "options": [
+        "32 kg",
+        "36 kg",
+        "40 kg",
+        "44 kg",
+        "48 kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total bagian = 2 + 3 + 5 = 10. Berat C = 5/10 × 80 = 40 kg.",
+      "steps": [
+        "Total bagian = 10",
+        "C = 5/10 × 80 = 40 kg"
+      ],
+      "id": "logistics-coordinator-001",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "logistics-coordinator-002",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "logistics-coordinator-003",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika satu lusin telur harganya Rp 36.000, berapakah harga 5 butir telur?",
+      "options": [
+        "Rp 12.000",
+        "Rp 15.000",
+        "Rp 18.000",
+        "Rp 20.000",
+        "Rp 24.000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Harga per butir = 36.000 / 12 = 3.000. Harga 5 butir = 5 × 3.000 = 15.000.",
+      "steps": [
+        "Per butir = 36.000 / 12 = 3.000",
+        "5 × 3.000 = 15.000"
+      ],
+      "id": "logistics-coordinator-004",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 4, 9, 16, 25, ...",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "40"
+      ],
+      "correctIndex": 3,
+      "explanation": "Deret bilangan kuadrat: 1², 2², 3², 4², 5², maka berikutnya 6² = 36.",
+      "steps": [
+        "Pola: n²",
+        "6² = 36"
+      ],
+      "id": "logistics-coordinator-005",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Urutkan pecahan berikut dari yang terkecil: 1/3, 1/4, 1/2, 1/5",
+      "options": [
+        "1/2, 1/3, 1/4, 1/5",
+        "1/5, 1/4, 1/3, 1/2",
+        "1/4, 1/5, 1/3, 1/2",
+        "1/3, 1/5, 1/4, 1/2",
+        "1/5, 1/3, 1/4, 1/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semakin besar penyebut, semakin kecil nilainya. Urutan terkecil: 1/5, 1/4, 1/3, 1/2.",
+      "steps": [
+        "1/5 = 0,2",
+        "1/4 = 0,25",
+        "1/3 ≈ 0,33",
+        "1/2 = 0,5"
+      ],
+      "id": "logistics-coordinator-006",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Dalam sebuah kelas terdapat 40 siswa dan 65% di antaranya lulus ujian. Berapakah jumlah siswa yang lulus?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "explanation": "0,65 × 40 = 26 siswa.",
+      "steps": [
+        "65% = 0,65",
+        "0,65 × 40 = 26"
+      ],
+      "id": "logistics-coordinator-007",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "logistics-coordinator-008",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nama pada dokumen: Dr. SRI WAHYUNI, S.E., M.M.\nManakah penulisan yang benar dan sesuai?",
+      "options": [
+        "Dr. SRI WAHYUNI, S.E., M.M.",
+        "Dr. SRI WAHYUNI, S.E., M.M",
+        "Dr. SRI WAHYUNI S.E. M.M.",
+        "Dr. SRI WAHYUNI, S.E, M.M.",
+        "Dr. SRI WAHYUNI, S.E., MM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis sesuai dengan penulisan asli termasuk tanda titik dan koma.",
+      "id": "logistics-coordinator-009",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "logistics-coordinator-010",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "logistics-coordinator-011",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "logistics-coordinator-012",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "logistics-coordinator-013",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "logistics-coordinator-014",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "logistics-coordinator-015",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor seri perangkat: SN-2026-0417-Q. Manakah penulisan yang sama persis?",
+      "options": [
+        "SN-2026-0417-Q",
+        "SN-2026-0471-Q",
+        "SN-2026-0417-O",
+        "SN-2026-0417-QQ",
+        "SN-2026-0417"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis dengan SN-2026-0417-Q. Opsi lain memiliki kesalahan digit, huruf, atau jumlah karakter.",
+      "id": "logistics-coordinator-016",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "logistics-coordinator-017",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "logical",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "logistics-coordinator-018",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "logistics-coordinator-019",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua atlet berlatih keras setiap hari. Sebagian atlet adalah pelajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua pelajar berlatih keras",
+        "Sebagian pelajar berlatih keras",
+        "Semua atlet adalah pelajar",
+        "Tidak ada pelajar yang atlet",
+        "Pelajar tidak pernah berlatih"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena sebagian atlet adalah pelajar dan semua atlet berlatih keras, maka sebagian pelajar berlatih keras.",
+      "steps": [
+        "Semua atlet berlatih keras",
+        "Sebagian atlet pelajar → sebagian pelajar berlatih keras"
+      ],
+      "id": "logistics-coordinator-020",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Iklan perusahaan meningkat dan penjualan juga meningkat dalam tiga bulan berturut-turut. Pernyataan yang paling hati-hati adalah...",
+      "options": [
+        "Iklan terbukti menjadi satu-satunya penyebab kenaikan penjualan",
+        "Ada kaitan antara iklan dan penjualan, namun perlu data lanjutan",
+        "Penjualan naik tanpa pengaruh iklan",
+        "Iklan harus dihentikan agar penjualan lebih tinggi",
+        "Tidak ada hubungan apa pun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kenaikan bersamaan tidak membuktikan kausalitas tunggal; kesimpulan yang hati-hati adalah terdapat kaitan yang perlu diverifikasi.",
+      "id": "logistics-coordinator-021",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "logistics-coordinator-022",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "logistics-coordinator-023",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "sjt",
+      "text": "Biaya pengiriman meningkat tajam dan melebihi anggaran. Keputusan terbaik adalah...",
+      "options": [
+        "Menghentikan semua pengiriman.",
+        "Mengevaluasi rute dan moda pengiriman untuk efisiensi.",
+        "Menambah anggaran tanpa analisis.",
+        "Mengabaikan kenaikan biaya."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.33
+      ],
+      "explanation": "Optimasi rute dan moda adalah cara efektif mengendalikan biaya logistik.",
+      "id": "logistics-coordinator-024",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pengiriman penting tertunda karena kapasitas gudang penuh. Tindakan terbaik Anda adalah...",
+      "options": [
+        "Menunda pengiriman tanpa informasi.",
+        "Mencari alternatif pengiriman dan mengomunikasikan opsi kepada pihak terkait.",
+        "Mengirim lebih banyak barang ke gudang.",
+        "Mengabaikan masalah."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.17
+      ],
+      "explanation": "Solusi alternatif dengan komunikasi proaktif menjaga rantai pasok tetap berjalan.",
+      "id": "logistics-coordinator-025",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pemasok utama Anda tidak dapat memenuhi pesanan mendadak. Apa yang Anda lakukan?",
+      "options": [
+        "Menunggu pemasok.",
+        "Mencari pemasok alternatif dan menegosiasikan prioritas.",
+        "Membatalkan seluruh pesanan.",
+        "Menambah pesanan ke pemasok yang sama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Memiliki opsi pemasok alternatif adalah praktik manajemen risiko yang baik.",
+      "id": "logistics-coordinator-026",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Ada kesalahan pengiriman yang menyebabkan pelanggan menerima barang salah. Tindakan pertama adalah...",
+      "options": [
+        "Menyalahkan kurir.",
+        "Menangani pengiriman ulang dan menelusuri penyebab kesalahan.",
+        "Mengabaikan karena sudah terlanjur.",
+        "Menunggu pelanggan mengeluh."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Perbaikan segera dan analisis akar masalah menjaga kepercayaan pelanggan.",
+      "id": "logistics-coordinator-027",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Kualitas barang dari pemasok menurun. Sebelum memutuskan, Anda akan...",
+      "options": [
+        "Langsung mengganti pemasok.",
+        "Mendiskusikan dengan pemasok dan menetapkan standar kualitas yang jelas.",
+        "Mengabaikan penurunan kualitas.",
+        "Menerima barang tanpa pemeriksaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi dan penetapan standar adalah langkah pertama sebelum mengganti pemasok.",
+      "id": "logistics-coordinator-028",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan perbedaan stok antara catatan sistem dan fisik di gudang. Langkah pertama adalah...",
+      "options": [
+        "Mengabaikan karena perbedaan kecil.",
+        "Melakukan stock opname ulang untuk menemukan penyebab.",
+        "Menyesuaikan catatan agar sama.",
+        "Menyalahkan staf gudang."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menelusuri penyebab selisih stok adalah prosedur yang benar.",
+      "id": "logistics-coordinator-029",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Kapal : Laut = Kereta : ...",
+      "options": [
+        "Rel",
+        "Bandara",
+        "Terminal",
+        "Jalan",
+        "Pelabuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapal berjalan di laut, kereta berjalan di rel.",
+      "id": "logistics-coordinator-030",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Air : Es = Uap : ...",
+      "options": [
+        "Hujan",
+        "Cair",
+        "Air",
+        "Api",
+        "Embun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air yang didinginkan menjadi es; uap yang didinginkan kembali menjadi air.",
+      "id": "logistics-coordinator-031",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "logistics-coordinator-032",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "logistics-coordinator-033",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"komprehensif\" adalah...",
+      "options": [
+        "Sebagian",
+        "Menyeluruh",
+        "Sepintas",
+        "Dangkal",
+        "Sebentar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Komprehensif berarti meliputi seluruh aspek atau menyeluruh.",
+      "id": "logistics-coordinator-034",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "logistics-coordinator-035",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "logistics-coordinator-036",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "logistics-coordinator-037",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "personality",
+      "text": "Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-038",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-039",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mengenal rekan kerja secara lebih dekat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-040",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-041",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-042",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-043",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya tertarik pada seni, musik, atau aktivitas kreatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "logistics-coordinator-044",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
