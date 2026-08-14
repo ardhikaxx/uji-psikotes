@@ -1,0 +1,937 @@
+{
+  "metadata": {
+    "id": "production-supervisor",
+    "fieldId": "manufacturing",
+    "positionId": "production-supervisor",
+    "fieldName": "Manufaktur",
+    "positionName": "Production Supervisor",
+    "title": "Production Supervisor - Simulasi Psikotes Kerja",
+    "description": "Mengawasi proses produksi dan tim lini pabrik.",
+    "duration": 2100,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 43,
+    "categoryWeights": [
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 20
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 16
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 18
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 14
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 10
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahan baku yang tidak sesuai spesifikasi sudah digunakan. Tindakan terbaik adalah...",
+      "options": [
+        "Mengabaikan karena sudah terlanjur.",
+        "Melaporkan dan mengevaluasi produk yang terdampak.",
+        "Menyembunyikan temuan.",
+        "Menyalahkan supplier."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Pelaporan dan evaluasi dampak menjaga mutu dan kepatuhan.",
+      "id": "production-supervisor-001",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Target produksi dinaikkan tetapi kualitas mulai menurun. Anda...",
+      "options": [
+        "Terus mengejar target dan mengabaikan kualitas.",
+        "Menyampaikan dampak pada kualitas dan menegosiasikan target realistis.",
+        "Mengurangi standar kualitas.",
+        "Berhenti memproduksi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keseimbangan antara target dan kualitas perlu dikomunikasikan secara jujur.",
+      "id": "production-supervisor-002",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda melihat seorang operator tidak memakai alat pelindung diri. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena sedang dikejar target.",
+        "Menghentikan pekerjaan dan mengingatkan pentingnya keselamatan.",
+        "Ikut tidak memakai APD.",
+        "Menegur dengan kasar."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Keselamatan kerja adalah prioritas utama yang tidak bisa ditawar.",
+      "id": "production-supervisor-003",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan cacat pada sejumlah produk yang sudah diproduksi. Tindakan terbaik adalah...",
+      "options": [
+        "Membiarkan produk terkirim.",
+        "Menghentikan pengiriman produk cacat dan menelusuri penyebabnya.",
+        "Menutupi cacat dengan perbaikan cepat.",
+        "Menyalahkan operator lini."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pengendalian mutu mengharuskan penghentian produk cacat dan analisis penyebab.",
+      "id": "production-supervisor-004",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Lini produksi Anda berhenti karena mesin rusak. Operator menunggu perbaikan. Apa yang Anda lakukan?",
+      "options": [
+        "Menyuruh operator pulang.",
+        "Mengkoordinasikan perbaikan segera dan mengatur ulang pekerjaan.",
+        "Membiarkan mesin menyala.",
+        "Menunggu perbaikan selesai tanpa komunikasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Koordinasi perbaikan dan pengaturan pekerjaan menjaga produktivitas.",
+      "id": "production-supervisor-005",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "logical",
+      "text": "Semua pelanggan yang puas akan kembali membeli. Rudi membeli kembali. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Rudi pasti puas",
+        "Belum tentu Rudi puas",
+        "Rudi tidak puas",
+        "Semua pembeli puas",
+        "Tidak ada yang membeli kembali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepuasan adalah salah satu penyebab pembelian ulang, namun belum tentu satu-satunya.",
+      "id": "production-supervisor-006",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua karyawan di perusahaan X rajin bekerja. Budi adalah karyawan di perusahaan X. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi tidak rajin bekerja",
+        "Budi rajin bekerja",
+        "Budi adalah manajer",
+        "Sebagian karyawan rajin bekerja",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua karyawan rajin bekerja dan Budi adalah karyawan, maka Budi pasti rajin bekerja.",
+      "steps": [
+        "Premis 1: semua karyawan rajin",
+        "Premis 2: Budi karyawan",
+        "Kesimpulan: Budi rajin"
+      ],
+      "id": "production-supervisor-007",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang makan makanan pedas maka perutnya terasa sakit. Andi tidak makan makanan pedas. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Perut Andi pasti sakit",
+        "Perut Andi pasti tidak sakit",
+        "Belum tentu perut Andi tidak sakit",
+        "Andi makan pedas",
+        "Andi tidak mungkin sakit perut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Makan pedas hanyalah salah satu penyebab sakit perut. Tanpa makan pedas, perut bisa saja sakit karena sebab lain.",
+      "id": "production-supervisor-008",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua X adalah Y. Semua Y adalah Z. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua Z adalah X",
+        "Semua X adalah Z",
+        "Semua Y adalah X",
+        "Sebagian Z bukan Y",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua X bagian dari Y, dan semua Y bagian dari Z, maka semua X bagian dari Z.",
+      "steps": [
+        "X ⊆ Y",
+        "Y ⊆ Z",
+        "Maka X ⊆ Z"
+      ],
+      "id": "production-supervisor-009",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "production-supervisor-010",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "production-supervisor-011",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jumlah kecelakaan lalu lintas menurun setelah perbaikan penerangan jalan di kawasan tersebut. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Penerangan pasti satu-satunya penyebab penurunan",
+        "Perbaikan penerangan berkontribusi pada penurunan kecelakaan",
+        "Kecelakaan meningkat",
+        "Penerangan tidak berpengaruh",
+        "Pengemudi menjadi lebih buruk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perbaikan penerangan adalah salah satu faktor yang wajar berkontribusi, meski perlu data tambahan untuk memastikan.",
+      "id": "production-supervisor-012",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "production-supervisor-013",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "production-supervisor-014",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Harga sebuah barang setelah mendapat diskon 20% adalah Rp 200.000. Berapakah harga awal barang tersebut?",
+      "options": [
+        "Rp 220.000",
+        "Rp 230.000",
+        "Rp 240.000",
+        "Rp 250.000",
+        "Rp 260.000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Harga setelah diskon 20% berarti 80% dari harga awal. Harga awal = 200.000 / 0,8 = 250.000.",
+      "steps": [
+        "Harga akhir = 80% × harga awal",
+        "Harga awal = 200.000 / 0,8 = 250.000"
+      ],
+      "id": "production-supervisor-015",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk naik harganya 15% menjadi Rp 1.150.000. Berapakah harga produk sebelum kenaikan?",
+      "options": [
+        "Rp 950.000",
+        "Rp 975.000",
+        "Rp 1.000.000",
+        "Rp 1.025.000",
+        "Rp 1.050.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga baru = 115% dari harga lama. Harga lama = 1.150.000 / 1,15 = 1.000.000.",
+      "steps": [
+        "1.150.000 / 1,15 = 1.000.000"
+      ],
+      "id": "production-supervisor-016",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 4 pekerja dapat menyelesaikan sebuah pekerjaan dalam 12 hari, berapa hari yang dibutuhkan 6 pekerja (dengan kecepatan yang sama)?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perbandingan berbalik nilai: 4 × 12 = 6 × n, maka n = 48/6 = 8 hari.",
+      "steps": [
+        "Total beban kerja = 4 × 12 = 48",
+        "n = 48 / 6 = 8 hari"
+      ],
+      "id": "production-supervisor-017",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 6, 12, 20, 30, ...",
+      "options": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih antar suku bertambah 2 setiap langkah: +4, +6, +8, +10, maka suku berikutnya +12 → 42.",
+      "steps": [
+        "Selisih: 4, 6, 8, 10",
+        "Selisih berikutnya 12",
+        "30 + 12 = 42"
+      ],
+      "id": "production-supervisor-018",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "production-supervisor-019",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "production-supervisor-020",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "production-supervisor-021",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "production-supervisor-022",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "production-supervisor-023",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "production-supervisor-024",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "production-supervisor-025",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "production-supervisor-026",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Kode produk: KRM-4500-GREY-XXL. Manakah yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GRAY-XXL"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E menulis \"GRAY\" sedangkan data asli \"GREY\". Opsi lainnya identik.",
+      "id": "production-supervisor-027",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka rutinitas yang tetap daripada situasi yang berubah-ubah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-028",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-029",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-030",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-031",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka bekerja sendiri daripada berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-032",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang bekerja dalam tim yang dinamis dan ramai.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-033",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-034",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-035",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang penasaran terhadap topik-topik di luar keahlian saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "production-supervisor-036",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "production-supervisor-037",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Kapal : Laut = Kereta : ...",
+      "options": [
+        "Rel",
+        "Bandara",
+        "Terminal",
+        "Jalan",
+        "Pelabuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapal berjalan di laut, kereta berjalan di rel.",
+      "id": "production-supervisor-038",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Matahari : Terang = Hujan : ...",
+      "options": [
+        "Basah",
+        "Panas",
+        "Berawan",
+        "Mendung",
+        "Kering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matahari menghasilkan terang, hujan menghasilkan basah.",
+      "id": "production-supervisor-039",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "production-supervisor-040",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "production-supervisor-041",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "production-supervisor-042",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "production-supervisor-043",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    }
+  ]
+}
