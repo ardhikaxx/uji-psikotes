@@ -1,0 +1,1668 @@
+{
+  "metadata": {
+    "id": "web-developer",
+    "fieldId": "software-engineering",
+    "positionId": "web-developer",
+    "fieldName": "Software Engineering",
+    "positionName": "Web Developer",
+    "title": "Web Developer - Simulasi Psikotes Kerja",
+    "description": "Membangun aplikasi web front-end dan back-end.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 52,
+    "categoryWeights": [
+      {
+        "name": "Tes Logika",
+        "weight": 22
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Abstrak",
+        "weight": 10
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 12
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 12
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 8
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 12
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 8
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "logical",
+      "text": "Iklan perusahaan meningkat dan penjualan juga meningkat dalam tiga bulan berturut-turut. Pernyataan yang paling hati-hati adalah...",
+      "options": [
+        "Iklan terbukti menjadi satu-satunya penyebab kenaikan penjualan",
+        "Ada kaitan antara iklan dan penjualan, namun perlu data lanjutan",
+        "Penjualan naik tanpa pengaruh iklan",
+        "Iklan harus dihentikan agar penjualan lebih tinggi",
+        "Tidak ada hubungan apa pun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kenaikan bersamaan tidak membuktikan kausalitas tunggal; kesimpulan yang hati-hati adalah terdapat kaitan yang perlu diverifikasi.",
+      "id": "web-developer-001",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Tidak ada logam yang berwujud cair pada suhu ruangan, kecuali raksa. Zat X berwujud cair pada suhu ruangan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Zat X pasti bukan logam",
+        "Zat X adalah logam",
+        "Zat X mungkin adalah raksa",
+        "Zat X pasti raksa",
+        "Tidak ada logam cair"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karena satu-satunya logam cair adalah raksa, zat X yang cair bisa jadi raksa, namun bisa juga zat non-logam.",
+      "id": "web-developer-002",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jumlah kecelakaan lalu lintas menurun setelah perbaikan penerangan jalan di kawasan tersebut. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Penerangan pasti satu-satunya penyebab penurunan",
+        "Perbaikan penerangan berkontribusi pada penurunan kecelakaan",
+        "Kecelakaan meningkat",
+        "Penerangan tidak berpengaruh",
+        "Pengemudi menjadi lebih buruk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perbaikan penerangan adalah salah satu faktor yang wajar berkontribusi, meski perlu data tambahan untuk memastikan.",
+      "id": "web-developer-003",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "web-developer-004",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua karyawan di perusahaan X rajin bekerja. Budi adalah karyawan di perusahaan X. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi tidak rajin bekerja",
+        "Budi rajin bekerja",
+        "Budi adalah manajer",
+        "Sebagian karyawan rajin bekerja",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua karyawan rajin bekerja dan Budi adalah karyawan, maka Budi pasti rajin bekerja.",
+      "steps": [
+        "Premis 1: semua karyawan rajin",
+        "Premis 2: Budi karyawan",
+        "Kesimpulan: Budi rajin"
+      ],
+      "id": "web-developer-005",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "web-developer-006",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua pelanggan yang puas akan kembali membeli. Rudi membeli kembali. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Rudi pasti puas",
+        "Belum tentu Rudi puas",
+        "Rudi tidak puas",
+        "Semua pembeli puas",
+        "Tidak ada yang membeli kembali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepuasan adalah salah satu penyebab pembelian ulang, namun belum tentu satu-satunya.",
+      "id": "web-developer-007",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang kasir menemukan selisih uang di akhir shift. Langkah pertama yang paling tepat dilakukan adalah...",
+      "options": [
+        "Menutup kekurangan dari uang pribadi",
+        "Menghitung ulang dan mencocokkan dengan transaksi",
+        "Menyalahkan rekan kerja",
+        "Mengabaikan selisih tersebut",
+        "Langsung melaporkan tanpa pemeriksaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Langkah paling objektif adalah menghitung ulang dan menelusuri transaksi untuk menemukan sumber selisih.",
+      "id": "web-developer-008",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "web-developer-009",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "web-developer-010",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua atlet berlatih keras setiap hari. Sebagian atlet adalah pelajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua pelajar berlatih keras",
+        "Sebagian pelajar berlatih keras",
+        "Semua atlet adalah pelajar",
+        "Tidak ada pelajar yang atlet",
+        "Pelajar tidak pernah berlatih"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena sebagian atlet adalah pelajar dan semua atlet berlatih keras, maka sebagian pelajar berlatih keras.",
+      "steps": [
+        "Semua atlet berlatih keras",
+        "Sebagian atlet pelajar → sebagian pelajar berlatih keras"
+      ],
+      "id": "web-developer-011",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika satu lusin telur harganya Rp 36.000, berapakah harga 5 butir telur?",
+      "options": [
+        "Rp 12.000",
+        "Rp 15.000",
+        "Rp 18.000",
+        "Rp 20.000",
+        "Rp 24.000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Harga per butir = 36.000 / 12 = 3.000. Harga 5 butir = 5 × 3.000 = 15.000.",
+      "steps": [
+        "Per butir = 36.000 / 12 = 3.000",
+        "5 × 3.000 = 15.000"
+      ],
+      "id": "web-developer-012",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 5/6 - 1/3 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "4/6",
+        "1",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samakan penyebut: 1/3 = 2/6. Maka 5/6 - 2/6 = 3/6 = 1/2.",
+      "steps": [
+        "1/3 = 2/6",
+        "5/6 - 2/6 = 3/6",
+        "3/6 = 1/2"
+      ],
+      "id": "web-developer-013",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "web-developer-014",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Urutkan pecahan berikut dari yang terkecil: 1/3, 1/4, 1/2, 1/5",
+      "options": [
+        "1/2, 1/3, 1/4, 1/5",
+        "1/5, 1/4, 1/3, 1/2",
+        "1/4, 1/5, 1/3, 1/2",
+        "1/3, 1/5, 1/4, 1/2",
+        "1/5, 1/3, 1/4, 1/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semakin besar penyebut, semakin kecil nilainya. Urutan terkecil: 1/5, 1/4, 1/3, 1/2.",
+      "steps": [
+        "1/5 = 0,2",
+        "1/4 = 0,25",
+        "1/3 ≈ 0,33",
+        "1/2 = 0,5"
+      ],
+      "id": "web-developer-015",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "web-developer-016",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "web-developer-017",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "web-developer-018",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2,5 × 0,4 adalah...",
+      "options": [
+        "0,8",
+        "1",
+        "1,2",
+        "1,5",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "2,5 × 0,4 = 1,0.",
+      "steps": [
+        "Kalikan: 25 × 4 = 100",
+        "Ada 2 angka desimal, jadi 1,00 = 1"
+      ],
+      "id": "web-developer-019",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran terus membesar dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 36,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 52,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 80,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 52,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 36,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "web-developer-020",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warna bergantian biru → merah → biru → merah. Bentuk tetap lingkaran.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f43f5e",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "web-developer-021",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "web-developer-022",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "web-developer-023",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Segitiga berputar 90° searah jarum jam: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "web-developer-024",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "verbal",
+      "text": "Perhatikan kalimat berikut. \"Setelah menyelesaikan laporan bulanan, tim keuangan mengirimkannya kepada manajer sebelum rapat evaluasi dimulai.\" Urutan peristiwa yang benar adalah...",
+      "options": [
+        "Rapat evaluasi, menyelesaikan laporan, mengirim laporan",
+        "Menyelesaikan laporan, mengirim laporan, rapat evaluasi",
+        "Mengirim laporan, rapat evaluasi, menyelesaikan laporan",
+        "Menyelesaikan laporan, rapat evaluasi, mengirim laporan",
+        "Rapat evaluasi, mengirim laporan, menyelesaikan laporan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat menyatakan laporan diselesaikan lalu dikirim, dan pengiriman terjadi sebelum rapat. Urutan: selesaikan, kirim, rapat.",
+      "id": "web-developer-025",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Kapal : Laut = Kereta : ...",
+      "options": [
+        "Rel",
+        "Bandara",
+        "Terminal",
+        "Jalan",
+        "Pelabuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapal berjalan di laut, kereta berjalan di rel.",
+      "id": "web-developer-026",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"komprehensif\" adalah...",
+      "options": [
+        "Sebagian",
+        "Menyeluruh",
+        "Sepintas",
+        "Dangkal",
+        "Sebentar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Komprehensif berarti meliputi seluruh aspek atau menyeluruh.",
+      "id": "web-developer-027",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "web-developer-028",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Manakah kalimat yang paling efektif dan tidak ambigu?",
+      "options": [
+        "Karena hujan deras, maka dari itu rapat ditunda oleh panitia hingga waktu yang belum ditentukan.",
+        "Rapat ditunda karena hujan deras dan belum ditentukan waktunya.",
+        "Hujan deras sehingga rapat ditunda oleh karena itu waktunya belum ditentukan.",
+        "Karena rapat ditunda oleh panitia, maka hujan deras dan waktunya belum ditentukan.",
+        "Rapat ditunda, oleh karena itu hujan deras dan belum ditentukan waktunya."
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat B paling ringkas, jelas, dan tidak ambigu dibandingkan kalimat lainnya yang berbelit-belit.",
+      "id": "web-developer-029",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"opini\" adalah...",
+      "options": [
+        "Fakta",
+        "Pendapat",
+        "Perintah",
+        "Keputusan",
+        "Himbauan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opini berarti pandangan atau pendapat seseorang, sehingga sinonimnya adalah \"pendapat\".",
+      "id": "web-developer-030",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli berisi:\nTotal tagihan: Rp 1.250.000\nPajak: Rp 125.000\nAdmin: Rp 25.000\n\nManakah ringkasan yang benar dan lengkap?",
+      "options": [
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000 + admin Rp 15.000",
+        "Total Rp 1.250.000 + pajak Rp 125.000",
+        "Total Rp 1.250.000 + pajak Rp 120.000 + admin Rp 25.000",
+        "Total Rp 1.250.000 + admin Rp 25.000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A mencantumkan seluruh komponen dengan nilai yang benar: total 1.250.000, pajak 125.000, admin 25.000.",
+      "id": "web-developer-031",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua kode barang berikut.\nKode A: XRT-8921-YZ\nKode B: XRT-8291-YZ\n\nPernyataan yang paling tepat adalah...",
+      "options": [
+        "Kode A dan B identik",
+        "Kode A dan B berbeda pada urutan angka 9 dan 2",
+        "Kode A dan B berbeda pada huruf akhir",
+        "Kode A lebih panjang dari B",
+        "Kode A dan B sama sekali tidak berhubungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kode A berisi \"8921\" sedangkan kode B berisi \"8291\", jadi perbedaannya terletak pada urutan angka 9 dan 2.",
+      "id": "web-developer-032",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: https://www.example-id.com\nString B: https://www.example-id.com\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "String A dan B berbeda",
+        "String A dan B identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Keduanya bukan URL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kedua string ditulis identik sehingga hasil perbandingannya adalah identik.",
+      "id": "web-developer-033",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "web-developer-034",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "web-developer-035",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "web-developer-036",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan tabel populasi berikut, berapakah total populasi dari tiga wilayah dengan populasi terbesar?",
+      "options": [
+        "2,5 juta",
+        "2,8 juta",
+        "3,0 juta",
+        "3,2 juta",
+        "3,5 juta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiga terbesar: Wilayah A (1,2 juta), Wilayah B (1,0 juta), Wilayah C (0,8 juta). Total = 3,0 juta.",
+      "chart": {
+        "type": "table",
+        "title": "Populasi per Wilayah (juta)",
+        "labels": [
+          "Wilayah A",
+          "Wilayah B",
+          "Wilayah C",
+          "Wilayah D",
+          "Wilayah E"
+        ],
+        "datasets": [
+          {
+            "label": "Populasi (juta)",
+            "values": [
+              1.2,
+              1,
+              0.8,
+              0.6,
+              0.4
+            ]
+          }
+        ]
+      },
+      "id": "web-developer-037",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "web-developer-038",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "web-developer-039",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "web-developer-040",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "sjt",
+      "text": "Tim Anda diminta mempercepat pengiriman fitur dengan mengorbankan pengujian otomatis. Apa respons terbaik?",
+      "options": [
+        "Menyetujui dan menghapus pengujian otomatis.",
+        "Menolak seluruh proposal.",
+        "Menegosiasikan kompromi, misalnya menguji fitur kritis sambil mempercepat proses lainnya.",
+        "Melakukan pengujian manual dadakan tanpa dokumentasi."
+      ],
+      "correctIndex": 2,
+      "sjtScores": [
+        0.17,
+        0.33,
+        1,
+        0.5
+      ],
+      "explanation": "Kualitas tidak boleh dikorbankan sepenuhnya; negosiasi kompromi adalah solusi terbaik.",
+      "id": "web-developer-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Deadline fitur sudah dekat tetapi Anda menemukan bahwa desainnya tidak mendukung aksesibilitas. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan aksesibilitas demi mengejar deadline.",
+        "Memperbaiki aksesibilitas dan berdiskusi tentang penyesuaian jadwal.",
+        "Merilis dan memperbaiki belakangan tanpa memberi tahu siapa pun.",
+        "Menunda tanpa alasan yang jelas."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.5,
+        0.33
+      ],
+      "explanation": "Aksesibilitas adalah kualitas yang harus dijaga; komunikasikan kebutuhan penyesuaian jadwal.",
+      "id": "web-developer-042",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pengguna melaporkan data pribadi terlihat oleh pengguna lain karena kesalahan logika aplikasi. Prioritas Anda adalah...",
+      "options": [
+        "Menambal kerentanan sesegera mungkin dan meninjau ulang akses data.",
+        "Menunggu laporan lebih banyak pengguna.",
+        "Mengabaikan karena hanya sedikit yang terdampak.",
+        "Menutup aplikasi untuk semua orang tanpa koordinasi."
+      ],
+      "correctIndex": 0,
+      "sjtScores": [
+        1,
+        0.33,
+        0.17,
+        0.5
+      ],
+      "explanation": "Kebocoran data pribadi adalah insiden serius yang harus segera ditangani.",
+      "id": "web-developer-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan baru Anda kesulitan memahami codebase. Anda sudah sibuk dengan pekerjaan sendiri. Apa tindakan terbaik?",
+      "options": [
+        "Menghindarinya agar tidak mengganggu pekerjaan Anda.",
+        "Menyediakan waktu untuk menjelaskan bagian penting dan menyarankan dokumentasi.",
+        "Menyerahkan seluruh dokumentasi tanpa menjelaskan.",
+        "Menyuruhnya bertanya kepada orang lain."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Mentoring rekan baru meningkatkan produktivitas tim jangka panjang.",
+      "id": "web-developer-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan cara yang lebih efisien untuk menulis kode, namun berbeda dari standar tim. Apa yang Anda lakukan?",
+      "options": [
+        "Langsung menerapkannya tanpa memberi tahu tim.",
+        "Membahasnya dengan tim dan mengusulkan pembaruan standar jika disepakati.",
+        "Menjaga rahasia agar terlihat lebih unggul.",
+        "Menolak perubahan dan tetap pada cara lama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Perbaikan proses sebaiknya didiskusikan agar konsisten dengan standar tim.",
+      "id": "web-developer-045",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rilis aplikasi mobile Anda ditolak karena crash pada perangkat tertentu. Tindakan paling tepat adalah...",
+      "options": [
+        "Merilis ulang versi yang sama karena hanya sebagian kecil pengguna terdampak.",
+        "Mereproduksi bug, memperbaikinya, dan menguji pada perangkat yang terdampak sebelum rilis ulang.",
+        "Menghapus aplikasi dari toko.",
+        "Menyalahkan perangkat pengguna."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.17
+      ],
+      "explanation": "Penyelesaian bug harus melalui reproduksi, perbaikan, dan pengujian yang memadai.",
+      "id": "web-developer-046",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati diskusi tentang gagasan dan visi jangka panjang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-047",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya kadang mengabaikan kualitas demi menyelesaikan tugas lebih cepat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-048",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih fokus pada kepentingan saya sendiri daripada orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-049",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang merasa sedih atau putus asa.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersedia memaafkan kesalahan orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-051",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya tertarik pada seni, musik, atau aktivitas kreatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "web-developer-052",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
