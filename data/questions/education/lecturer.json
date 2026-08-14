@@ -1,0 +1,1119 @@
+{
+  "metadata": {
+    "id": "lecturer",
+    "fieldId": "education",
+    "positionId": "lecturer",
+    "fieldName": "Pendidikan",
+    "positionName": "Dosen",
+    "title": "Dosen - Simulasi Psikotes Kerja",
+    "description": "Mengajar dan melakukan penelitian di perguruan tinggi.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 50,
+    "categoryWeights": [
+      {
+        "name": "Tes Verbal",
+        "weight": 20
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 18
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 12
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 14
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 12
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 8
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"konstruktif\" adalah...",
+      "options": [
+        "Membangun",
+        "Positif",
+        "Destruktif",
+        "Produktif",
+        "Bermanfaat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Konstruktif berarti membangun. Lawannya adalah \"destruktif\" yang berarti merusak.",
+      "id": "lecturer-001",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"transparan\" dalam konteks perusahaan adalah...",
+      "options": [
+        "Tertutup",
+        "Terbuka",
+        "Rumit",
+        "Terbatas",
+        "Serius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalam konteks perusahaan, transparan berarti terbuka dan jujur dalam menyampaikan informasi.",
+      "id": "lecturer-002",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Bekerja jarak jauh (remote working) semakin populer setelah pandemi. Banyak perusahaan melaporkan peningkatan produktivitas, namun juga tantangan dalam membangun budaya tim. Beberapa karyawan merasa terisolasi dan sulit memisahkan waktu kerja dan waktu pribadi.\" Berdasarkan paragraf tersebut, pernyataan yang paling tepat adalah...",
+      "options": [
+        "Semua karyawan merasa produktif bekerja jarak jauh",
+        "Remote working hanya membawa dampak positif",
+        "Remote working membawa manfaat dan tantangan sekaligus",
+        "Remote working akan segera ditinggalkan perusahaan",
+        "Karyawan tidak menyukai remote working"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paragraf menyebutkan peningkatan produktivitas sekaligus tantangan, sehingga kesimpulan yang tepat adalah manfaat dan tantangan muncul bersamaan.",
+      "id": "lecturer-003",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Matahari : Terang = Hujan : ...",
+      "options": [
+        "Basah",
+        "Panas",
+        "Berawan",
+        "Mendung",
+        "Kering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matahari menghasilkan terang, hujan menghasilkan basah.",
+      "id": "lecturer-004",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "lecturer-005",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "lecturer-006",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"opini\" adalah...",
+      "options": [
+        "Fakta",
+        "Pendapat",
+        "Perintah",
+        "Keputusan",
+        "Himbauan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opini berarti pandangan atau pendapat seseorang, sehingga sinonimnya adalah \"pendapat\".",
+      "id": "lecturer-007",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "lecturer-008",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"stagnan\" adalah...",
+      "options": [
+        "Beku",
+        "Mandek",
+        "Berkembang",
+        "Diam",
+        "Statis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stagnan berarti tidak berkembang atau mandek. Lawannya adalah \"berkembang\".",
+      "id": "lecturer-009",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"gigih\" adalah...",
+      "options": [
+        "Tekun",
+        "Lemah",
+        "Ragu",
+        "Malas",
+        "Cepat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gigih berarti tekun dan tidak mudah menyerah. Tekun adalah sinonim yang paling tepat.",
+      "id": "lecturer-010",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "lecturer-011",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui P benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P tidak benar",
+        "P dan Q salah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens: P benar dan P → Q, maka Q benar.",
+      "steps": [
+        "P → Q",
+        "P",
+        "Maka Q"
+      ],
+      "id": "lecturer-012",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "lecturer-013",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "P atau Q benar (setidaknya salah satu). Diketahui P tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P benar",
+        "P dan Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disjungsi: jika P atau Q harus benar dan P salah, maka Q harus benar.",
+      "steps": [
+        "P ∨ Q",
+        "¬P",
+        "Maka Q"
+      ],
+      "id": "lecturer-014",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Iklan perusahaan meningkat dan penjualan juga meningkat dalam tiga bulan berturut-turut. Pernyataan yang paling hati-hati adalah...",
+      "options": [
+        "Iklan terbukti menjadi satu-satunya penyebab kenaikan penjualan",
+        "Ada kaitan antara iklan dan penjualan, namun perlu data lanjutan",
+        "Penjualan naik tanpa pengaruh iklan",
+        "Iklan harus dihentikan agar penjualan lebih tinggi",
+        "Tidak ada hubungan apa pun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kenaikan bersamaan tidak membuktikan kausalitas tunggal; kesimpulan yang hati-hati adalah terdapat kaitan yang perlu diverifikasi.",
+      "id": "lecturer-015",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua anggota koperasi rutin menabung. Sinta tidak menabung. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sinta adalah anggota koperasi",
+        "Sinta bukan anggota koperasi",
+        "Semua penabung adalah anggota koperasi",
+        "Sinta menabung",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua anggota menabung dan Sinta tidak menabung, maka Sinta bukan anggota koperasi.",
+      "steps": [
+        "Anggota → menabung",
+        "Sinta: tidak menabung",
+        "Sinta bukan anggota"
+      ],
+      "id": "lecturer-016",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "lecturer-017",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "lecturer-018",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "lecturer-019",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan pola bilangan segitiga berikut: 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih bertambah 1: +2, +3, +4, +5, maka berikutnya +6 → 21.",
+      "steps": [
+        "Selisih: 2, 3, 4, 5",
+        "Berikutnya +6",
+        "15 + 6 = 21"
+      ],
+      "id": "lecturer-020",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapakah rata-rata dari bilangan 12, 15, 18, 21, dan 24?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rata-rata = (12+15+18+21+24) / 5 = 90 / 5 = 18.",
+      "steps": [
+        "Jumlah = 90",
+        "Rata-rata = 90 / 5 = 18"
+      ],
+      "id": "lecturer-021",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Harga sebuah barang setelah mendapat diskon 20% adalah Rp 200.000. Berapakah harga awal barang tersebut?",
+      "options": [
+        "Rp 220.000",
+        "Rp 230.000",
+        "Rp 240.000",
+        "Rp 250.000",
+        "Rp 260.000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Harga setelah diskon 20% berarti 80% dari harga awal. Harga awal = 200.000 / 0,8 = 250.000.",
+      "steps": [
+        "Harga akhir = 80% × harga awal",
+        "Harga awal = 200.000 / 0,8 = 250.000"
+      ],
+      "id": "lecturer-022",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 5/6 - 1/3 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "4/6",
+        "1",
+        "1/6"
+      ],
+      "correctIndex": 0,
+      "explanation": "Samakan penyebut: 1/3 = 2/6. Maka 5/6 - 2/6 = 3/6 = 1/2.",
+      "steps": [
+        "1/3 = 2/6",
+        "5/6 - 2/6 = 3/6",
+        "3/6 = 1/2"
+      ],
+      "id": "lecturer-023",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk dibeli seharga Rp 500.000 dan dijual seharga Rp 600.000. Berapa persen keuntungan yang diperoleh?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Keuntungan = 600.000 - 500.000 = 100.000. Persentase = 100.000 / 500.000 × 100% = 20%.",
+      "steps": [
+        "Keuntungan = Rp 100.000",
+        "100.000 / 500.000 = 0,2",
+        "0,2 × 100% = 20%"
+      ],
+      "id": "lecturer-024",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "lecturer-025",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "lecturer-026",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Dalam sebuah kelas terdapat 40 siswa dan 65% di antaranya lulus ujian. Berapakah jumlah siswa yang lulus?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "explanation": "0,65 × 40 = 26 siswa.",
+      "steps": [
+        "65% = 0,65",
+        "0,65 × 40 = 26"
+      ],
+      "id": "lecturer-027",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "lecturer-028",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "lecturer-029",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram pangsa pasar berikut, berapakah pangsa pasar gabungan dari perusahaan B dan C?",
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pangsa pasar B = 20% dan C = 15%, sehingga gabungannya 20% + 15% = 35%.",
+      "chart": {
+        "type": "pie",
+        "title": "Pangsa Pasar",
+        "labels": [
+          "Perusahaan A",
+          "Perusahaan B",
+          "Perusahaan C",
+          "Perusahaan D",
+          "Lainnya"
+        ],
+        "datasets": [
+          {
+            "label": "Pangsa (%)",
+            "values": [
+              35,
+              20,
+              15,
+              18,
+              12
+            ]
+          }
+        ]
+      },
+      "id": "lecturer-030",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "lecturer-031",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "lecturer-032",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "lecturer-033",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa suasana hati saya berubah-ubah tanpa sebab yang jelas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-034",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang penasaran terhadap topik-topik di luar keahlian saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-035",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menghargai pendapat orang lain meskipun berbeda dengan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-036",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa lelah setelah menghabiskan waktu lama bersama banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-037",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menetapkan target yang jelas dan berusaha keras mencapainya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-038",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-039",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "lecturer-040",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Dua siswa bertengkar di kelas. Tindakan terbaik Anda adalah...",
+      "options": [
+        "Memarahi keduanya di depan kelas.",
+        "Memisahkan mereka dan menangani konflik dengan tenang.",
+        "Mengabaikan.",
+        "Menghukum tanpa mendengar penjelasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Penanganan konflik yang tenang dan adil menciptakan lingkungan belajar aman.",
+      "id": "lecturer-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Metode mengajar Anda tidak efektif di satu kelas. Sebagai pendidik, Anda...",
+      "options": [
+        "Mengulangi metode yang sama.",
+        "Mengevaluasi dan mencoba metode yang berbeda.",
+        "Menyalahkan siswa.",
+        "Berhenti mengajar."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Evaluasi dan adaptasi metode pengajaran adalah praktik profesional.",
+      "id": "lecturer-042",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan siswa mencontek saat ujian. Tindakan terbaik adalah...",
+      "options": [
+        "Mengumumkannya ke seluruh kelas.",
+        "Menindak sesuai aturan dan berbicara secara pribadi.",
+        "Mengabaikan.",
+        "Memberi nilai nol tanpa konfirmasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Penanganan pelanggaran secara pribadi dan sesuai aturan lebih mendidik.",
+      "id": "lecturer-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang siswa tertinggal jauh dari materi. Sebagai guru, Anda...",
+      "options": [
+        "Mengabaikan karena harus mengejar materi.",
+        "Mengadakan pendampingan tambahan dan menyesuaikan metode.",
+        "Memberi hukuman.",
+        "Menyuruh siswa belajar sendiri."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pendampingan dan penyesuaian metode membantu siswa tertinggal.",
+      "id": "lecturer-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang mahasiswa menghadapi masalah pribadi yang memengaruhi studinya. Anda...",
+      "options": [
+        "Mengabaikan masalah pribadinya.",
+        "Mendengarkan dan mengarahkan pada layanan konseling yang tepat.",
+        "Meminta ia berhenti kuliah.",
+        "Menilai kinerjanya lebih rendah."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Dukungan dan rujukan pada layanan konseling adalah pendekatan yang tepat.",
+      "id": "lecturer-045",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda diminta memimpin proyek penelitian oleh rekan yang lebih senior. Anda...",
+      "options": [
+        "Menolak karena bukan tugas Anda.",
+        "Menerima dan berkoordinasi dengan jelas.",
+        "Menerima tanpa komunikasi.",
+        "Menyerahkan ke orang lain tanpa izin."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Kesediaan berkolaborasi dan komunikasi yang jelas adalah kunci.",
+      "id": "lecturer-046",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "lecturer-047",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "lecturer-048",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "lecturer-049",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nama pada dokumen: Dr. SRI WAHYUNI, S.E., M.M.\nManakah penulisan yang benar dan sesuai?",
+      "options": [
+        "Dr. SRI WAHYUNI, S.E., M.M.",
+        "Dr. SRI WAHYUNI, S.E., M.M",
+        "Dr. SRI WAHYUNI S.E. M.M.",
+        "Dr. SRI WAHYUNI, S.E, M.M.",
+        "Dr. SRI WAHYUNI, S.E., MM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis sesuai dengan penulisan asli termasuk tanda titik dan koma.",
+      "id": "lecturer-050",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    }
+  ]
+}
