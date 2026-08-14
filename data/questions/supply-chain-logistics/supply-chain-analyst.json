@@ -1,0 +1,1255 @@
+{
+  "metadata": {
+    "id": "supply-chain-analyst",
+    "fieldId": "supply-chain-logistics",
+    "positionId": "supply-chain-analyst",
+    "fieldName": "Supply Chain & Logistik",
+    "positionName": "Supply Chain Analyst",
+    "title": "Supply Chain Analyst - Simulasi Psikotes Kerja",
+    "description": "Menganalisis dan mengoptimalkan alur rantai pasok.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 52,
+    "categoryWeights": [
+      {
+        "name": "Tes Analisis Data",
+        "weight": 22
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 20
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 16
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 14
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 12
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 8
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 8
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-001",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-002",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-003",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-004",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan tabel populasi berikut, berapakah total populasi dari tiga wilayah dengan populasi terbesar?",
+      "options": [
+        "2,5 juta",
+        "2,8 juta",
+        "3,0 juta",
+        "3,2 juta",
+        "3,5 juta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiga terbesar: Wilayah A (1,2 juta), Wilayah B (1,0 juta), Wilayah C (0,8 juta). Total = 3,0 juta.",
+      "chart": {
+        "type": "table",
+        "title": "Populasi per Wilayah (juta)",
+        "labels": [
+          "Wilayah A",
+          "Wilayah B",
+          "Wilayah C",
+          "Wilayah D",
+          "Wilayah E"
+        ],
+        "datasets": [
+          {
+            "label": "Populasi (juta)",
+            "values": [
+              1.2,
+              1,
+              0.8,
+              0.6,
+              0.4
+            ]
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-005",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram pangsa pasar berikut, berapakah pangsa pasar gabungan dari perusahaan B dan C?",
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pangsa pasar B = 20% dan C = 15%, sehingga gabungannya 20% + 15% = 35%.",
+      "chart": {
+        "type": "pie",
+        "title": "Pangsa Pasar",
+        "labels": [
+          "Perusahaan A",
+          "Perusahaan B",
+          "Perusahaan C",
+          "Perusahaan D",
+          "Lainnya"
+        ],
+        "datasets": [
+          {
+            "label": "Pangsa (%)",
+            "values": [
+              35,
+              20,
+              15,
+              18,
+              12
+            ]
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-006",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-007",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-008",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-009",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "supply-chain-analyst-010",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah toko menjual 3 buah buku seharga Rp 45.000. Berapakah harga 8 buku dengan harga yang sama?",
+      "options": [
+        "Rp 105.000",
+        "Rp 112.500",
+        "Rp 120.000",
+        "Rp 127.500",
+        "Rp 135.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga per buku = 45.000 / 3 = 15.000. Harga 8 buku = 8 × 15.000 = 120.000.",
+      "steps": [
+        "Per buku = 15.000",
+        "8 × 15.000 = 120.000"
+      ],
+      "id": "supply-chain-analyst-011",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan berat A, B, dan C adalah 2 : 3 : 5. Jika berat total ketiganya 80 kg, berapakah berat C?",
+      "options": [
+        "32 kg",
+        "36 kg",
+        "40 kg",
+        "44 kg",
+        "48 kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total bagian = 2 + 3 + 5 = 10. Berat C = 5/10 × 80 = 40 kg.",
+      "steps": [
+        "Total bagian = 10",
+        "C = 5/10 × 80 = 40 kg"
+      ],
+      "id": "supply-chain-analyst-012",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Dalam sebuah kelas terdapat 40 siswa dan 65% di antaranya lulus ujian. Berapakah jumlah siswa yang lulus?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "explanation": "0,65 × 40 = 26 siswa.",
+      "steps": [
+        "65% = 0,65",
+        "0,65 × 40 = 26"
+      ],
+      "id": "supply-chain-analyst-013",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan umur A dan B adalah 3 : 5. Jika jumlah umur mereka 40 tahun, berapakah umur A?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total bagian = 3 + 5 = 8. Umur A = 3/8 × 40 = 15 tahun.",
+      "steps": [
+        "Total bagian = 8",
+        "Umur A = 3/8 × 40 = 15"
+      ],
+      "id": "supply-chain-analyst-014",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 6, 12, 20, 30, ...",
+      "options": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih antar suku bertambah 2 setiap langkah: +4, +6, +8, +10, maka suku berikutnya +12 → 42.",
+      "steps": [
+        "Selisih: 4, 6, 8, 10",
+        "Selisih berikutnya 12",
+        "30 + 12 = 42"
+      ],
+      "id": "supply-chain-analyst-015",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Urutkan pecahan berikut dari yang terkecil: 1/3, 1/4, 1/2, 1/5",
+      "options": [
+        "1/2, 1/3, 1/4, 1/5",
+        "1/5, 1/4, 1/3, 1/2",
+        "1/4, 1/5, 1/3, 1/2",
+        "1/3, 1/5, 1/4, 1/2",
+        "1/5, 1/3, 1/4, 1/2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semakin besar penyebut, semakin kecil nilainya. Urutan terkecil: 1/5, 1/4, 1/3, 1/2.",
+      "steps": [
+        "1/5 = 0,2",
+        "1/4 = 0,25",
+        "1/3 ≈ 0,33",
+        "1/2 = 0,5"
+      ],
+      "id": "supply-chain-analyst-016",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "supply-chain-analyst-017",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "supply-chain-analyst-018",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "supply-chain-analyst-019",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "supply-chain-analyst-020",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "logical",
+      "text": "Sebagian siswa gemar matematika. Semua siswa yang gemar matematika rajin belajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa rajin belajar",
+        "Sebagian siswa rajin belajar",
+        "Semua yang rajin belajar gemar matematika",
+        "Tidak ada siswa yang rajin belajar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian siswa gemar matematika dan mereka rajin belajar, sehingga sebagian siswa rajin belajar.",
+      "steps": [
+        "Sebagian siswa → matematika",
+        "Gemar matematika → rajin",
+        "Sebagian siswa rajin"
+      ],
+      "id": "supply-chain-analyst-021",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "P atau Q benar (setidaknya salah satu). Diketahui P tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P benar",
+        "P dan Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disjungsi: jika P atau Q harus benar dan P salah, maka Q harus benar.",
+      "steps": [
+        "P ∨ Q",
+        "¬P",
+        "Maka Q"
+      ],
+      "id": "supply-chain-analyst-022",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "supply-chain-analyst-023",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Dua orang anggota tim berselisih pendapat mengenai pendekatan penyelesaian proyek. Tindakan manajer yang paling tepat adalah...",
+      "options": [
+        "Memihak salah satu anggota",
+        "Mendengarkan keduanya secara objektif lalu memutuskan bersama",
+        "Mengabaikan konflik",
+        "Memecat salah satu anggota",
+        "Menunda proyek selamanya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manajer yang baik mendengar semua pihak secara objektif dan melibatkan tim dalam pengambilan keputusan.",
+      "id": "supply-chain-analyst-024",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "supply-chain-analyst-025",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "supply-chain-analyst-026",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "supply-chain-analyst-027",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jumlah kecelakaan lalu lintas menurun setelah perbaikan penerangan jalan di kawasan tersebut. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Penerangan pasti satu-satunya penyebab penurunan",
+        "Perbaikan penerangan berkontribusi pada penurunan kecelakaan",
+        "Kecelakaan meningkat",
+        "Penerangan tidak berpengaruh",
+        "Pengemudi menjadi lebih buruk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perbaikan penerangan adalah salah satu faktor yang wajar berkontribusi, meski perlu data tambahan untuk memastikan.",
+      "id": "supply-chain-analyst-028",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: https://www.example-id.com\nString B: https://www.example-id.com\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "String A dan B berbeda",
+        "String A dan B identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Keduanya bukan URL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kedua string ditulis identik sehingga hasil perbandingannya adalah identik.",
+      "id": "supply-chain-analyst-029",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan dua tanggal berikut.\nTanggal A: 08-11-2026\nTanggal B: 08-11-2026\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "Tanggal A lebih awal",
+        "Tanggal B lebih awal",
+        "Kedua tanggal sama",
+        "Tanggal A dan B berbeda",
+        "Tidak dapat dibandingkan"
+      ],
+      "correctIndex": 2,
+      "explanation": "08-11-2026 sama dengan 08-11-2026, sehingga kedua tanggal identik.",
+      "id": "supply-chain-analyst-030",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "supply-chain-analyst-031",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "supply-chain-analyst-032",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Kode produk: KRM-4500-GREY-XXL. Manakah yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GRAY-XXL"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E menulis \"GRAY\" sedangkan data asli \"GREY\". Opsi lainnya identik.",
+      "id": "supply-chain-analyst-033",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "supply-chain-analyst-034",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "supply-chain-analyst-035",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "sjt",
+      "text": "Pemasok utama Anda tidak dapat memenuhi pesanan mendadak. Apa yang Anda lakukan?",
+      "options": [
+        "Menunggu pemasok.",
+        "Mencari pemasok alternatif dan menegosiasikan prioritas.",
+        "Membatalkan seluruh pesanan.",
+        "Menambah pesanan ke pemasok yang sama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Memiliki opsi pemasok alternatif adalah praktik manajemen risiko yang baik.",
+      "id": "supply-chain-analyst-036",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Kualitas barang dari pemasok menurun. Sebelum memutuskan, Anda akan...",
+      "options": [
+        "Langsung mengganti pemasok.",
+        "Mendiskusikan dengan pemasok dan menetapkan standar kualitas yang jelas.",
+        "Mengabaikan penurunan kualitas.",
+        "Menerima barang tanpa pemeriksaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi dan penetapan standar adalah langkah pertama sebelum mengganti pemasok.",
+      "id": "supply-chain-analyst-037",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan perbedaan stok antara catatan sistem dan fisik di gudang. Langkah pertama adalah...",
+      "options": [
+        "Mengabaikan karena perbedaan kecil.",
+        "Melakukan stock opname ulang untuk menemukan penyebab.",
+        "Menyesuaikan catatan agar sama.",
+        "Menyalahkan staf gudang."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menelusuri penyebab selisih stok adalah prosedur yang benar.",
+      "id": "supply-chain-analyst-038",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Ada kesalahan pengiriman yang menyebabkan pelanggan menerima barang salah. Tindakan pertama adalah...",
+      "options": [
+        "Menyalahkan kurir.",
+        "Menangani pengiriman ulang dan menelusuri penyebab kesalahan.",
+        "Mengabaikan karena sudah terlanjur.",
+        "Menunggu pelanggan mengeluh."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Perbaikan segera dan analisis akar masalah menjaga kepercayaan pelanggan.",
+      "id": "supply-chain-analyst-039",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pengiriman penting tertunda karena kapasitas gudang penuh. Tindakan terbaik Anda adalah...",
+      "options": [
+        "Menunda pengiriman tanpa informasi.",
+        "Mencari alternatif pengiriman dan mengomunikasikan opsi kepada pihak terkait.",
+        "Mengirim lebih banyak barang ke gudang.",
+        "Mengabaikan masalah."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.17
+      ],
+      "explanation": "Solusi alternatif dengan komunikasi proaktif menjaga rantai pasok tetap berjalan.",
+      "id": "supply-chain-analyst-040",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Biaya pengiriman meningkat tajam dan melebihi anggaran. Keputusan terbaik adalah...",
+      "options": [
+        "Menghentikan semua pengiriman.",
+        "Mengevaluasi rute dan moda pengiriman untuk efisiensi.",
+        "Menambah anggaran tanpa analisis.",
+        "Mengabaikan kenaikan biaya."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.33
+      ],
+      "explanation": "Optimasi rute dan moda adalah cara efektif mengendalikan biaya logistik.",
+      "id": "supply-chain-analyst-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Perhatikan kalimat berikut. \"Setelah menyelesaikan laporan bulanan, tim keuangan mengirimkannya kepada manajer sebelum rapat evaluasi dimulai.\" Urutan peristiwa yang benar adalah...",
+      "options": [
+        "Rapat evaluasi, menyelesaikan laporan, mengirim laporan",
+        "Menyelesaikan laporan, mengirim laporan, rapat evaluasi",
+        "Mengirim laporan, rapat evaluasi, menyelesaikan laporan",
+        "Menyelesaikan laporan, rapat evaluasi, mengirim laporan",
+        "Rapat evaluasi, mengirim laporan, menyelesaikan laporan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat menyatakan laporan diselesaikan lalu dikirim, dan pengiriman terjadi sebelum rapat. Urutan: selesaikan, kirim, rapat.",
+      "id": "supply-chain-analyst-042",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "supply-chain-analyst-043",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "supply-chain-analyst-044",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"konservatif\" adalah...",
+      "options": [
+        "Tradisional",
+        "Progresif",
+        "Kolot",
+        "Kuno",
+        "Baku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Konservatif berarti mempertahankan tradisi atau kolot. Lawannya adalah \"progresif\" yang berarti maju.",
+      "id": "supply-chain-analyst-045",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-046",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menghargai pendapat orang lain meskipun berbeda dengan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-047",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-048",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-049",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terbuka terhadap sudut pandang yang berbeda dari pendapat saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-051",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati mempelajari hal-hal baru di luar bidang pekerjaan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "supply-chain-analyst-052",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
