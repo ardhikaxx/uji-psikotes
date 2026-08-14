@@ -1,0 +1,740 @@
+{
+  "metadata": {
+    "id": "sales-executive",
+    "fieldId": "customer-service-sales",
+    "positionId": "sales-executive",
+    "fieldName": "Layanan Pelanggan & Penjualan",
+    "positionName": "Sales Executive",
+    "title": "Sales Executive - Simulasi Psikotes Kerja",
+    "description": "Mencapai target penjualan dan membangun hubungan pelanggan.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 36,
+    "categoryWeights": [
+      {
+        "name": "Tes Kepribadian",
+        "weight": 28
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 26
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 16
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 12
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 8
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "personality",
+      "text": "Saya menetapkan target yang jelas dan berusaha keras mencapainya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-001",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-002",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih mengutamakan kerja sama daripada bersaing dengan rekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-003",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka bekerja sendiri daripada berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-004",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa lelah setelah menghabiskan waktu lama bersama banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-005",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati menjadi pusat perhatian dalam pertemuan tim.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-006",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menjaga kerapian dan keteraturan lingkungan kerja saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-007",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering menunda pekerjaan hingga mendekati tenggat waktu.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-008",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mampu mengendalikan emosi saya dengan baik.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-009",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "sales-executive-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Pelanggan meminta diskon di luar kebijakan. Anda tahu kebijakan perusahaan tidak mengizinkan. Apa yang Anda lakukan?",
+      "options": [
+        "Memberikan diskon agar pelanggan puas.",
+        "Menjelaskan kebijakan dengan sopan dan menawarkan alternatif yang diizinkan.",
+        "Berbohong bahwa diskon tidak tersedia.",
+        "Mengalihkan ke rekan tanpa penjelasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Menjelaskan kebijakan dengan sopan sambil menawarkan solusi adalah cara profesional.",
+      "id": "sales-executive-012",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda tidak tahu jawaban atas pertanyaan teknis pelanggan. Apa yang Anda lakukan?",
+      "options": [
+        "Menebak-nebak jawaban.",
+        "Mengakui dengan jujur dan mencari jawaban yang benar lalu menghubungi kembali.",
+        "Memberikan jawaban yang diinginkan pelanggan.",
+        "Mengalihkan topik."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Kejujuran dan tindak lanjut lebih baik daripada jawaban yang salah.",
+      "id": "sales-executive-013",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda membicarakan pelanggan dengan nada negatif setelah pelanggan tersebut pergi. Anda...",
+      "options": [
+        "Ikut membicarakan pelanggan.",
+        "Mengalihkan pembicaraan ke hal yang lebih positif.",
+        "Membicarakan pelanggan lain.",
+        "Diam dan ikut tertawa."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menjaga profesionalisme berarti tidak menjelekkan pelanggan.",
+      "id": "sales-executive-014",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda melihat rekan penjualan memberi janji berlebihan kepada pelanggan untuk menutup transaksi. Apa yang Anda lakukan?",
+      "options": [
+        "Ikut menjanjikan hal yang sama.",
+        "Mengingatkan rekan secara pribadi tentang risiko janji berlebihan.",
+        "Melaporkan langsung tanpa komunikasi.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Memberi tahu rekan secara pribadi lebih bijak sebelum melibatkan atasan.",
+      "id": "sales-executive-015",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Satu antrean pelanggan sangat panjang sementara rekan Anda masih berbicara santai. Tindakan Anda adalah...",
+      "options": [
+        "Menunggu rekan selesai berbicara.",
+        "Meminta rekan membantu atau mengambil alih sebagian pelanggan.",
+        "Mengabaikan antrean.",
+        "Memperlambat layanan Anda."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Inisiatif membantu mengurangi antrean adalah perilaku tim yang baik.",
+      "id": "sales-executive-016",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Pelanggan setia Anda meminta rekomendasi produk yang justru lebih murah daripada yang biasa ia beli. Apa yang Anda lakukan?",
+      "options": [
+        "Menjual produk yang lebih mahal untuk menaikkan komisi.",
+        "Memberikan rekomendasi jujur sesuai kebutuhan pelanggan.",
+        "Menghindari pertanyaan.",
+        "Berbohong bahwa produk murah tidak tersedia."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Kejujuran membangun kepercayaan dan loyalitas jangka panjang.",
+      "id": "sales-executive-017",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan meminta kompensasi atas keluhan yang sudah dijelaskan sebagai kesalahan pelanggan sendiri. Anda...",
+      "options": [
+        "Memberikan kompensasi penuh untuk menghindari konflik.",
+        "Menjelaskan dengan sopan dan menawarkan kompensasi yang adil sesuai kebijakan.",
+        "Menolak kasar.",
+        "Mengabaikan pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.17,
+        0.33
+      ],
+      "explanation": "Solusi yang adil dan sopan menjaga kepuasan tanpa merugikan perusahaan.",
+      "id": "sales-executive-018",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pelanggan marah karena produknya terlambat. Anda menangani keluhan tersebut. Respons terbaik adalah...",
+      "options": [
+        "Membantah bahwa keterlambatan bukan kesalahan Anda.",
+        "Mendengarkan, meminta maaf, dan menawarkan solusi nyata.",
+        "Menutup telepon.",
+        "Menyalahkan bagian pengiriman."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Empati dan solusi adalah kunci penanganan pelanggan yang marah.",
+      "id": "sales-executive-019",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "sales-executive-020",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "sales-executive-021",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"realistis\" adalah...",
+      "options": [
+        "Praktis",
+        "Idealistis",
+        "Logis",
+        "Objektif",
+        "Konkret"
+      ],
+      "correctIndex": 1,
+      "explanation": "Realistis berarti sesuai kenyataan. Lawannya adalah \"idealistis\" yang berdasarkan cita-cita semata.",
+      "id": "sales-executive-022",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "sales-executive-023",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "sales-executive-024",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"konstruktif\" adalah...",
+      "options": [
+        "Membangun",
+        "Positif",
+        "Destruktif",
+        "Produktif",
+        "Bermanfaat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Konstruktif berarti membangun. Lawannya adalah \"destruktif\" yang berarti merusak.",
+      "id": "sales-executive-025",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "sales-executive-026",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah toko menjual 3 buah buku seharga Rp 45.000. Berapakah harga 8 buku dengan harga yang sama?",
+      "options": [
+        "Rp 105.000",
+        "Rp 112.500",
+        "Rp 120.000",
+        "Rp 127.500",
+        "Rp 135.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga per buku = 45.000 / 3 = 15.000. Harga 8 buku = 8 × 15.000 = 120.000.",
+      "steps": [
+        "Per buku = 15.000",
+        "8 × 15.000 = 120.000"
+      ],
+      "id": "sales-executive-027",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan berat A, B, dan C adalah 2 : 3 : 5. Jika berat total ketiganya 80 kg, berapakah berat C?",
+      "options": [
+        "32 kg",
+        "36 kg",
+        "40 kg",
+        "44 kg",
+        "48 kg"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total bagian = 2 + 3 + 5 = 10. Berat C = 5/10 × 80 = 40 kg.",
+      "steps": [
+        "Total bagian = 10",
+        "C = 5/10 × 80 = 40 kg"
+      ],
+      "id": "sales-executive-028",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk naik harganya 15% menjadi Rp 1.150.000. Berapakah harga produk sebelum kenaikan?",
+      "options": [
+        "Rp 950.000",
+        "Rp 975.000",
+        "Rp 1.000.000",
+        "Rp 1.025.000",
+        "Rp 1.050.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga baru = 115% dari harga lama. Harga lama = 1.150.000 / 1,15 = 1.000.000.",
+      "steps": [
+        "1.150.000 / 1,15 = 1.000.000"
+      ],
+      "id": "sales-executive-029",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "sales-executive-030",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "sales-executive-031",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "sales-executive-032",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "sales-executive-033",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua kode barang berikut.\nKode A: XRT-8921-YZ\nKode B: XRT-8291-YZ\n\nPernyataan yang paling tepat adalah...",
+      "options": [
+        "Kode A dan B identik",
+        "Kode A dan B berbeda pada urutan angka 9 dan 2",
+        "Kode A dan B berbeda pada huruf akhir",
+        "Kode A lebih panjang dari B",
+        "Kode A dan B sama sekali tidak berhubungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kode A berisi \"8921\" sedangkan kode B berisi \"8291\", jadi perbedaannya terletak pada urutan angka 9 dan 2.",
+      "id": "sales-executive-034",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "sales-executive-035",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor seri perangkat: SN-2026-0417-Q. Manakah penulisan yang sama persis?",
+      "options": [
+        "SN-2026-0417-Q",
+        "SN-2026-0471-Q",
+        "SN-2026-0417-O",
+        "SN-2026-0417-QQ",
+        "SN-2026-0417"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A persis dengan SN-2026-0417-Q. Opsi lain memiliki kesalahan digit, huruf, atau jumlah karakter.",
+      "id": "sales-executive-036",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    }
+  ]
+}
