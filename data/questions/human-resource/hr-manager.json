@@ -1,0 +1,978 @@
+{
+  "metadata": {
+    "id": "hr-manager",
+    "fieldId": "human-resource",
+    "positionId": "hr-manager",
+    "fieldName": "Human Resource",
+    "positionName": "HR Manager",
+    "title": "HR Manager - Simulasi Psikotes Kerja",
+    "description": "Mengelola strategi SDM, budaya perusahaan, dan kebijakan kepegawaian.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 48,
+    "categoryWeights": [
+      {
+        "name": "Tes Kepribadian",
+        "weight": 32
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 26
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 16
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 12
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 8
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-001",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung bersikap keras kepala dalam berdebat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-002",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya memperhatikan detail kecil saat mengerjakan tugas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-003",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya suka mendalami konsep-konsep abstrak dan teoritis.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-004",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mengenal rekan kerja secara lebih dekat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-005",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah kehilangan ketenangan saat menghadapi tekanan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-006",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-007",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyusun daftar prioritas sebelum memulai pekerjaan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-008",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-009",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka bekerja sendiri daripada berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih suka rutinitas yang tetap daripada situasi yang berubah-ubah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang membantu rekan kerja yang sedang kewalahan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-012",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati diskusi tentang gagasan dan visi jangka panjang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-013",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya aktif menyampaikan pendapat dalam rapat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-014",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-015",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menghargai pendapat orang lain meskipun berbeda dengan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-016",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa suasana hati saya berubah-ubah tanpa sebab yang jelas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-017",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang penasaran terhadap topik-topik di luar keahlian saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-018",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terganggu oleh hal-hal yang tidak penting saat bekerja.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "hr-manager-019",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Perusahaan ingin menaikkan target produksi. Sebagai HR, Anda melihat risiko kelelahan karyawan. Apa yang Anda lakukan?",
+      "options": [
+        "Menyetujui tanpa analisis.",
+        "Menyampaikan analisis beban kerja dan mengusulkan penyesuaian sumber daya.",
+        "Menolak target baru.",
+        "Mengabaikan karena bukan tanggung jawab HR."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "HR berperan menjaga keseimbangan beban kerja dan produktivitas.",
+      "id": "hr-manager-020",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang karyawan berprestasi meminta kenaikan gaji di luar periode peninjauan. Apa respons terbaik Anda sebagai HR?",
+      "options": [
+        "Menolak karena aturan tidak mengizinkan.",
+        "Mendengarkan alasannya dan meninjau ulang kebijakan serta data kinerja.",
+        "Menyetujui langsung agar karyawan tidak keluar.",
+        "Mengabaikan permintaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "HR yang baik menilai permintaan secara objektif berdasarkan data dan kebijakan.",
+      "id": "hr-manager-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa seorang kandidat terbaik berbohong pada pengalaman kerjanya di CV. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena kemampuannya bagus.",
+        "Menggugurkan kandidat dan menjelaskan alasannya.",
+        "Tetap menerima dengan catatan.",
+        "Menutup-nutupi agar proses seleksi cepat selesai."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Integritas adalah nilai inti; kebohongan pada CV menggugurkan kandidat.",
+      "id": "hr-manager-022",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Karyawan baru Anda terlihat kesulitan beradaptasi dan performanya menurun pada bulan pertama. Tindakan terbaik adalah...",
+      "options": [
+        "Segera menghentikan masa percobaannya.",
+        "Mengadakan sesi coaching dan menyusun rencana pengembangan.",
+        "Mengabaikan dan menunggu evaluasi akhir.",
+        "Memberikan peringatan tertulis."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Program onboarding dan coaching membantu karyawan baru beradaptasi.",
+      "id": "hr-manager-023",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Dua karyawan berselisih dan saling menuduh dalam satu tim. Anda diminta menengahi. Langkah pertama terbaik adalah...",
+      "options": [
+        "Memanggil keduanya secara terpisah untuk mendengar setiap sisi.",
+        "Memihak pihak yang lebih senior.",
+        "Menghindari keterlibatan karena bukan masalah Anda.",
+        "Langsung memberikan sanksi kepada keduanya."
+      ],
+      "correctIndex": 0,
+      "sjtScores": [
+        1,
+        0.17,
+        0.33,
+        0.5
+      ],
+      "explanation": "Mediasi dimulai dengan mendengarkan semua pihak secara objektif.",
+      "id": "hr-manager-024",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang manajer melaporkan bawahannya sering absen tanpa keterangan. Sebelum mengambil tindakan, Anda akan...",
+      "options": [
+        "Langsung mengeluarkan surat peringatan.",
+        "Memanggil karyawan untuk klarifikasi dan memeriksa catatan kehadiran.",
+        "Memecat karyawan tersebut.",
+        "Mengabaikan laporan manajer."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Proses disiplin yang adil dimulai dengan klarifikasi dan pemeriksaan data.",
+      "id": "hr-manager-025",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Departemen lain meminta data gaji karyawan untuk kepentingan pribadi atasan mereka. Sebagai HR, Anda...",
+      "options": [
+        "Memberikan data karena permintaan atasan.",
+        "Menolak karena melanggar kerahasiaan data karyawan dan mengarahkan pada prosedur resmi.",
+        "Memberikan sebagian data.",
+        "Mengunggah data ke grup bersama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Data gaji bersifat rahasia dan hanya boleh diakses melalui prosedur yang sah.",
+      "id": "hr-manager-026",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa rekrutmen terakhir tidak mematuhi prosedur keberagaman. Apa tindakan terbaik?",
+      "options": [
+        "Mengabaikan karena proses sudah selesai.",
+        "Mengevaluasi proses dan memperbaiki standar rekrutmen ke depan.",
+        "Membatalkan seluruh hasil rekrutmen.",
+        "Menyalahkan tim perekrut."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Perbaikan proses berbasis evaluasi lebih efektif daripada menyalahkan.",
+      "id": "hr-manager-027",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "hr-manager-028",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"transparan\" dalam konteks perusahaan adalah...",
+      "options": [
+        "Tertutup",
+        "Terbuka",
+        "Rumit",
+        "Terbatas",
+        "Serius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalam konteks perusahaan, transparan berarti terbuka dan jujur dalam menyampaikan informasi.",
+      "id": "hr-manager-029",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Kapal : Laut = Kereta : ...",
+      "options": [
+        "Rel",
+        "Bandara",
+        "Terminal",
+        "Jalan",
+        "Pelabuhan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kapal berjalan di laut, kereta berjalan di rel.",
+      "id": "hr-manager-030",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"konservatif\" adalah...",
+      "options": [
+        "Tradisional",
+        "Progresif",
+        "Kolot",
+        "Kuno",
+        "Baku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Konservatif berarti mempertahankan tradisi atau kolot. Lawannya adalah \"progresif\" yang berarti maju.",
+      "id": "hr-manager-031",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Manakah kalimat yang paling efektif dan tidak ambigu?",
+      "options": [
+        "Karena hujan deras, maka dari itu rapat ditunda oleh panitia hingga waktu yang belum ditentukan.",
+        "Rapat ditunda karena hujan deras dan belum ditentukan waktunya.",
+        "Hujan deras sehingga rapat ditunda oleh karena itu waktunya belum ditentukan.",
+        "Karena rapat ditunda oleh panitia, maka hujan deras dan waktunya belum ditentukan.",
+        "Rapat ditunda, oleh karena itu hujan deras dan belum ditentukan waktunya."
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat B paling ringkas, jelas, dan tidak ambigu dibandingkan kalimat lainnya yang berbelit-belit.",
+      "id": "hr-manager-032",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "hr-manager-033",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Air : Es = Uap : ...",
+      "options": [
+        "Hujan",
+        "Cair",
+        "Air",
+        "Api",
+        "Embun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air yang didinginkan menjadi es; uap yang didinginkan kembali menjadi air.",
+      "id": "hr-manager-034",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Budaya belajar berkelanjutan terbukti meningkatkan daya saing perusahaan. Karyawan yang rutin mengikuti pelatihan cenderung lebih adaptif terhadap perubahan teknologi dan menunjukkan kinerja lebih stabil dalam jangka panjang.\" Pernyataan yang TIDAK sesuai dengan isi paragraf adalah...",
+      "options": [
+        "Pelatihan rutin membuat karyawan lebih adaptif",
+        "Kinerja stabil berkaitan dengan budaya belajar",
+        "Daya saing perusahaan meningkat dengan budaya belajar",
+        "Semua karyawan yang ikut pelatihan langsung promosi jabatan",
+        "Budaya belajar berkelanjutan bernilai positif bagi perusahaan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paragraf tidak menyebutkan kaitan langsung antara pelatihan dan promosi jabatan, sehingga pernyataan D tidak sesuai isi.",
+      "id": "hr-manager-035",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "hr-manager-036",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Seorang kasir menemukan selisih uang di akhir shift. Langkah pertama yang paling tepat dilakukan adalah...",
+      "options": [
+        "Menutup kekurangan dari uang pribadi",
+        "Menghitung ulang dan mencocokkan dengan transaksi",
+        "Menyalahkan rekan kerja",
+        "Mengabaikan selisih tersebut",
+        "Langsung melaporkan tanpa pemeriksaan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Langkah paling objektif adalah menghitung ulang dan menelusuri transaksi untuk menemukan sumber selisih.",
+      "id": "hr-manager-037",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Tidak ada logam yang berwujud cair pada suhu ruangan, kecuali raksa. Zat X berwujud cair pada suhu ruangan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Zat X pasti bukan logam",
+        "Zat X adalah logam",
+        "Zat X mungkin adalah raksa",
+        "Zat X pasti raksa",
+        "Tidak ada logam cair"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karena satu-satunya logam cair adalah raksa, zat X yang cair bisa jadi raksa, namun bisa juga zat non-logam.",
+      "id": "hr-manager-038",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui bahwa Q tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "P benar",
+        "P tidak benar",
+        "P dan Q benar",
+        "Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: Jika P → Q dan Q salah, maka P pasti salah.",
+      "steps": [
+        "P → Q",
+        "¬Q",
+        "Maka ¬P (P tidak benar)"
+      ],
+      "id": "hr-manager-039",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "hr-manager-040",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang makan makanan pedas maka perutnya terasa sakit. Andi tidak makan makanan pedas. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Perut Andi pasti sakit",
+        "Perut Andi pasti tidak sakit",
+        "Belum tentu perut Andi tidak sakit",
+        "Andi makan pedas",
+        "Andi tidak mungkin sakit perut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Makan pedas hanyalah salah satu penyebab sakit perut. Tanpa makan pedas, perut bisa saja sakit karena sebab lain.",
+      "id": "hr-manager-041",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "hr-manager-042",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah toko menjual 3 buah buku seharga Rp 45.000. Berapakah harga 8 buku dengan harga yang sama?",
+      "options": [
+        "Rp 105.000",
+        "Rp 112.500",
+        "Rp 120.000",
+        "Rp 127.500",
+        "Rp 135.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga per buku = 45.000 / 3 = 15.000. Harga 8 buku = 8 × 15.000 = 120.000.",
+      "steps": [
+        "Per buku = 15.000",
+        "8 × 15.000 = 120.000"
+      ],
+      "id": "hr-manager-043",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 100, 90, 81, 73, 66, ...",
+      "options": [
+        "58",
+        "59",
+        "60",
+        "61",
+        "62"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pengurangan bertambah 1 setiap langkah: -10, -9, -8, -7, maka berikutnya -6 → 60.",
+      "steps": [
+        "Pengurangan: 10, 9, 8, 7",
+        "Berikutnya dikurangi 6",
+        "66 - 6 = 60"
+      ],
+      "id": "hr-manager-044",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "hr-manager-045",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: https://www.example-id.com\nString B: https://www.example-id.com\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "String A dan B berbeda",
+        "String A dan B identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Keduanya bukan URL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kedua string ditulis identik sehingga hasil perbandingannya adalah identik.",
+      "id": "hr-manager-046",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan nomor rekening berikut.\nNo. Rekening: 145-002-7781-99\n\nManakah nomor rekening yang sama persis dengan data tersebut?",
+      "options": [
+        "145-002-7781-99",
+        "145-002-7781-98",
+        "145-002-7881-99",
+        "145-002-7781-9",
+        "145-002-7781-90"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hanya opsi A yang sama persis dengan 145-002-7781-99. Opsi lain berbeda pada digit terakhir atau urutan angka.",
+      "id": "hr-manager-047",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dalam sebuah dokumen tercantum alamat: \"Jl. Merdeka Raya No. 45, Bandung\". Manakah penulisan ulang yang paling sesuai dan benar?",
+      "options": [
+        "Jl. Merdeka Raya No. 45, Bandung",
+        "Jl. Merdeka Raya No. 44, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandug",
+        "Jl. Merdeka Raya No. 54, Bandung",
+        "Jl. Merdeka Raya No. 45, Bandun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A paling sesuai. Opsi lain memiliki kesalahan pada nomor rumah atau ejaan kota.",
+      "id": "hr-manager-048",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    }
+  ]
+}
