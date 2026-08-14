@@ -1,0 +1,1095 @@
+{
+  "metadata": {
+    "id": "tni-polri",
+    "fieldId": "bumn-government",
+    "positionId": "tni-polri",
+    "fieldName": "BUMN & Instansi Pemerintah",
+    "positionName": "TNI / POLRI",
+    "title": "TNI / POLRI - Simulasi Psikotes Kerja",
+    "description": "Tes psikologi untuk seleksi anggota TNI dan POLRI.",
+    "duration": 2700,
+    "difficulty": "expert",
+    "maxScore": 100,
+    "totalQuestions": 55,
+    "categoryWeights": [
+      {
+        "name": "Tes Logika",
+        "weight": 20
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 16
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 14
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 22
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 16
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 12
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "logical",
+      "text": "Produktivitas karyawan menurun setelah perusahaan memberlakukan kebijakan lembur wajib selama sebulan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Lembur wajib pasti menyebabkan penurunan produktivitas",
+        "Lembur wajib menyebabkan kenaikan produktivitas",
+        "Penurunan produktivitas bisa berkaitan dengan kebijakan, tapi perlu analisis lebih lanjut",
+        "Karyawan tidak mau bekerja",
+        "Perusahaan harus lembur lebih banyak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Data korelasional belum cukup untuk menyimpulkan sebab-akibat; perlu analisis faktor lain seperti kelelahan dan kualitas pengukuran.",
+      "id": "tni-polri-001",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua pelanggan yang puas akan kembali membeli. Rudi membeli kembali. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Rudi pasti puas",
+        "Belum tentu Rudi puas",
+        "Rudi tidak puas",
+        "Semua pembeli puas",
+        "Tidak ada yang membeli kembali"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepuasan adalah salah satu penyebab pembelian ulang, namun belum tentu satu-satunya.",
+      "id": "tni-polri-002",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "tni-polri-003",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "tni-polri-004",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Sebagian siswa gemar matematika. Semua siswa yang gemar matematika rajin belajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa rajin belajar",
+        "Sebagian siswa rajin belajar",
+        "Semua yang rajin belajar gemar matematika",
+        "Tidak ada siswa yang rajin belajar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian siswa gemar matematika dan mereka rajin belajar, sehingga sebagian siswa rajin belajar.",
+      "steps": [
+        "Sebagian siswa → matematika",
+        "Gemar matematika → rajin",
+        "Sebagian siswa rajin"
+      ],
+      "id": "tni-polri-005",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "tni-polri-006",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Semua X adalah Y. Semua Y adalah Z. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua Z adalah X",
+        "Semua X adalah Z",
+        "Semua Y adalah X",
+        "Sebagian Z bukan Y",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua X bagian dari Y, dan semua Y bagian dari Z, maka semua X bagian dari Z.",
+      "steps": [
+        "X ⊆ Y",
+        "Y ⊆ Z",
+        "Maka X ⊆ Z"
+      ],
+      "id": "tni-polri-007",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semakin tinggi suhu ruangan, semakin cepat es mencair. Faktor yang menjadi penyebab mencairnya es pada pernyataan tersebut adalah...",
+      "options": [
+        "Volume es",
+        "Suhu ruangan",
+        "Jenis es",
+        "Waktu",
+        "Kelembapan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pernyataan menunjukkan hubungan sebab-akibat di mana suhu ruangan yang tinggi menyebabkan es mencair lebih cepat.",
+      "id": "tni-polri-008",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui bahwa Q tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "P benar",
+        "P tidak benar",
+        "P dan Q benar",
+        "Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: Jika P → Q dan Q salah, maka P pasti salah.",
+      "steps": [
+        "P → Q",
+        "¬Q",
+        "Maka ¬P (P tidak benar)"
+      ],
+      "id": "tni-polri-009",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "tni-polri-010",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Setelah perusahaan melakukan rekrutmen massal, kualitas rata-rata karyawan baru dinilai lebih rendah dalam evaluasi tahunan. Pernyataan yang paling tepat adalah...",
+      "options": [
+        "Rekrutmen massal pasti menurunkan kualitas",
+        "Semua karyawan baru berkualitas rendah",
+        "Perlu evaluasi proses seleksi untuk memastikan penyebabnya",
+        "Rekrutmen massal meningkatkan kualitas",
+        "Karyawan lama lebih buruk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubungan ini perlu diselidiki melalui evaluasi proses seleksi, bukan langsung menyimpulkan sebab-akibat.",
+      "id": "tni-polri-011",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 3x + 7 = 22, berapakah nilai x?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1,
+      "explanation": "3x = 22 - 7 = 15, maka x = 15 / 3 = 5.",
+      "steps": [
+        "3x + 7 = 22",
+        "3x = 15",
+        "x = 5"
+      ],
+      "id": "tni-polri-012",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 1, 1, 2, 3, 5, 8, ...",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "15"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ini deret Fibonacci: setiap suku adalah jumlah dua suku sebelumnya. 5 + 8 = 13.",
+      "steps": [
+        "5 + 8 = 13"
+      ],
+      "id": "tni-polri-013",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan umur A dan B adalah 3 : 5. Jika jumlah umur mereka 40 tahun, berapakah umur A?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total bagian = 3 + 5 = 8. Umur A = 3/8 × 40 = 15 tahun.",
+      "steps": [
+        "Total bagian = 8",
+        "Umur A = 3/8 × 40 = 15"
+      ],
+      "id": "tni-polri-014",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika satu lusin telur harganya Rp 36.000, berapakah harga 5 butir telur?",
+      "options": [
+        "Rp 12.000",
+        "Rp 15.000",
+        "Rp 18.000",
+        "Rp 20.000",
+        "Rp 24.000"
+      ],
+      "correctIndex": 1,
+      "explanation": "Harga per butir = 36.000 / 12 = 3.000. Harga 5 butir = 5 × 3.000 = 15.000.",
+      "steps": [
+        "Per butir = 36.000 / 12 = 3.000",
+        "5 × 3.000 = 15.000"
+      ],
+      "id": "tni-polri-015",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "tni-polri-016",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah toko menjual 3 buah buku seharga Rp 45.000. Berapakah harga 8 buku dengan harga yang sama?",
+      "options": [
+        "Rp 105.000",
+        "Rp 112.500",
+        "Rp 120.000",
+        "Rp 127.500",
+        "Rp 135.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga per buku = 45.000 / 3 = 15.000. Harga 8 buku = 8 × 15.000 = 120.000.",
+      "steps": [
+        "Per buku = 15.000",
+        "8 × 15.000 = 120.000"
+      ],
+      "id": "tni-polri-017",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 4 pekerja dapat menyelesaikan sebuah pekerjaan dalam 12 hari, berapa hari yang dibutuhkan 6 pekerja (dengan kecepatan yang sama)?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perbandingan berbalik nilai: 4 × 12 = 6 × n, maka n = 48/6 = 8 hari.",
+      "steps": [
+        "Total beban kerja = 4 × 12 = 48",
+        "n = 48 / 6 = 8 hari"
+      ],
+      "id": "tni-polri-018",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan pola bilangan segitiga berikut: 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih bertambah 1: +2, +3, +4, +5, maka berikutnya +6 → 21.",
+      "steps": [
+        "Selisih: 2, 3, 4, 5",
+        "Berikutnya +6",
+        "15 + 6 = 21"
+      ],
+      "id": "tni-polri-019",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Dalam sebuah kelas terdapat 40 siswa dan 65% di antaranya lulus ujian. Berapakah jumlah siswa yang lulus?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "correctIndex": 2,
+      "explanation": "0,65 × 40 = 26 siswa.",
+      "steps": [
+        "65% = 0,65",
+        "0,65 × 40 = 26"
+      ],
+      "id": "tni-polri-020",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "tni-polri-021",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"gigih\" adalah...",
+      "options": [
+        "Tekun",
+        "Lemah",
+        "Ragu",
+        "Malas",
+        "Cepat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gigih berarti tekun dan tidak mudah menyerah. Tekun adalah sinonim yang paling tepat.",
+      "id": "tni-polri-022",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"realistis\" adalah...",
+      "options": [
+        "Praktis",
+        "Idealistis",
+        "Logis",
+        "Objektif",
+        "Konkret"
+      ],
+      "correctIndex": 1,
+      "explanation": "Realistis berarti sesuai kenyataan. Lawannya adalah \"idealistis\" yang berdasarkan cita-cita semata.",
+      "id": "tni-polri-023",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"stagnan\" adalah...",
+      "options": [
+        "Beku",
+        "Mandek",
+        "Berkembang",
+        "Diam",
+        "Statis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stagnan berarti tidak berkembang atau mandek. Lawannya adalah \"berkembang\".",
+      "id": "tni-polri-024",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "tni-polri-025",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "tni-polri-026",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"efisien\" adalah...",
+      "options": [
+        "Boros",
+        "Tepat guna",
+        "Lambat",
+        "Kurang",
+        "Banyak"
+      ],
+      "correctIndex": 1,
+      "explanation": "Efisien berarti tidak membuang-buang sumber daya atau tepat guna.",
+      "id": "tni-polri-027",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"eksplisit\" adalah...",
+      "options": [
+        "Jelas",
+        "Tegas",
+        "Implisit",
+        "Terbuka",
+        "Gamblang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eksplisit berarti jelas dan terang-terangan. Lawannya adalah \"implisit\" yang berarti tersirat.",
+      "id": "tni-polri-028",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "personality",
+      "text": "Saya berusaha memahami perasaan orang lain ketika mereka menghadapi masalah.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-029",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-030",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah kehilangan ketenangan saat menghadapi tekanan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-031",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang mencoba metode kerja baru meskipun cara lama sudah berjalan baik.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-032",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa berenergi saat berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-033",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu menyelesaikan pekerjaan tepat waktu.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-034",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terganggu oleh hal-hal yang tidak penting saat bekerja.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-035",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-036",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-037",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa suasana hati saya berubah-ubah tanpa sebab yang jelas.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-038",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mempercayai niat baik orang lain sampai terbukti sebaliknya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-039",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati mempelajari hal-hal baru di luar bidang pekerjaan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-040",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa tersinggung oleh komentar orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-041",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tni-polri-042",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda memiliki akses data kependudukan warga. Seorang kerabat meminta data tersebut. Anda...",
+      "options": [
+        "Memberikan karena kerabat.",
+        "Menolak karena melanggar kerahasiaan data.",
+        "Memberikan sebagian.",
+        "Menjual data."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Perlindungan data pribadi adalah kewajiban hukum dan etika.",
+      "id": "tni-polri-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda sering menunda pekerjaan pelayanan publik sehingga antrean menumpuk. Anda...",
+      "options": [
+        "Mengabaikan.",
+        "Mengingatkan rekan tentang dampak pada masyarakat.",
+        "Melapor tanpa komunikasi.",
+        "Menggantikan pekerjaan rekan tanpa koordinasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Komunikasi dan kerja sama menjaga kualitas pelayanan.",
+      "id": "tni-polri-044",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang pengusaha menawarkan hadiah agar Anda mempercepat pengurusan dokumennya. Anda...",
+      "options": [
+        "Menerima hadiah.",
+        "Menolak dan menjelaskan bahwa pelayanan dilakukan sesuai prosedur.",
+        "Menerima dengan catatan mempercepat.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Integritas dan anti-gratifikasi adalah prinsip utama pelayanan publik.",
+      "id": "tni-polri-045",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda diminta menandatangani dokumen yang belum Anda periksa oleh atasan. Anda...",
+      "options": [
+        "Menandatangani karena diperintah.",
+        "Memeriksa dokumen terlebih dahulu sebelum menandatangani.",
+        "Menandatangani sebagian.",
+        "Menolak tanpa alasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Ketelitian dan tanggung jawab atas tanda tangan sangat penting.",
+      "id": "tni-polri-046",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Masyarakat mengeluhkan prosedur pelayanan yang berbelit. Sebagai petugas, Anda...",
+      "options": [
+        "Menjelaskan bahwa aturan memang begitu.",
+        "Mencatat keluhan dan mengusulkan penyederhanaan prosedur.",
+        "Mengabaikan keluhan.",
+        "Menyalahkan atasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keterbukaan terhadap perbaikan pelayanan publik adalah sikap yang baik.",
+      "id": "tni-polri-047",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan rekan menerima suap dari pemohon dokumen. Tindakan terbaik adalah...",
+      "options": [
+        "Mengabaikan.",
+        "Melaporkan ke atasan atau unit pengaduan sesuai prosedur.",
+        "Ikut menerima.",
+        "Menegur rekan tanpa melaporkan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pelaporan melalui jalur resmi menjaga integritas institusi.",
+      "id": "tni-polri-048",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Ada informasi rahasia negara/instansi yang bocor dari departemen Anda. Anda...",
+      "options": [
+        "Mengabaikan.",
+        "Melaporkan kebocoran dan membantu penyelidikan.",
+        "Menyebarkan informasi.",
+        "Menyembunyikan fakta."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Keamanan informasi adalah tanggung jawab seluruh pegawai.",
+      "id": "tni-polri-049",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "tni-polri-050",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Data asli: Email karyawan = budi.santoso@perusahaan.co.id\nManakah email yang paling sesuai dengan data asli?",
+      "options": [
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.com",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id",
+        "budi.santoso@perusahaan.co.id"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B menggunakan domain \".com\" sedangkan data asli \".co.id\". Opsi lainnya identik dengan data asli.",
+      "id": "tni-polri-051",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "tni-polri-052",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNIP: 198703142010121002\n\nManakah NIP yang TIDAK sama dengan data asli?",
+      "options": [
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010121002",
+        "198703142010122002"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E memiliki digit \"22\" pada posisi terakhir sedangkan data asli berakhiran \"12\". Opsi lainnya identik.",
+      "id": "tni-polri-053",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Nomor polisi kendaraan: B 1234 XYZ. Manakah yang sama persis?",
+      "options": [
+        "B 1234 XYZ",
+        "B 1234 XZY",
+        "B 1234 ZYX",
+        "B 1243 XYZ",
+        "B 1234 YXZ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opsi A sama persis. Opsi lainnya memiliki urutan huruf atau angka yang berbeda.",
+      "id": "tni-polri-054",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dua entri berikut tampak mirip. Manakah yang menunjukkan pasangan TIDAK sama?\nEntri 1: PT MAJU SEJAHTERA TBK\nEntri 2: PT MAJU SEJAHTERA TBK",
+      "options": [
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA Tbk",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK",
+        "PT MAJU SEJAHTERA TBK | PT MAJU SEJAHTERA TBK"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B berbeda karena menggunakan \"Tbk\" dengan huruf kecil di akhir, sedangkan data asli \"TBK\".",
+      "id": "tni-polri-055",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    }
+  ]
+}
