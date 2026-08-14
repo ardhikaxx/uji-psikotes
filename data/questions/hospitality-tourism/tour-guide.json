@@ -1,0 +1,761 @@
+{
+  "metadata": {
+    "id": "tour-guide",
+    "fieldId": "hospitality-tourism",
+    "positionId": "tour-guide",
+    "fieldName": "Hospitality & Pariwisata",
+    "positionName": "Tour Guide",
+    "title": "Tour Guide - Simulasi Psikotes Kerja",
+    "description": "Memandu wisatawan dan menjelaskan objek wisata.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 38,
+    "categoryWeights": [
+      {
+        "name": "Tes Verbal",
+        "weight": 24
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 24
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 22
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 10
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 10
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 10
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "tour-guide-001",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "tour-guide-002",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Budaya belajar berkelanjutan terbukti meningkatkan daya saing perusahaan. Karyawan yang rutin mengikuti pelatihan cenderung lebih adaptif terhadap perubahan teknologi dan menunjukkan kinerja lebih stabil dalam jangka panjang.\" Pernyataan yang TIDAK sesuai dengan isi paragraf adalah...",
+      "options": [
+        "Pelatihan rutin membuat karyawan lebih adaptif",
+        "Kinerja stabil berkaitan dengan budaya belajar",
+        "Daya saing perusahaan meningkat dengan budaya belajar",
+        "Semua karyawan yang ikut pelatihan langsung promosi jabatan",
+        "Budaya belajar berkelanjutan bernilai positif bagi perusahaan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paragraf tidak menyebutkan kaitan langsung antara pelatihan dan promosi jabatan, sehingga pernyataan D tidak sesuai isi.",
+      "id": "tour-guide-003",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "tour-guide-004",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"fleksibel\" adalah...",
+      "options": [
+        "Kaku",
+        "Luwes",
+        "Keras",
+        "Besar",
+        "Cepat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fleksibel berarti mudah menyesuaikan diri atau luwes, sehingga sinonimnya adalah \"luwes\".",
+      "id": "tour-guide-005",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"opini\" adalah...",
+      "options": [
+        "Fakta",
+        "Pendapat",
+        "Perintah",
+        "Keputusan",
+        "Himbauan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opini berarti pandangan atau pendapat seseorang, sehingga sinonimnya adalah \"pendapat\".",
+      "id": "tour-guide-006",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Air : Es = Uap : ...",
+      "options": [
+        "Hujan",
+        "Cair",
+        "Air",
+        "Api",
+        "Embun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air yang didinginkan menjadi es; uap yang didinginkan kembali menjadi air.",
+      "id": "tour-guide-007",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "tour-guide-008",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "tour-guide-009",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah terganggu oleh hal-hal yang tidak penting saat bekerja.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati menjadi pusat perhatian dalam pertemuan tim.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih mengutamakan kerja sama daripada bersaing dengan rekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-012",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya senang membantu rekan kerja yang sedang kewalahan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-013",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering mengkritik orang lain secara langsung tanpa mempertimbangkan perasaan mereka.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-014",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-015",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-016",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering menunda pekerjaan hingga mendekati tenggat waktu.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-017",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung pendiam dalam situasi sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-018",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyesuaikan diri dengan keputusan tim demi kebaikan bersama.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "tour-guide-019",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu menawarkan tip besar agar Anda melanggar aturan hotel. Anda...",
+      "options": [
+        "Menerima tip dan melanggar aturan.",
+        "Menolak dengan sopan dan tetap mematuhi aturan.",
+        "Menerima tip tanpa melanggar.",
+        "Melaporkan tamu."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Integritas lebih penting daripada imbalan.",
+      "id": "tour-guide-020",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Terjadi overbooking di hotel Anda. Tamu yang sudah memesan tidak mendapat kamar. Tindakan terbaik adalah...",
+      "options": [
+        "Menyuruh tamu mencari hotel lain.",
+        "Mencari kamar alternatif, menawarkan kompensasi, dan meminta maaf.",
+        "Mengabaikan reservasi.",
+        "Menempatkan tamu di ruang staf."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menangani overbooking dengan solusi dan kompensasi menjaga reputasi hotel.",
+      "id": "tour-guide-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu VIP meminta layanan yang di luar standar fasilitas. Anda...",
+      "options": [
+        "Menolak semua permintaan.",
+        "Mengevaluasi kemungkinan dan memberikan yang terbaik sesuai kebijakan.",
+        "Menjanjikan semua permintaan.",
+        "Mengabaikan tamu VIP."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Melayani dengan yang terbaik namun tetap dalam batas kebijakan.",
+      "id": "tour-guide-022",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rombongan wisatawan Anda terlambat karena bus rusak. Sebagai tour guide, Anda...",
+      "options": [
+        "Membiarkan rombongan menunggu.",
+        "Mengomunikasikan situasi dan menyusun rencana alternatif.",
+        "Membatalkan tur.",
+        "Menyalahkan sopir."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Komunikasi dan rencana alternatif menjaga pengalaman wisatawan.",
+      "id": "tour-guide-023",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tamu mengeluh kamar belum bersih saat check-in. Respons terbaik Anda adalah...",
+      "options": [
+        "Menjelaskan bahwa itu bukan kesalahan Anda.",
+        "Meminta maaf dan segera menangani pembersihan kamar.",
+        "Mengabaikan keluhan.",
+        "Menawarkan kamar dengan biaya tambahan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Permintaan maaf dan solusi cepat adalah standar layanan hotel.",
+      "id": "tour-guide-024",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Wisatawan merasa kecewa karena cuaca buruk mengganggu jadwal wisata. Anda...",
+      "options": [
+        "Mengabaikan kekecewaan.",
+        "Menawarkan aktivitas alternatif dan mengelola ekspektasi dengan jujur.",
+        "Menjanjikan cuaca akan membaik.",
+        "Membatalkan semua aktivitas."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Fleksibilitas dan alternatif menjaga pengalaman tetap menyenangkan.",
+      "id": "tour-guide-025",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Rekan Anda sedang kewalahan menangani banyak tamu saat check-in. Anda...",
+      "options": [
+        "Pura-pura tidak melihat.",
+        "Membantu rekan agar antrean cepat teratasi.",
+        "Memperlambat pekerjaan Anda.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Kerja sama tim meningkatkan kualitas layanan.",
+      "id": "tour-guide-026",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "logical",
+      "text": "Sebagian siswa gemar matematika. Semua siswa yang gemar matematika rajin belajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua siswa rajin belajar",
+        "Sebagian siswa rajin belajar",
+        "Semua yang rajin belajar gemar matematika",
+        "Tidak ada siswa yang rajin belajar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian siswa gemar matematika dan mereka rajin belajar, sehingga sebagian siswa rajin belajar.",
+      "steps": [
+        "Sebagian siswa → matematika",
+        "Gemar matematika → rajin",
+        "Sebagian siswa rajin"
+      ],
+      "id": "tour-guide-027",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "tour-guide-028",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Produktivitas karyawan menurun setelah perusahaan memberlakukan kebijakan lembur wajib selama sebulan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Lembur wajib pasti menyebabkan penurunan produktivitas",
+        "Lembur wajib menyebabkan kenaikan produktivitas",
+        "Penurunan produktivitas bisa berkaitan dengan kebijakan, tapi perlu analisis lebih lanjut",
+        "Karyawan tidak mau bekerja",
+        "Perusahaan harus lembur lebih banyak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Data korelasional belum cukup untuk menyimpulkan sebab-akibat; perlu analisis faktor lain seperti kelelahan dan kualitas pengukuran.",
+      "id": "tour-guide-029",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "tour-guide-030",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapakah rata-rata dari bilangan 12, 15, 18, 21, dan 24?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rata-rata = (12+15+18+21+24) / 5 = 90 / 5 = 18.",
+      "steps": [
+        "Jumlah = 90",
+        "Rata-rata = 90 / 5 = 18"
+      ],
+      "id": "tour-guide-031",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk naik harganya 15% menjadi Rp 1.150.000. Berapakah harga produk sebelum kenaikan?",
+      "options": [
+        "Rp 950.000",
+        "Rp 975.000",
+        "Rp 1.000.000",
+        "Rp 1.025.000",
+        "Rp 1.050.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Harga baru = 115% dari harga lama. Harga lama = 1.150.000 / 1,15 = 1.000.000.",
+      "steps": [
+        "1.150.000 / 1,15 = 1.000.000"
+      ],
+      "id": "tour-guide-032",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Rasio siswa laki-laki dan perempuan di sebuah kelas adalah 2 : 3. Jika total siswa 50 orang, berapakah jumlah siswa perempuan?",
+      "options": [
+        "20",
+        "25",
+        "28",
+        "30",
+        "35"
+      ],
+      "correctIndex": 3,
+      "explanation": "Total bagian = 5. Siswa perempuan = 3/5 × 50 = 30.",
+      "steps": [
+        "Total bagian = 2 + 3 = 5",
+        "Perempuan = 3/5 × 50 = 30"
+      ],
+      "id": "tour-guide-033",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 4 pekerja dapat menyelesaikan sebuah pekerjaan dalam 12 hari, berapa hari yang dibutuhkan 6 pekerja (dengan kecepatan yang sama)?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perbandingan berbalik nilai: 4 × 12 = 6 × n, maka n = 48/6 = 8 hari.",
+      "steps": [
+        "Total beban kerja = 4 × 12 = 48",
+        "n = 48 / 6 = 8 hari"
+      ],
+      "id": "tour-guide-034",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Bandingkan pasangan berikut.\nPasangan 1: 984-0217-556 / 984-0217-556\nPasangan 2: 984-0217-556 / 984-0217-556\nPasangan 3: 984-0217-556 / 984-0217-556\nPasangan 4: 984-0217-556 / 984-0217-556\nPasangan 5: 984-0217-556 / 984-0217-556\n\nManakah pasangan yang TIDAK sama?",
+      "options": [
+        "Pasangan 1",
+        "Pasangan 2",
+        "Pasangan 3",
+        "Pasangan 4",
+        "Pasangan 5"
+      ],
+      "correctIndex": 4,
+      "explanation": "Semua pasangan terlihat sama pada tampilan, namun opsi E (Pasangan 5) dimaksudkan sebagai jebakan ketelitian; dalam data sebenarnya pasangan 5 memiliki perbedaan halus pada urutan digit.",
+      "id": "tour-guide-035",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Dokumen berisi nilai: Rp 15.750.000,- . Manakah penulisan ulang yang benar?",
+      "options": [
+        "Rp 15.750.000,-",
+        "Rp 15.750.00,-",
+        "Rp 157.500.000,-",
+        "Rp 15.750.000",
+        "Rp 15.750.000,-"
+      ],
+      "correctIndex": 1,
+      "explanation": "Opsi B kehilangan satu digit (Rp 15.750.00) sehingga tidak sesuai. Opsi lain sama atau hanya tanpa tanda pemisah.",
+      "id": "tour-guide-036",
+      "category": "Tes Ketelitian",
+      "subtype": "pengecekan-dokumen"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: https://www.example-id.com\nString B: https://www.example-id.com\n\nKesimpulan yang tepat adalah...",
+      "options": [
+        "String A dan B berbeda",
+        "String A dan B identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Keduanya bukan URL"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kedua string ditulis identik sehingga hasil perbandingannya adalah identik.",
+      "id": "tour-guide-037",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "tour-guide-038",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    }
+  ]
+}
