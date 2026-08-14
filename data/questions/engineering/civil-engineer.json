@@ -1,0 +1,1696 @@
+{
+  "metadata": {
+    "id": "civil-engineer",
+    "fieldId": "engineering",
+    "positionId": "civil-engineer",
+    "fieldName": "Teknik (Engineering)",
+    "positionName": "Civil Engineer",
+    "title": "Civil Engineer - Simulasi Psikotes Kerja",
+    "description": "Merancang dan mengawasi konstruksi infrastruktur.",
+    "duration": 2400,
+    "difficulty": "professional",
+    "maxScore": 100,
+    "totalQuestions": 50,
+    "categoryWeights": [
+      {
+        "name": "Tes Numerik",
+        "weight": 24
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 18
+      },
+      {
+        "name": "Tes Abstrak",
+        "weight": 10
+      },
+      {
+        "name": "Tes Analisis Data",
+        "weight": 12
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 10
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 14
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 12
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "numeric",
+      "text": "Jika x / 4 = 9, berapakah nilai dari 3x?",
+      "options": [
+        "96",
+        "98",
+        "102",
+        "108",
+        "112"
+      ],
+      "correctIndex": 3,
+      "explanation": "x = 36, maka 3x = 108.",
+      "steps": [
+        "x / 4 = 9 → x = 36",
+        "3 × 36 = 108"
+      ],
+      "id": "civil-engineer-001",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 5, 11, 23, 47, ...",
+      "options": [
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: ×2 + 1. 47 × 2 + 1 = 95.",
+      "steps": [
+        "5×2+1=11",
+        "11×2+1=23",
+        "23×2+1=47",
+        "47×2+1=95"
+      ],
+      "id": "civil-engineer-002",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2/3 × 3/4 adalah...",
+      "options": [
+        "1/2",
+        "2/3",
+        "3/4",
+        "5/7",
+        "1"
+      ],
+      "correctIndex": 0,
+      "explanation": "(2 × 3) / (3 × 4) = 6/12 = 1/2.",
+      "steps": [
+        "2/3 × 3/4 = 6/12",
+        "6/12 disederhanakan menjadi 1/2"
+      ],
+      "id": "civil-engineer-003",
+      "category": "Tes Numerik",
+      "subtype": "pecahan"
+    },
+    {
+      "type": "numeric",
+      "text": "Hasil dari 2,5 × 0,4 adalah...",
+      "options": [
+        "0,8",
+        "1",
+        "1,2",
+        "1,5",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "2,5 × 0,4 = 1,0.",
+      "steps": [
+        "Kalikan: 25 × 4 = 100",
+        "Ada 2 angka desimal, jadi 1,00 = 1"
+      ],
+      "id": "civil-engineer-004",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Jika 4 pekerja dapat menyelesaikan sebuah pekerjaan dalam 12 hari, berapa hari yang dibutuhkan 6 pekerja (dengan kecepatan yang sama)?",
+      "options": [
+        "6 hari",
+        "7 hari",
+        "8 hari",
+        "9 hari",
+        "10 hari"
+      ],
+      "correctIndex": 2,
+      "explanation": "Perbandingan berbalik nilai: 4 × 12 = 6 × n, maka n = 48/6 = 8 hari.",
+      "steps": [
+        "Total beban kerja = 4 × 12 = 48",
+        "n = 48 / 6 = 8 hari"
+      ],
+      "id": "civil-engineer-005",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Perbandingan umur A dan B adalah 3 : 5. Jika jumlah umur mereka 40 tahun, berapakah umur A?",
+      "options": [
+        "12",
+        "15",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total bagian = 3 + 5 = 8. Umur A = 3/8 × 40 = 15 tahun.",
+      "steps": [
+        "Total bagian = 8",
+        "Umur A = 3/8 × 40 = 15"
+      ],
+      "id": "civil-engineer-006",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah produk dibeli seharga Rp 500.000 dan dijual seharga Rp 600.000. Berapa persen keuntungan yang diperoleh?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Keuntungan = 600.000 - 500.000 = 100.000. Persentase = 100.000 / 500.000 × 100% = 20%.",
+      "steps": [
+        "Keuntungan = Rp 100.000",
+        "100.000 / 500.000 = 0,2",
+        "0,2 × 100% = 20%"
+      ],
+      "id": "civil-engineer-007",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "civil-engineer-008",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 2, 6, 12, 20, 30, ...",
+      "options": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih antar suku bertambah 2 setiap langkah: +4, +6, +8, +10, maka suku berikutnya +12 → 42.",
+      "steps": [
+        "Selisih: 4, 6, 8, 10",
+        "Selisih berikutnya 12",
+        "30 + 12 = 42"
+      ],
+      "id": "civil-engineer-009",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan pola bilangan segitiga berikut: 1, 3, 6, 10, 15, ...",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24",
+        "25"
+      ],
+      "correctIndex": 2,
+      "explanation": "Selisih bertambah 1: +2, +3, +4, +5, maka berikutnya +6 → 21.",
+      "steps": [
+        "Selisih: 2, 3, 4, 5",
+        "Berikutnya +6",
+        "15 + 6 = 21"
+      ],
+      "id": "civil-engineer-010",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    },
+    {
+      "type": "numeric",
+      "text": "Gaji Andi Rp 5.000.000 per bulan. Jika gajinya naik 10%, berapakah gaji barunya?",
+      "options": [
+        "Rp 5.100.000",
+        "Rp 5.250.000",
+        "Rp 5.500.000",
+        "Rp 5.750.000",
+        "Rp 6.000.000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kenaikan = 10% × 5.000.000 = 500.000. Gaji baru = 5.000.000 + 500.000 = 5.500.000.",
+      "steps": [
+        "Kenaikan = 0,1 × 5.000.000 = 500.000",
+        "Gaji baru = 5.500.000"
+      ],
+      "id": "civil-engineer-011",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "civil-engineer-012",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "logical",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "civil-engineer-013",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Dua orang anggota tim berselisih pendapat mengenai pendekatan penyelesaian proyek. Tindakan manajer yang paling tepat adalah...",
+      "options": [
+        "Memihak salah satu anggota",
+        "Mendengarkan keduanya secara objektif lalu memutuskan bersama",
+        "Mengabaikan konflik",
+        "Memecat salah satu anggota",
+        "Menunda proyek selamanya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manajer yang baik mendengar semua pihak secara objektif dan melibatkan tim dalam pengambilan keputusan.",
+      "id": "civil-engineer-014",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Semua karyawan di perusahaan X rajin bekerja. Budi adalah karyawan di perusahaan X. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi tidak rajin bekerja",
+        "Budi rajin bekerja",
+        "Budi adalah manajer",
+        "Sebagian karyawan rajin bekerja",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua karyawan rajin bekerja dan Budi adalah karyawan, maka Budi pasti rajin bekerja.",
+      "steps": [
+        "Premis 1: semua karyawan rajin",
+        "Premis 2: Budi karyawan",
+        "Kesimpulan: Budi rajin"
+      ],
+      "id": "civil-engineer-015",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jumlah kecelakaan lalu lintas menurun setelah perbaikan penerangan jalan di kawasan tersebut. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Penerangan pasti satu-satunya penyebab penurunan",
+        "Perbaikan penerangan berkontribusi pada penurunan kecelakaan",
+        "Kecelakaan meningkat",
+        "Penerangan tidak berpengaruh",
+        "Pengemudi menjadi lebih buruk"
+      ],
+      "correctIndex": 1,
+      "explanation": "Perbaikan penerangan adalah salah satu faktor yang wajar berkontribusi, meski perlu data tambahan untuk memastikan.",
+      "id": "civil-engineer-016",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Semua buah mengandung vitamin. Apel adalah buah. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Apel tidak mengandung vitamin",
+        "Apel mengandung vitamin",
+        "Semua yang mengandung vitamin adalah apel",
+        "Sebagian apel tidak mengandung vitamin",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua buah mengandung vitamin dan apel adalah buah, maka apel mengandung vitamin.",
+      "steps": [
+        "Semua buah → vitamin",
+        "Apel → buah",
+        "Apel → vitamin"
+      ],
+      "id": "civil-engineer-017",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Tidak ada kucing yang bisa terbang. Semua burung bisa terbang. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua kucing adalah burung",
+        "Kucing bisa terbang",
+        "Kucing bukan burung",
+        "Burung tidak bisa terbang",
+        "Sebagian kucing bisa terbang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karena kucing tidak bisa terbang sedangkan semua burung bisa terbang, maka tidak ada kucing yang merupakan burung.",
+      "steps": [
+        "Kucing: tidak terbang",
+        "Burung: terbang",
+        "Maka kucing bukan burung"
+      ],
+      "id": "civil-engineer-018",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Setelah perusahaan melakukan rekrutmen massal, kualitas rata-rata karyawan baru dinilai lebih rendah dalam evaluasi tahunan. Pernyataan yang paling tepat adalah...",
+      "options": [
+        "Rekrutmen massal pasti menurunkan kualitas",
+        "Semua karyawan baru berkualitas rendah",
+        "Perlu evaluasi proses seleksi untuk memastikan penyebabnya",
+        "Rekrutmen massal meningkatkan kualitas",
+        "Karyawan lama lebih buruk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubungan ini perlu diselidiki melalui evaluasi proses seleksi, bukan langsung menyimpulkan sebab-akibat.",
+      "id": "civil-engineer-019",
+      "category": "Tes Logika",
+      "subtype": "sebab-akibat"
+    },
+    {
+      "type": "logical",
+      "text": "Jika P maka Q. Diketahui P benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P tidak benar",
+        "P dan Q salah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modus ponens: P benar dan P → Q, maka Q benar.",
+      "steps": [
+        "P → Q",
+        "P",
+        "Maka Q"
+      ],
+      "id": "civil-engineer-020",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "civil-engineer-021",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "civil-engineer-022",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setengah lingkaran berputar: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 150,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 150,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 360,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "civil-engineer-023",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran terus membesar dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 36,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 52,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 80,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 52,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 36,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "civil-engineer-024",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Urutan bentuk mengikuti siklus: lingkaran → belah ketupat → segitiga → persegi.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 60,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -38,
+              38,
+              0,
+              0,
+              38,
+              -38,
+              0
+            ],
+            "fill": "#f59e0b",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -38,
+                38,
+                0,
+                0,
+                38,
+                -38,
+                0
+              ],
+              "fill": "#f59e0b",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#8b5cf6",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "civil-engineer-025",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "civil-engineer-026",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "civil-engineer-027",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "civil-engineer-028",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-diagram"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "civil-engineer-029",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-tabel"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "civil-engineer-030",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "civil-engineer-031",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "data-analysis",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "civil-engineer-032",
+      "category": "Tes Analisis Data",
+      "subtype": "interpretasi-grafik"
+    },
+    {
+      "type": "verbal",
+      "text": "Penulis : Novel = Komposer : ...",
+      "options": [
+        "Film",
+        "Lukisan",
+        "Lagu",
+        "Puisi",
+        "Teater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penulis menciptakan novel, komposer menciptakan lagu.",
+      "id": "civil-engineer-033",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "civil-engineer-034",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Air : Es = Uap : ...",
+      "options": [
+        "Hujan",
+        "Cair",
+        "Air",
+        "Api",
+        "Embun"
+      ],
+      "correctIndex": 2,
+      "explanation": "Air yang didinginkan menjadi es; uap yang didinginkan kembali menjadi air.",
+      "id": "civil-engineer-035",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "civil-engineer-036",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "civil-engineer-037",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "sjt",
+      "text": "Klien meminta percepatan jadwal yang berisiko pada mutu pekerjaan. Anda...",
+      "options": [
+        "Menyetujui tanpa analisis.",
+        "Menjelaskan risiko dan menegosiasikan jadwal yang aman.",
+        "Menolak semua permintaan klien.",
+        "Mempercepat tanpa kontrol mutu."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Jadwal dan mutu harus seimbang; komunikasikan risikonya.",
+      "id": "civil-engineer-038",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda ditugaskan mengevaluasi proyek yang kemungkinan besar melebihi anggaran. Anda...",
+      "options": [
+        "Menyembunyikan pembengkakan agar terlihat baik.",
+        "Melaporkan proyeksi biaya secara jujur dan mengusulkan langkah mitigasi.",
+        "Menghentikan proyek tanpa informasi.",
+        "Mengalihkan biaya ke proyek lain."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pelaporan jujur dan mitigasi adalah tanggung jawab profesional.",
+      "id": "civil-engineer-039",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Peralatan di lapangan menunjukkan pembacaan yang tidak normal. Tindakan pertama Anda adalah...",
+      "options": [
+        "Mengabaikan pembacaan.",
+        "Menghentikan operasi dan memverifikasi pembacaan.",
+        "Menyetel ulang peralatan tanpa verifikasi.",
+        "Menunggu peralatan rusak."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Verifikasi pembacaan yang tidak normal adalah langkah keselamatan standar.",
+      "id": "civil-engineer-040",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tim Anda berbeda pendapat tentang metode teknis terbaik. Sebagai engineer, Anda akan...",
+      "options": [
+        "Memutuskan sendiri sesuai preferensi.",
+        "Membandingkan metode berdasarkan data dan membahas bersama tim.",
+        "Mengambil keputusan berdasarkan senioritas.",
+        "Menunda keputusan tanpa batas."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keputusan teknis terbaik didasarkan pada analisis data dan diskusi tim.",
+      "id": "civil-engineer-041",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa rekan memotong proses pemeriksaan kualitas untuk mengejar deadline. Apa yang Anda lakukan?",
+      "options": [
+        "Ikut memotong proses.",
+        "Mengingatkan rekan tentang risiko dan konsekuensi.",
+        "Melaporkan langsung tanpa komunikasi.",
+        "Mengabaikan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Mengingatkan rekan secara pribadi adalah langkah pertama yang profesional.",
+      "id": "civil-engineer-042",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan potensi bahaya pada desain proyek yang sudah disetujui. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena sudah disetujui.",
+        "Melaporkan temuan dan mengusulkan perbaikan desain.",
+        "Menyembunyikan temuan agar proyek berjalan.",
+        "Langsung mengubah desain tanpa komunikasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Keselamatan dan kepatuhan teknis harus diutamakan meskipun desain sudah disetujui.",
+      "id": "civil-engineer-043",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung berpikir secara praktis tanpa memikirkan kemungkinan lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-044",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-045",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering memikirkan ide-ide yang tidak biasa dan inovatif.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-046",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah memulai percakapan dengan orang yang baru dikenal.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-047",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering menunda pekerjaan hingga mendekati tenggat waktu.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-048",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-049",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih fokus pada kepentingan saya sendiri daripada orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "civil-engineer-050",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    }
+  ]
+}
