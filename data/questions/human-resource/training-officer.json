@@ -1,0 +1,861 @@
+{
+  "metadata": {
+    "id": "training-officer",
+    "fieldId": "human-resource",
+    "positionId": "training-officer",
+    "fieldName": "Human Resource",
+    "positionName": "Training & Development Officer",
+    "title": "Training & Development Officer - Simulasi Psikotes Kerja",
+    "description": "Merancang dan mengelola program pelatihan karyawan.",
+    "duration": 2100,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 42,
+    "categoryWeights": [
+      {
+        "name": "Tes Kepribadian",
+        "weight": 26
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 24
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 18
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 12
+      },
+      {
+        "name": "Tes Ketelitian",
+        "weight": 8
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 12
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-001",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya jarang merasa sedih atau putus asa.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-002",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya bersemangat menghadiri acara perusahaan dan kegiatan sosial.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-003",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya selalu memeriksa ulang hasil pekerjaan sebelum menyerahkannya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-004",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa percaya diri ketika menghadapi tantangan baru.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-005",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya sering merasa khawatir berlebihan terhadap hal yang belum terjadi.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-006",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-007",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung bersikap keras kepala dalam berdebat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-008",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya merasa berenergi saat berinteraksi dengan banyak orang.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Extraversion",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-009",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah kehilangan ketenangan saat menghadapi tekanan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-010",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menyusun daftar prioritas sebelum memulai pekerjaan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Conscientiousness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-011",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menghargai pendapat orang lain meskipun berbeda dengan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-012",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa tersinggung oleh komentar orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "training-officer-013",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang manajer melaporkan bawahannya sering absen tanpa keterangan. Sebelum mengambil tindakan, Anda akan...",
+      "options": [
+        "Langsung mengeluarkan surat peringatan.",
+        "Memanggil karyawan untuk klarifikasi dan memeriksa catatan kehadiran.",
+        "Memecat karyawan tersebut.",
+        "Mengabaikan laporan manajer."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Proses disiplin yang adil dimulai dengan klarifikasi dan pemeriksaan data.",
+      "id": "training-officer-014",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Perusahaan ingin menaikkan target produksi. Sebagai HR, Anda melihat risiko kelelahan karyawan. Apa yang Anda lakukan?",
+      "options": [
+        "Menyetujui tanpa analisis.",
+        "Menyampaikan analisis beban kerja dan mengusulkan penyesuaian sumber daya.",
+        "Menolak target baru.",
+        "Mengabaikan karena bukan tanggung jawab HR."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "HR berperan menjaga keseimbangan beban kerja dan produktivitas.",
+      "id": "training-officer-015",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Karyawan baru Anda terlihat kesulitan beradaptasi dan performanya menurun pada bulan pertama. Tindakan terbaik adalah...",
+      "options": [
+        "Segera menghentikan masa percobaannya.",
+        "Mengadakan sesi coaching dan menyusun rencana pengembangan.",
+        "Mengabaikan dan menunggu evaluasi akhir.",
+        "Memberikan peringatan tertulis."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Program onboarding dan coaching membantu karyawan baru beradaptasi.",
+      "id": "training-officer-016",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang karyawan berprestasi meminta kenaikan gaji di luar periode peninjauan. Apa respons terbaik Anda sebagai HR?",
+      "options": [
+        "Menolak karena aturan tidak mengizinkan.",
+        "Mendengarkan alasannya dan meninjau ulang kebijakan serta data kinerja.",
+        "Menyetujui langsung agar karyawan tidak keluar.",
+        "Mengabaikan permintaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "HR yang baik menilai permintaan secara objektif berdasarkan data dan kebijakan.",
+      "id": "training-officer-017",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa rekrutmen terakhir tidak mematuhi prosedur keberagaman. Apa tindakan terbaik?",
+      "options": [
+        "Mengabaikan karena proses sudah selesai.",
+        "Mengevaluasi proses dan memperbaiki standar rekrutmen ke depan.",
+        "Membatalkan seluruh hasil rekrutmen.",
+        "Menyalahkan tim perekrut."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Perbaikan proses berbasis evaluasi lebih efektif daripada menyalahkan.",
+      "id": "training-officer-018",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Departemen lain meminta data gaji karyawan untuk kepentingan pribadi atasan mereka. Sebagai HR, Anda...",
+      "options": [
+        "Memberikan data karena permintaan atasan.",
+        "Menolak karena melanggar kerahasiaan data karyawan dan mengarahkan pada prosedur resmi.",
+        "Memberikan sebagian data.",
+        "Mengunggah data ke grup bersama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Data gaji bersifat rahasia dan hanya boleh diakses melalui prosedur yang sah.",
+      "id": "training-officer-019",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anda menemukan bahwa seorang kandidat terbaik berbohong pada pengalaman kerjanya di CV. Apa yang Anda lakukan?",
+      "options": [
+        "Mengabaikan karena kemampuannya bagus.",
+        "Menggugurkan kandidat dan menjelaskan alasannya.",
+        "Tetap menerima dengan catatan.",
+        "Menutup-nutupi agar proses seleksi cepat selesai."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Integritas adalah nilai inti; kebohongan pada CV menggugurkan kandidat.",
+      "id": "training-officer-020",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Dua karyawan berselisih dan saling menuduh dalam satu tim. Anda diminta menengahi. Langkah pertama terbaik adalah...",
+      "options": [
+        "Memanggil keduanya secara terpisah untuk mendengar setiap sisi.",
+        "Memihak pihak yang lebih senior.",
+        "Menghindari keterlibatan karena bukan masalah Anda.",
+        "Langsung memberikan sanksi kepada keduanya."
+      ],
+      "correctIndex": 0,
+      "sjtScores": [
+        1,
+        0.17,
+        0.33,
+        0.5
+      ],
+      "explanation": "Mediasi dimulai dengan mendengarkan semua pihak secara objektif.",
+      "id": "training-officer-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"komprehensif\" adalah...",
+      "options": [
+        "Sebagian",
+        "Menyeluruh",
+        "Sepintas",
+        "Dangkal",
+        "Sebentar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Komprehensif berarti meliputi seluruh aspek atau menyeluruh.",
+      "id": "training-officer-022",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"konstruktif\" adalah...",
+      "options": [
+        "Membangun",
+        "Positif",
+        "Destruktif",
+        "Produktif",
+        "Bermanfaat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Konstruktif berarti membangun. Lawannya adalah \"destruktif\" yang berarti merusak.",
+      "id": "training-officer-023",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "training-officer-024",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "training-officer-025",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Bacalah paragraf berikut. \"Otomasi mengubah lanskap pekerjaan di sektor manufaktur. Meskipun beberapa pekerjaan rutin berkurang, muncul kebutuhan baru akan tenaga terampil untuk mengoperasikan dan merawat mesin otomatis. Perusahaan yang berinvestasi pada pelatihan ulang karyawan cenderung bertahan lebih baik.\" Gagasan utama paragraf tersebut adalah...",
+      "options": [
+        "Otomasi menghilangkan seluruh pekerjaan di manufaktur",
+        "Otomasi mengubah kebutuhan tenaga kerja dan menuntut pelatihan ulang",
+        "Mesin otomatis lebih murah daripada tenaga manusia",
+        "Perusahaan manufaktur harus berhenti beroperasi",
+        "Tenaga terampil tidak dibutuhkan lagi di era otomasi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paragraf menekankan pergeseran kebutuhan keterampilan akibat otomasi dan pentingnya pelatihan ulang.",
+      "id": "training-officer-026",
+      "category": "Tes Verbal",
+      "subtype": "pemahaman"
+    },
+    {
+      "type": "verbal",
+      "text": "Pengacara : Pengadilan = Perawat : ...",
+      "options": [
+        "Sekolah",
+        "Rumah Sakit",
+        "Kantor Polisi",
+        "Pasar",
+        "Hotel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pengacara bekerja di pengadilan, perawat bekerja di rumah sakit.",
+      "id": "training-officer-027",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Matahari : Terang = Hujan : ...",
+      "options": [
+        "Basah",
+        "Panas",
+        "Berawan",
+        "Mendung",
+        "Kering"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matahari menghasilkan terang, hujan menghasilkan basah.",
+      "id": "training-officer-028",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Penulis : Novel = Komposer : ...",
+      "options": [
+        "Film",
+        "Lukisan",
+        "Lagu",
+        "Puisi",
+        "Teater"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penulis menciptakan novel, komposer menciptakan lagu.",
+      "id": "training-officer-029",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "logical",
+      "text": "Semua atlet berlatih keras setiap hari. Sebagian atlet adalah pelajar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua pelajar berlatih keras",
+        "Sebagian pelajar berlatih keras",
+        "Semua atlet adalah pelajar",
+        "Tidak ada pelajar yang atlet",
+        "Pelajar tidak pernah berlatih"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena sebagian atlet adalah pelajar dan semua atlet berlatih keras, maka sebagian pelajar berlatih keras.",
+      "steps": [
+        "Semua atlet berlatih keras",
+        "Sebagian atlet pelajar → sebagian pelajar berlatih keras"
+      ],
+      "id": "training-officer-030",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Dua orang anggota tim berselisih pendapat mengenai pendekatan penyelesaian proyek. Tindakan manajer yang paling tepat adalah...",
+      "options": [
+        "Memihak salah satu anggota",
+        "Mendengarkan keduanya secara objektif lalu memutuskan bersama",
+        "Mengabaikan konflik",
+        "Memecat salah satu anggota",
+        "Menunda proyek selamanya"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manajer yang baik mendengar semua pihak secara objektif dan melibatkan tim dalam pengambilan keputusan.",
+      "id": "training-officer-031",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "training-officer-032",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "training-officer-033",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "P atau Q benar (setidaknya salah satu). Diketahui P tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Q benar",
+        "Q tidak benar",
+        "P benar",
+        "P dan Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disjungsi: jika P atau Q harus benar dan P salah, maka Q harus benar.",
+      "steps": [
+        "P ∨ Q",
+        "¬P",
+        "Maka Q"
+      ],
+      "id": "training-officer-034",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan data asli berikut.\nNomor Surat: 0457/HRD/III/2026\nTanggal: 14-03-2026\nNama: BUDI SANTOSO\n\nManakah salinan data yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/III/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO",
+        "Nomor: 0457/HRD/II/2026 | Tanggal: 14-03-2026 | Nama: BUDI SANTOSO"
+      ],
+      "correctIndex": 4,
+      "explanation": "Salinan E menggunakan \"II\" pada bagian bulan surat, sedangkan data asli menggunakan \"III\". Data lainnya identik.",
+      "id": "training-officer-035",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Kode produk: KRM-4500-GREY-XXL. Manakah yang TIDAK sesuai dengan data asli?",
+      "options": [
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GREY-XXL",
+        "KRM-4500-GRAY-XXL"
+      ],
+      "correctIndex": 4,
+      "explanation": "Opsi E menulis \"GRAY\" sedangkan data asli \"GREY\". Opsi lainnya identik.",
+      "id": "training-officer-036",
+      "category": "Tes Ketelitian",
+      "subtype": "pencocokan-data"
+    },
+    {
+      "type": "accuracy",
+      "text": "Perhatikan dua string berikut.\nString A: alphanumeric-hub-2026\nString B: alphanumeric-hub-2026\n\nHasil perbandingan yang tepat adalah...",
+      "options": [
+        "Kedua string berbeda",
+        "Kedua string identik",
+        "String A lebih panjang",
+        "String B lebih panjang",
+        "Hanya huruf yang sama"
+      ],
+      "correctIndex": 1,
+      "explanation": "String A dan B ditulis sama persis, sehingga keduanya identik.",
+      "id": "training-officer-037",
+      "category": "Tes Ketelitian",
+      "subtype": "identifikasi-perbedaan"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapakah rata-rata dari bilangan 12, 15, 18, 21, dan 24?",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rata-rata = (12+15+18+21+24) / 5 = 90 / 5 = 18.",
+      "steps": [
+        "Jumlah = 90",
+        "Rata-rata = 90 / 5 = 18"
+      ],
+      "id": "training-officer-038",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Pada peta dengan skala 1 : 100.000, jarak dua kota adalah 5 cm. Berapakah jarak sebenarnya?",
+      "options": [
+        "2 km",
+        "5 km",
+        "7 km",
+        "10 km",
+        "15 km"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jarak sebenarnya = 5 × 100.000 cm = 500.000 cm = 5 km.",
+      "steps": [
+        "5 × 100.000 = 500.000 cm",
+        "500.000 cm = 5 km"
+      ],
+      "id": "training-officer-039",
+      "category": "Tes Numerik",
+      "subtype": "perbandingan"
+    },
+    {
+      "type": "numeric",
+      "text": "Harga sebuah barang setelah mendapat diskon 20% adalah Rp 200.000. Berapakah harga awal barang tersebut?",
+      "options": [
+        "Rp 220.000",
+        "Rp 230.000",
+        "Rp 240.000",
+        "Rp 250.000",
+        "Rp 260.000"
+      ],
+      "correctIndex": 3,
+      "explanation": "Harga setelah diskon 20% berarti 80% dari harga awal. Harga awal = 200.000 / 0,8 = 250.000.",
+      "steps": [
+        "Harga akhir = 80% × harga awal",
+        "Harga awal = 200.000 / 0,8 = 250.000"
+      ],
+      "id": "training-officer-040",
+      "category": "Tes Numerik",
+      "subtype": "persentase"
+    },
+    {
+      "type": "numeric",
+      "text": "Sebuah mobil menempuh jarak 240 km dalam waktu 3 jam. Berapakah kecepatan rata-ratanya?",
+      "options": [
+        "70 km/jam",
+        "75 km/jam",
+        "80 km/jam",
+        "85 km/jam",
+        "90 km/jam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecepatan = jarak / waktu = 240 / 3 = 80 km/jam.",
+      "steps": [
+        "Kecepatan = 240 / 3",
+        "= 80 km/jam"
+      ],
+      "id": "training-officer-041",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    },
+    {
+      "type": "numeric",
+      "text": "Perhatikan pola berikut: 4, 9, 19, 39, ... Bilangan berikutnya adalah...",
+      "options": [
+        "59",
+        "69",
+        "79",
+        "89",
+        "99"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pola: ×2 + 1. 39 × 2 + 1 = 79.",
+      "steps": [
+        "4×2+1=9",
+        "9×2+1=19",
+        "19×2+1=39",
+        "39×2+1=79"
+      ],
+      "id": "training-officer-042",
+      "category": "Tes Numerik",
+      "subtype": "pola"
+    }
+  ]
+}
