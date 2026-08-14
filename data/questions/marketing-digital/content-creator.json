@@ -1,0 +1,1846 @@
+{
+  "metadata": {
+    "id": "content-creator",
+    "fieldId": "marketing-digital",
+    "positionId": "content-creator",
+    "fieldName": "Pemasaran & Digital",
+    "positionName": "Content Creator",
+    "title": "Content Creator - Simulasi Psikotes Kerja",
+    "description": "Memproduksi konten visual dan tulisan yang menarik.",
+    "duration": 1800,
+    "difficulty": "easy",
+    "maxScore": 100,
+    "totalQuestions": 36,
+    "categoryWeights": [
+      {
+        "name": "Tes Visual",
+        "weight": 18
+      },
+      {
+        "name": "Tes Verbal",
+        "weight": 20
+      },
+      {
+        "name": "Tes Kepribadian",
+        "weight": 20
+      },
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 16
+      },
+      {
+        "name": "Tes Abstrak",
+        "weight": 10
+      },
+      {
+        "name": "Tes Logika",
+        "weight": 10
+      },
+      {
+        "name": "Tes Numerik",
+        "weight": 6
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan hasil rotasi 270° searah jarum jam dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rotasi 270° searah jarum jam mengubah setengah lingkaran terbuka ke atas menjadi terbuka ke kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 100,
+            "y": 100,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-001",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola pada gambar. Manakah yang melengkapi kotak yang kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: bentuk berganti per baris (lingkaran → persegi) dan isian berganti per kolom (penuh → garis luar). Kotak kosong = persegi garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "rect",
+            "x": 50,
+            "y": 150,
+            "width": 64,
+            "height": 64,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-002",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan cermin (refleksi vertikal) dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Refleksi vertikal mengubah segitiga yang menghadap kanan menjadi menghadap kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-003",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola ukuran pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran membesar secara berurutan dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 44,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 60,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 76,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 76,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 88,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 44,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-004",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola pergerakan titik pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titik bergerak searah jarum jam: atas → kanan → bawah → kiri. Kotak kosong = titik di kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 16,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 184,
+            "y": 50,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 184,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 66,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 134,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 134,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 66,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-005",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "visual",
+      "text": "Perhatikan pola jumlah sudut pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jumlah sudut bintang bertambah satu setiap langkah: 3, 4, 5, maka berikutnya 6 sudut.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "star",
+            "x": 50,
+            "y": 50,
+            "pointsCount": 3,
+            "size": 76,
+            "innerRadius": 16,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 150,
+            "y": 50,
+            "pointsCount": 4,
+            "size": 80,
+            "innerRadius": 17,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 50,
+            "y": 150,
+            "pointsCount": 5,
+            "size": 84,
+            "innerRadius": 18,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 5,
+              "size": 84,
+              "innerRadius": 18,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 6,
+              "size": 88,
+              "innerRadius": 19,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 4,
+              "size": 80,
+              "innerRadius": 17,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 3,
+              "size": 76,
+              "innerRadius": 16,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-006",
+      "category": "Tes Visual",
+      "subtype": "visual-reasoning"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"gigih\" adalah...",
+      "options": [
+        "Tekun",
+        "Lemah",
+        "Ragu",
+        "Malas",
+        "Cepat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gigih berarti tekun dan tidak mudah menyerah. Tekun adalah sinonim yang paling tepat.",
+      "id": "content-creator-007",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"eksplisit\" adalah...",
+      "options": [
+        "Jelas",
+        "Tegas",
+        "Implisit",
+        "Terbuka",
+        "Gamblang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eksplisit berarti jelas dan terang-terangan. Lawannya adalah \"implisit\" yang berarti tersirat.",
+      "id": "content-creator-008",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "content-creator-009",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "content-creator-010",
+      "category": "Tes Verbal",
+      "subtype": "logika-bahasa"
+    },
+    {
+      "type": "verbal",
+      "text": "Sinonim yang tepat dari kata \"transparan\" dalam konteks perusahaan adalah...",
+      "options": [
+        "Tertutup",
+        "Terbuka",
+        "Rumit",
+        "Terbatas",
+        "Serius"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dalam konteks perusahaan, transparan berarti terbuka dan jujur dalam menyampaikan informasi.",
+      "id": "content-creator-011",
+      "category": "Tes Verbal",
+      "subtype": "sinonim"
+    },
+    {
+      "type": "verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "content-creator-012",
+      "category": "Tes Verbal",
+      "subtype": "analogi"
+    },
+    {
+      "type": "verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "content-creator-013",
+      "category": "Tes Verbal",
+      "subtype": "antonim"
+    },
+    {
+      "type": "personality",
+      "text": "Kritik dari atasan membuat saya merasa sangat tertekan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-014",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya lebih fokus pada kepentingan saya sendiri daripada orang lain.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-015",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah kehilangan ketenangan saat menghadapi tekanan.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-016",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya cenderung bersikap keras kepala dalam berdebat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": true
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-017",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mudah merasa cemas ketika menghadapi tenggat waktu yang ketat.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Neuroticism",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-018",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya mempercayai niat baik orang lain sampai terbukti sebaliknya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Agreeableness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-019",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "personality",
+      "text": "Saya menikmati mempelajari hal-hal baru di luar bidang pekerjaan saya.",
+      "options": [
+        "Sangat Tidak Setuju",
+        "Tidak Setuju",
+        "Netral",
+        "Setuju",
+        "Sangat Setuju"
+      ],
+      "correctIndex": -1,
+      "useLikert": true,
+      "likert": {
+        "dimension": "Openness",
+        "reverse": false
+      },
+      "explanation": "Pernyataan ini tidak memiliki jawaban benar atau salah. Jawaban Anda digunakan untuk membentuk profil kepribadian.",
+      "id": "content-creator-020",
+      "category": "Tes Kepribadian",
+      "subtype": "big-five"
+    },
+    {
+      "type": "sjt",
+      "text": "Anggaran SEO terbatas namun Anda diminta meningkatkan peringkat dengan cepat. Pendekatan terbaik adalah...",
+      "options": [
+        "Membeli tautan berbayar secara massal.",
+        "Fokus pada kata kunci dengan peluang tinggi dan perbaikan teknis dasar.",
+        "Mengabaikan SEO dan fokus iklan berbayar.",
+        "Menyalin konten situs pesaing."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Strategi SEO yang berkelanjutan lebih baik daripada praktik yang melanggar aturan.",
+      "id": "content-creator-021",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Data analitik menunjukkan kampanye terakhir Anda tidak efektif. Apa yang Anda lakukan?",
+      "options": [
+        "Mengulangi kampanye yang sama agar konsisten.",
+        "Menganalisis penyebab dan menguji pendekatan baru.",
+        "Menghentikan semua kampanye.",
+        "Menyalahkan tim kreatif."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Keputusan berbasis data adalah kunci pemasaran digital.",
+      "id": "content-creator-022",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Anggaran iklan Anda terbatas, tetapi target penjualan tinggi. Strategi paling efektif adalah...",
+      "options": [
+        "Menyebar anggaran tipis ke semua kanal.",
+        "Fokus pada kanal dengan konversi tertinggi dan mengoptimalkan konten.",
+        "Menghapus seluruh iklan berbayar.",
+        "Menurunkan harga produk drastis."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.33
+      ],
+      "explanation": "Mengoptimalkan kanal berkinerja terbaik lebih efektif daripada menyebar tipis.",
+      "id": "content-creator-023",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Tim kreatif Anda mengusulkan ide yang berani namun berisiko bagi merek. Sebagai pemimpin pemasaran, Anda...",
+      "options": [
+        "Menolak semua ide berisiko.",
+        "Mengevaluasi risiko dan potensi, lalu membuat keputusan berbasis data.",
+        "Menyetujui tanpa analisis.",
+        "Mengabaikan usulan tim."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Keputusan kreatif sebaiknya mempertimbangkan risiko dan peluang secara seimbang.",
+      "id": "content-creator-024",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Seorang influencer yang diajak kerja sama terlibat kontroversi. Keputusan terbaik Anda adalah...",
+      "options": [
+        "Tetap melanjutkan karena kontrak sudah ditandatangani.",
+        "Mengevaluasi dampak merek dan mempertimbangkan penghentian kerja sama.",
+        "Mengabaikan kontroversi.",
+        "Membuat pernyataan mendukung influencer."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Keselarasan nilai merek dengan influencer harus dievaluasi saat terjadi kontroversi.",
+      "id": "content-creator-025",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "sjt",
+      "text": "Klien meminta Anda menjanjikan hasil yang tidak realistis untuk menutup kesepakatan. Apa yang Anda lakukan?",
+      "options": [
+        "Menjanjikan hasil tersebut agar klien senang.",
+        "Menjelaskan proyeksi yang realistis dan menyusun ekspektasi yang jujur.",
+        "Menyetujui tanpa komitmen.",
+        "Menghindari pembahasan hasil."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Menetapkan ekspektasi yang jujur menjaga hubungan jangka panjang dengan klien.",
+      "id": "content-creator-026",
+      "category": "Tes Situasional (SJT)",
+      "subtype": "situational-judgment"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-027",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warna bergantian biru → merah → biru → merah. Bentuk tetap lingkaran.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f43f5e",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-028",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Urutan bentuk mengikuti siklus: lingkaran → belah ketupat → segitiga → persegi.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 60,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -38,
+              38,
+              0,
+              0,
+              38,
+              -38,
+              0
+            ],
+            "fill": "#f59e0b",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -38,
+                38,
+                0,
+                0,
+                38,
+                -38,
+                0
+              ],
+              "fill": "#f59e0b",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#8b5cf6",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-029",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "abstract",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "content-creator-030",
+      "category": "Tes Abstrak",
+      "subtype": "abstract-reasoning"
+    },
+    {
+      "type": "logical",
+      "text": "Semua P adalah Q. Sebagian R adalah P. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua R adalah Q",
+        "Sebagian R adalah Q",
+        "Semua Q adalah P",
+        "Tidak ada R yang Q",
+        "Semua P adalah R"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sebagian R adalah P, dan semua P adalah Q, sehingga sebagian R adalah Q.",
+      "steps": [
+        "R ∩ P ≠ ∅",
+        "P ⊆ Q",
+        "Maka R ∩ Q ≠ ∅ (sebagian R adalah Q)"
+      ],
+      "id": "content-creator-031",
+      "category": "Tes Logika",
+      "subtype": "diagram-logika"
+    },
+    {
+      "type": "logical",
+      "text": "Jika ujian akan diadakan maka ruangan ujian disiapkan. Ruangan ujian tidak disiapkan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Ujian tetap diadakan",
+        "Ujian tidak diadakan",
+        "Ruangan tetap disiapkan",
+        "Ujian diadakan tanpa ruangan",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: karena konsekuensinya (ruangan disiapkan) tidak terjadi, maka sebabnya (ujian) tidak terjadi.",
+      "steps": [
+        "Ujian → ruangan siap",
+        "Ruangan tidak siap",
+        "Maka ujian tidak diadakan"
+      ],
+      "id": "content-creator-032",
+      "category": "Tes Logika",
+      "subtype": "silogisme"
+    },
+    {
+      "type": "logical",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "content-creator-033",
+      "category": "Tes Logika",
+      "subtype": "logika-formal"
+    },
+    {
+      "type": "logical",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "content-creator-034",
+      "category": "Tes Logika",
+      "subtype": "analisis-kasus"
+    },
+    {
+      "type": "numeric",
+      "text": "Lanjutkan deret bilangan berikut: 3, 6, 12, 24, 48, ...",
+      "options": [
+        "72",
+        "84",
+        "96",
+        "108",
+        "120"
+      ],
+      "correctIndex": 2,
+      "explanation": "Setiap suku dikali 2. 48 × 2 = 96.",
+      "steps": [
+        "Pola: ×2",
+        "48 × 2 = 96"
+      ],
+      "id": "content-creator-035",
+      "category": "Tes Numerik",
+      "subtype": "deret"
+    },
+    {
+      "type": "numeric",
+      "text": "Berapa hasil dari 25% dari 640?",
+      "options": [
+        "120",
+        "140",
+        "160",
+        "180",
+        "200"
+      ],
+      "correctIndex": 2,
+      "explanation": "25% dari 640 = 0,25 × 640 = 160.",
+      "steps": [
+        "25% = 25/100 = 0,25",
+        "0,25 × 640 = 160"
+      ],
+      "id": "content-creator-036",
+      "category": "Tes Numerik",
+      "subtype": "aritmatika"
+    }
+  ]
+}
