@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "id": "cat-logical",
+    "fieldId": "standalone",
+    "positionId": "logical",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Logika",
+    "title": "Tes Logika - Latihan Psikotes",
+    "description": "Latihan silogisme, penalaran, dan logika formal untuk mengasah kemampuan berpikir kritis Anda.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 15,
+    "categoryWeights": [
+      {
+        "name": "Tes Logika",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "logical",
+      "subtype": "logika-formal",
+      "category": "Tes Logika",
+      "text": "Jika seseorang lulus tes TOEFL maka ia diterima sebagai staf internasional. Budi diterima sebagai staf internasional. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi pasti lulus tes TOEFL",
+        "Budi tidak lulus tes TOEFL",
+        "Belum tentu Budi lulus tes TOEFL",
+        "Semua staf internasional lulus TOEFL",
+        "Budi gagal seleksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lulus TOEFL adalah syarat cukup, bukan syarat satu-satunya. Diterimanya Budi tidak membuktikan ia lulus TOEFL.",
+      "steps": [
+        "TOEFL → diterima",
+        "Diterima",
+        "Maka belum tentu TOEFL (fallacy affirming consequent)"
+      ],
+      "id": "cat-logical-000"
+    },
+    {
+      "type": "logical",
+      "subtype": "logika-formal",
+      "category": "Tes Logika",
+      "text": "Jika P maka Q. Diketahui bahwa Q tidak benar. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "P benar",
+        "P tidak benar",
+        "P dan Q benar",
+        "Q benar",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: Jika P → Q dan Q salah, maka P pasti salah.",
+      "steps": [
+        "P → Q",
+        "¬Q",
+        "Maka ¬P (P tidak benar)"
+      ],
+      "id": "cat-logical-001"
+    },
+    {
+      "type": "logical",
+      "subtype": "silogisme",
+      "category": "Tes Logika",
+      "text": "Semua peneliti bersikap teliti. Sebagian orang yang teliti adalah pustakawan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua peneliti adalah pustakawan",
+        "Sebagian orang teliti adalah peneliti",
+        "Semua pustakawan adalah peneliti",
+        "Tidak ada peneliti yang teliti",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua peneliti teliti, maka sebagian orang yang teliti pastinya mencakup para peneliti.",
+      "id": "cat-logical-002"
+    },
+    {
+      "type": "logical",
+      "subtype": "logika-formal",
+      "category": "Tes Logika",
+      "text": "Jika seseorang makan makanan pedas maka perutnya terasa sakit. Andi tidak makan makanan pedas. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Perut Andi pasti sakit",
+        "Perut Andi pasti tidak sakit",
+        "Belum tentu perut Andi tidak sakit",
+        "Andi makan pedas",
+        "Andi tidak mungkin sakit perut"
+      ],
+      "correctIndex": 2,
+      "explanation": "Makan pedas hanyalah salah satu penyebab sakit perut. Tanpa makan pedas, perut bisa saja sakit karena sebab lain.",
+      "id": "cat-logical-003"
+    },
+    {
+      "type": "logical",
+      "subtype": "logika-formal",
+      "category": "Tes Logika",
+      "text": "Jika sistem komputer bermasalah maka laporan menjadi terlambat. Laporan hari ini tepat waktu. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sistem komputer bermasalah",
+        "Sistem komputer tidak bermasalah",
+        "Laporan tetap terlambat",
+        "Tidak dapat disimpulkan",
+        "Sistem baik tapi laporan terlambat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus tollens: jika konsekuensi (laporan terlambat) tidak terjadi, maka sebab (sistem bermasalah) tidak terjadi.",
+      "steps": [
+        "Bermasalah → terlambat",
+        "Tidak terlambat",
+        "Maka tidak bermasalah"
+      ],
+      "id": "cat-logical-004"
+    },
+    {
+      "type": "logical",
+      "subtype": "silogisme",
+      "category": "Tes Logika",
+      "text": "Semua dokter memiliki gelar sarjana. Sebagian lulusan sarjana bekerja di bidang teknologi. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Semua dokter bekerja di bidang teknologi",
+        "Sebagian dokter bekerja di bidang teknologi",
+        "Semua lulusan sarjana adalah dokter",
+        "Belum tentu semua dokter bekerja di bidang teknologi",
+        "Tidak ada dokter yang berijazah"
+      ],
+      "correctIndex": 3,
+      "explanation": "Informasi bahwa sebagian lulusan sarjana bekerja di teknologi tidak memberi kesimpulan pasti tentang dokter.",
+      "id": "cat-logical-005"
+    },
+    {
+      "type": "logical",
+      "subtype": "sebab-akibat",
+      "category": "Tes Logika",
+      "text": "Penggunaan media sosial meningkat dan tingkat interaksi tatap muka menurun pada periode yang sama. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Media sosial menyebabkan interaksi tatap muka menurun",
+        "Interaksi tatap muka menurun pasti karena media sosial",
+        "Terdapat korelasi, namun belum tentu hubungan sebab-akibat",
+        "Media sosial tidak berpengaruh apa pun",
+        "Orang berhenti bersosialisasi sepenuhnya"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dua hal yang terjadi bersamaan belum tentu memiliki hubungan sebab-akibat; bisa saja hanya korelasi.",
+      "id": "cat-logical-006"
+    },
+    {
+      "type": "logical",
+      "subtype": "analisis-kasus",
+      "category": "Tes Logika",
+      "text": "Seorang klien mengeluh produk yang dikirim dalam keadaan rusak. Prioritas tindakan yang paling tepat adalah...",
+      "options": [
+        "Menolak klaim klien",
+        "Menyalahkan pihak ekspedisi",
+        "Mengganti produk dan mengevaluasi sistem pengemasan",
+        "Mengabaikan keluhan",
+        "Menunda semua pengiriman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Penyelesaian terbaik adalah mengganti produk sebagai solusi jangka pendek dan memperbaiki pengemasan untuk jangka panjang.",
+      "id": "cat-logical-007"
+    },
+    {
+      "type": "logical",
+      "subtype": "silogisme",
+      "category": "Tes Logika",
+      "text": "Semua anggota koperasi rutin menabung. Sinta tidak menabung. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Sinta adalah anggota koperasi",
+        "Sinta bukan anggota koperasi",
+        "Semua penabung adalah anggota koperasi",
+        "Sinta menabung",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karena semua anggota menabung dan Sinta tidak menabung, maka Sinta bukan anggota koperasi.",
+      "steps": [
+        "Anggota → menabung",
+        "Sinta: tidak menabung",
+        "Sinta bukan anggota"
+      ],
+      "id": "cat-logical-008"
+    },
+    {
+      "type": "logical",
+      "subtype": "silogisme",
+      "category": "Tes Logika",
+      "text": "Semua karyawan di perusahaan X rajin bekerja. Budi adalah karyawan di perusahaan X. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Budi tidak rajin bekerja",
+        "Budi rajin bekerja",
+        "Budi adalah manajer",
+        "Sebagian karyawan rajin bekerja",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jika semua karyawan rajin bekerja dan Budi adalah karyawan, maka Budi pasti rajin bekerja.",
+      "steps": [
+        "Premis 1: semua karyawan rajin",
+        "Premis 2: Budi karyawan",
+        "Kesimpulan: Budi rajin"
+      ],
+      "id": "cat-logical-009"
+    },
+    {
+      "type": "logical",
+      "subtype": "analisis-kasus",
+      "category": "Tes Logika",
+      "text": "Sebuah tim berhasil menyelesaikan proyek sebelum tenggat waktu, namun laporan pengujian menunjukkan banyak bug yang belum diperbaiki. Langkah paling tepat dilakukan tim adalah...",
+      "options": [
+        "Langsung menyerahkan hasil ke klien",
+        "Menambah fitur baru sebelum rilis",
+        "Memprioritaskan perbaikan bug sebelum menambah fitur",
+        "Mengabaikan bug karena proyek selesai",
+        "Menunda semua aktivitas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bug yang banyak mengancam kualitas produk, sehingga perbaikan bug harus diprioritaskan sebelum penambahan fitur.",
+      "id": "cat-logical-010"
+    },
+    {
+      "type": "logical",
+      "subtype": "logika-formal",
+      "category": "Tes Logika",
+      "text": "Jika hari hujan maka jalan menjadi basah. Hari ini hujan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Jalan tidak basah",
+        "Jalan basah",
+        "Hari ini tidak hujan",
+        "Jalan mungkin basah",
+        "Tidak dapat disimpulkan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modus ponens: Jika P maka Q, dan P benar, maka Q benar. Jalan basah.",
+      "steps": [
+        "P → Q",
+        "P benar",
+        "Maka Q benar (jalan basah)"
+      ],
+      "id": "cat-logical-011"
+    },
+    {
+      "type": "logical",
+      "subtype": "sebab-akibat",
+      "category": "Tes Logika",
+      "text": "Semakin tinggi suhu ruangan, semakin cepat es mencair. Faktor yang menjadi penyebab mencairnya es pada pernyataan tersebut adalah...",
+      "options": [
+        "Volume es",
+        "Suhu ruangan",
+        "Jenis es",
+        "Waktu",
+        "Kelembapan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pernyataan menunjukkan hubungan sebab-akibat di mana suhu ruangan yang tinggi menyebabkan es mencair lebih cepat.",
+      "id": "cat-logical-012"
+    },
+    {
+      "type": "logical",
+      "subtype": "sebab-akibat",
+      "category": "Tes Logika",
+      "text": "Setelah perusahaan melakukan rekrutmen massal, kualitas rata-rata karyawan baru dinilai lebih rendah dalam evaluasi tahunan. Pernyataan yang paling tepat adalah...",
+      "options": [
+        "Rekrutmen massal pasti menurunkan kualitas",
+        "Semua karyawan baru berkualitas rendah",
+        "Perlu evaluasi proses seleksi untuk memastikan penyebabnya",
+        "Rekrutmen massal meningkatkan kualitas",
+        "Karyawan lama lebih buruk"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hubungan ini perlu diselidiki melalui evaluasi proses seleksi, bukan langsung menyimpulkan sebab-akibat.",
+      "id": "cat-logical-013"
+    },
+    {
+      "type": "logical",
+      "subtype": "sebab-akibat",
+      "category": "Tes Logika",
+      "text": "Produktivitas karyawan menurun setelah perusahaan memberlakukan kebijakan lembur wajib selama sebulan. Kesimpulan yang paling tepat adalah...",
+      "options": [
+        "Lembur wajib pasti menyebabkan penurunan produktivitas",
+        "Lembur wajib menyebabkan kenaikan produktivitas",
+        "Penurunan produktivitas bisa berkaitan dengan kebijakan, tapi perlu analisis lebih lanjut",
+        "Karyawan tidak mau bekerja",
+        "Perusahaan harus lembur lebih banyak"
+      ],
+      "correctIndex": 2,
+      "explanation": "Data korelasional belum cukup untuk menyimpulkan sebab-akibat; perlu analisis faktor lain seperti kelelahan dan kualitas pengukuran.",
+      "id": "cat-logical-014"
+    }
+  ]
+}
