@@ -1,0 +1,1440 @@
+{
+  "metadata": {
+    "id": "cat-abstract",
+    "fieldId": "standalone",
+    "positionId": "abstract",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Abstrak",
+    "title": "Tes Abstrak - Latihan Psikotes",
+    "description": "Latihan pola abstrak dan penalaran non-verbal untuk mengukur kemampuan abstraksi Anda.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 10,
+    "categoryWeights": [
+      {
+        "name": "Tes Abstrak",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titik bergerak searah jarum jam: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 16,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 184,
+            "y": 50,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 184,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 66,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 134,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 134,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 66,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-000"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran terus membesar dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 36,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 52,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "#8b5cf6",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 80,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 52,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 36,
+              "fill": "#8b5cf6",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-001"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Segitiga berputar 90° searah jarum jam: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-002"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah sisi bertambah satu setiap langkah: segitiga (3), segi empat (4), segi lima (5), maka berikutnya segi enam (6).",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -40,
+              34.64,
+              20,
+              -34.64,
+              20
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -40,
+              40,
+              0,
+              0,
+              40,
+              -40,
+              0
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -40,
+              38.04,
+              -12.36,
+              23.51,
+              32.36,
+              -23.51,
+              32.36,
+              -38.04,
+              -12.36
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                34.64,
+                20,
+                -34.64,
+                20
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                40,
+                0,
+                0,
+                40,
+                -40,
+                0
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                38.04,
+                -12.36,
+                23.51,
+                32.36,
+                -23.51,
+                32.36,
+                -38.04,
+                -12.36
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -40,
+                34.64,
+                -20,
+                34.64,
+                20,
+                0,
+                40,
+                -34.64,
+                20,
+                -34.64,
+                -20
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-003"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warna bergantian biru → merah → biru → merah. Bentuk tetap lingkaran.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f43f5e",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-004"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Urutan bentuk mengikuti siklus: lingkaran → belah ketupat → segitiga → persegi.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 60,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -38,
+              38,
+              0,
+              0,
+              38,
+              -38,
+              0
+            ],
+            "fill": "#f59e0b",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#10b981",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -38,
+                38,
+                0,
+                0,
+                38,
+                -38,
+                0
+              ],
+              "fill": "#f59e0b",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#10b981",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#8b5cf6",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-005"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jumlah garis bertambah satu setiap langkah: 1 → 2 → 3 → 4 garis.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 40,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 60,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          },
+          {
+            "type": "line",
+            "x": 50,
+            "y": 50,
+            "width": 80,
+            "rotation": 0,
+            "stroke": "#334155",
+            "strokeWidth": 5
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 80,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "line",
+              "x": 50,
+              "y": 50,
+              "width": 60,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            },
+            {
+              "type": "line",
+              "x": 50,
+              "y": 60,
+              "width": 40,
+              "rotation": 0,
+              "stroke": "#334155",
+              "strokeWidth": 5
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-006"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jumlah sudut bintang bertambah satu setiap langkah: 3, 4, 5, maka berikutnya 6 sudut.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "star",
+            "x": 50,
+            "y": 50,
+            "pointsCount": 3,
+            "size": 76,
+            "innerRadius": 16,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 150,
+            "y": 50,
+            "pointsCount": 4,
+            "size": 80,
+            "innerRadius": 17,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 50,
+            "y": 150,
+            "pointsCount": 5,
+            "size": 84,
+            "innerRadius": 18,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 5,
+              "size": 84,
+              "innerRadius": 18,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 6,
+              "size": 88,
+              "innerRadius": 19,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 4,
+              "size": 80,
+              "innerRadius": 17,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 3,
+              "size": 76,
+              "innerRadius": 16,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-007"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isian bergantian: penuh → garis luar → penuh → garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 64,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 64,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 64,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-008"
+    },
+    {
+      "type": "abstract",
+      "subtype": "abstract-reasoning",
+      "category": "Tes Abstrak",
+      "text": "Perhatikan urutan gambar berikut. Manakah yang merupakan gambar berikutnya yang paling tepat?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Setengah lingkaran berputar: atas → kanan → bawah → kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 150,
+            "y": 50,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 180,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "semicircle",
+            "x": 50,
+            "y": 150,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 360,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-abstract-009"
+    }
+  ]
+}
