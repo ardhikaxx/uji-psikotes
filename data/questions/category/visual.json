@@ -1,0 +1,1407 @@
+{
+  "metadata": {
+    "id": "cat-visual",
+    "fieldId": "standalone",
+    "positionId": "visual",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Visual",
+    "title": "Tes Visual - Latihan Psikotes",
+    "description": "Latihan pola gambar dan hubungan antar bentuk untuk mengasah kemampuan visual-spasial Anda.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 10,
+    "categoryWeights": [
+      {
+        "name": "Tes Visual",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan cermin (refleksi vertikal) dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Refleksi vertikal mengubah segitiga yang menghadap kanan menjadi menghadap kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-000"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan rotasi 180° dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rotasi 180° membuat segitiga menghadap ke bawah.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-001"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan hasil rotasi 270° searah jarum jam dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rotasi 270° searah jarum jam mengubah setengah lingkaran terbuka ke atas menjadi terbuka ke kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "semicircle",
+            "x": 100,
+            "y": 100,
+            "size": 70,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 360,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "semicircle",
+              "x": 100,
+              "y": 100,
+              "size": 70,
+              "fill": "#f59e0b",
+              "rotation": 540,
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-002"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan hasil rotasi 90° searah jarum jam dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rotasi 90° searah jarum jam mengubah arah panah dari atas menjadi ke kanan.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -32,
+              32,
+              32,
+              0,
+              12.8,
+              -32,
+              32
+            ],
+            "fill": "#2563eb",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 180,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 270,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-003"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan pola pergerakan titik pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 3,
+      "explanation": "Titik bergerak searah jarum jam: atas → kanan → bawah → kiri. Kotak kosong = titik di kiri.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 16,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 184,
+            "y": 50,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 184,
+            "size": 16,
+            "fill": "#334155",
+            "stroke": "#334155",
+            "strokeWidth": 1
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 66,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 134,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 134,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            },
+            {
+              "type": "circle",
+              "x": 66,
+              "y": 100,
+              "size": 16,
+              "fill": "#334155",
+              "stroke": "#334155",
+              "strokeWidth": 1
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-004"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan pola ukuran pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ukuran lingkaran membesar secara berurutan dari kecil ke besar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 44,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 60,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 150,
+            "size": 76,
+            "fill": "#10b981",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 76,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 88,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 60,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 44,
+              "fill": "#10b981",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-005"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan gambar berikut. Manakah yang merupakan cermin (refleksi vertikal) dari gambar tersebut?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Refleksi vertikal mengubah arah panah kanan-atas menjadi kiri-atas, yaitu rotasi 135°.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 100,
+            "y": 100,
+            "points": [
+              0,
+              -32,
+              32,
+              32,
+              0,
+              12.8,
+              -32,
+              32
+            ],
+            "fill": "#2563eb",
+            "rotation": 45,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 45,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 135,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 225,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -32,
+                32,
+                32,
+                0,
+                12.8,
+                -32,
+                32
+              ],
+              "fill": "#2563eb",
+              "rotation": 315,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-006"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan pola jumlah sudut pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jumlah sudut bintang bertambah satu setiap langkah: 3, 4, 5, maka berikutnya 6 sudut.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "star",
+            "x": 50,
+            "y": 50,
+            "pointsCount": 3,
+            "size": 76,
+            "innerRadius": 16,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 150,
+            "y": 50,
+            "pointsCount": 4,
+            "size": 80,
+            "innerRadius": 17,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "star",
+            "x": 50,
+            "y": 150,
+            "pointsCount": 5,
+            "size": 84,
+            "innerRadius": 18,
+            "fill": "#f43f5e",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 5,
+              "size": 84,
+              "innerRadius": 18,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 6,
+              "size": 88,
+              "innerRadius": 19,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 4,
+              "size": 80,
+              "innerRadius": 17,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "star",
+              "x": 100,
+              "y": 100,
+              "pointsCount": 3,
+              "size": 76,
+              "innerRadius": 16,
+              "fill": "#f43f5e",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-007"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan pola rotasi pada gambar. Manakah yang melengkapi kotak kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Setiap baris diputar 90° searah jarum jam. Baris bawah = segitiga merah yang menghadap ke kanan.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 150,
+            "y": 50,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#0ea5e9",
+            "rotation": 90,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "polygon",
+            "x": 50,
+            "y": 150,
+            "points": [
+              0,
+              -36,
+              34.199999999999996,
+              30.599999999999998,
+              -34.199999999999996,
+              30.599999999999998
+            ],
+            "fill": "#f43f5e",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#f43f5e",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#f43f5e",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "polygon",
+              "x": 100,
+              "y": 100,
+              "points": [
+                0,
+                -36,
+                34.199999999999996,
+                30.599999999999998,
+                -34.199999999999996,
+                30.599999999999998
+              ],
+              "fill": "#0ea5e9",
+              "rotation": 90,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-008"
+    },
+    {
+      "type": "visual",
+      "subtype": "visual-reasoning",
+      "category": "Tes Visual",
+      "text": "Perhatikan pola pada gambar. Manakah yang melengkapi kotak yang kosong dengan benar?",
+      "options": [
+        "Pilihan A",
+        "Pilihan B",
+        "Pilihan C",
+        "Pilihan D"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pola: bentuk berganti per baris (lingkaran → persegi) dan isian berganti per kolom (penuh → garis luar). Kotak kosong = persegi garis luar.",
+      "pattern": {
+        "width": 200,
+        "height": 200,
+        "shapes": [
+          {
+            "type": "circle",
+            "x": 50,
+            "y": 50,
+            "size": 68,
+            "fill": "#2563eb",
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          },
+          {
+            "type": "circle",
+            "x": 150,
+            "y": 50,
+            "size": 68,
+            "fill": "transparent",
+            "stroke": "#1e293b",
+            "strokeWidth": 3
+          },
+          {
+            "type": "rect",
+            "x": 50,
+            "y": 150,
+            "width": 64,
+            "height": 64,
+            "fill": "#f59e0b",
+            "rotation": 0,
+            "stroke": "#1e293b",
+            "strokeWidth": 2
+          }
+        ],
+        "questionMark": true
+      },
+      "patternOptions": [
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "#f59e0b",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "rect",
+              "x": 100,
+              "y": 100,
+              "width": 64,
+              "height": 64,
+              "fill": "transparent",
+              "rotation": 0,
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "#2563eb",
+              "stroke": "#1e293b",
+              "strokeWidth": 2
+            }
+          ],
+          "questionMark": false
+        },
+        {
+          "width": 200,
+          "height": 200,
+          "shapes": [
+            {
+              "type": "circle",
+              "x": 100,
+              "y": 100,
+              "size": 68,
+              "fill": "transparent",
+              "stroke": "#1e293b",
+              "strokeWidth": 3
+            }
+          ],
+          "questionMark": false
+        }
+      ],
+      "id": "cat-visual-009"
+    }
+  ]
+}
