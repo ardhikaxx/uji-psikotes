@@ -70,8 +70,16 @@ export function Footer() {
         </div>
 
         <p className="text-muted-foreground mt-8 border-t pt-4 text-center text-xs">
-          © {new Date().getFullYear()} PsikoTest Pro. Dibuat untuk latihan
-          persiapan psikotes kerja.
+          © {new Date().getFullYear()} PsikoTest Pro. Dikembangkan oleh{" "}
+          <Link
+            href="https://yanuar-ardhika.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-foreground font-medium hover:underline"
+          >
+            Yanuar Ardhika Rahmadhani Ubaidillah
+          </Link>
+          . Dibuat untuk latihan persiapan psikotes kerja.
         </p>
       </div>
     </footer>

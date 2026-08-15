@@ -192,6 +192,16 @@ Pastikan variabel lingkungan tidak diperlukan — seluruh data disertakan dalam 
 
 ---
 
+## Penulis
+
+- **Nama:** Yanuar Ardhika Rahmadhani Ubaidillah
+- **Portofolio:** https://yanuar-ardhika.vercel.app/
+- **GitHub:** https://github.com/ardhikaxx
+
+Proyek ini dikembangkan secara pribadi oleh penulis di atas. Dilarang mengaku sebagai karya sendiri tanpa izin.
+
+---
+
 ## Lisensi
 
 Proyek privat. Seluruh konten soal dan kode adalah milik pemilik repositori.

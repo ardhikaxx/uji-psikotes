@@ -2,6 +2,7 @@
   "name": "psikotes",
   "version": "0.1.0",
   "private": true,
+  "author": "Yanuar Ardhika Rahmadhani Ubaidillah <https://yanuar-ardhika.vercel.app/>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
