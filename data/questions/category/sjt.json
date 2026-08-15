@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "id": "cat-sjt",
+    "fieldId": "standalone",
+    "positionId": "sjt",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Situasional (SJT)",
+    "title": "Tes Situasional (SJT) - Latihan Psikotes",
+    "description": "Latihan menghadapi situasi kerja nyata untuk mengukur penilaian Anda dalam mengambil keputusan.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 15,
+    "categoryWeights": [
+      {
+        "name": "Tes Situasional (SJT)",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Tim Anda diminta mempercepat pengiriman fitur dengan mengorbankan pengujian otomatis. Apa respons terbaik?",
+      "options": [
+        "Menyetujui dan menghapus pengujian otomatis.",
+        "Menolak seluruh proposal.",
+        "Menegosiasikan kompromi, misalnya menguji fitur kritis sambil mempercepat proses lainnya.",
+        "Melakukan pengujian manual dadakan tanpa dokumentasi."
+      ],
+      "correctIndex": 2,
+      "sjtScores": [
+        0.17,
+        0.33,
+        1,
+        0.5
+      ],
+      "explanation": "Kualitas tidak boleh dikorbankan sepenuhnya; negosiasi kompromi adalah solusi terbaik.",
+      "id": "cat-sjt-000"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Orang tua siswa meminta nilai anaknya dinaikkan. Anda...",
+      "options": [
+        "Menaikkan nilai karena diminta.",
+        "Menjelaskan penilaian berdasarkan hasil belajar dan menawarkan bimbingan.",
+        "Menurunkan nilai anak lain.",
+        "Mengabaikan permintaan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Integritas penilaian harus dijaga; tawarkan dukungan belajar.",
+      "id": "cat-sjt-001"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Anda menemukan cacat pada sejumlah produk yang sudah diproduksi. Tindakan terbaik adalah...",
+      "options": [
+        "Membiarkan produk terkirim.",
+        "Menghentikan pengiriman produk cacat dan menelusuri penyebabnya.",
+        "Menutupi cacat dengan perbaikan cepat.",
+        "Menyalahkan operator lini."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Pengendalian mutu mengharuskan penghentian produk cacat dan analisis penyebab.",
+      "id": "cat-sjt-002"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Pemasok utama Anda tidak dapat memenuhi pesanan mendadak. Apa yang Anda lakukan?",
+      "options": [
+        "Menunggu pemasok.",
+        "Mencari pemasok alternatif dan menegosiasikan prioritas.",
+        "Membatalkan seluruh pesanan.",
+        "Menambah pesanan ke pemasok yang sama."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Memiliki opsi pemasok alternatif adalah praktik manajemen risiko yang baik.",
+      "id": "cat-sjt-003"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Peralatan di lapangan menunjukkan pembacaan yang tidak normal. Tindakan pertama Anda adalah...",
+      "options": [
+        "Mengabaikan pembacaan.",
+        "Menghentikan operasi dan memverifikasi pembacaan.",
+        "Menyetel ulang peralatan tanpa verifikasi.",
+        "Menunggu peralatan rusak."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Verifikasi pembacaan yang tidak normal adalah langkah keselamatan standar.",
+      "id": "cat-sjt-004"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Anda menemukan bahwa pesaing menyalin konten Anda. Tindakan paling profesional adalah...",
+      "options": [
+        "Membalas dengan konten serupa.",
+        "Melakukan dokumentasi dan menempuh jalur hukum/etika yang tepat.",
+        "Menyebar fitnah tentang pesaing.",
+        "Mengabaikan sepenuhnya."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.17,
+        0.33
+      ],
+      "explanation": "Tangani pelanggaran melalui jalur yang tepat, bukan balas dendam.",
+      "id": "cat-sjt-005"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Rekan Anda sering menunda pekerjaan pelayanan publik sehingga antrean menumpuk. Anda...",
+      "options": [
+        "Mengabaikan.",
+        "Mengingatkan rekan tentang dampak pada masyarakat.",
+        "Melapor tanpa komunikasi.",
+        "Menggantikan pekerjaan rekan tanpa koordinasi."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Komunikasi dan kerja sama menjaga kualitas pelayanan.",
+      "id": "cat-sjt-006"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Anda menemukan kesalahan pada laporan yang akan dikirim ke pimpinan. Apa yang Anda lakukan?",
+      "options": [
+        "Mengirim laporan dan berharap tidak ada yang menyadari.",
+        "Memperbaiki kesalahan sebelum mengirim.",
+        "Menunda pengiriman tanpa penjelasan.",
+        "Menyalahkan orang yang membuat data."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Ketelitian dan perbaikan sebelum pengiriman adalah tanggung jawab administrasi.",
+      "id": "cat-sjt-007"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Atasan meminta Anda mencatat pengeluaran fiktif untuk menaikkan beban usaha. Apa yang Anda lakukan?",
+      "options": [
+        "Mematuhi perintah atasan.",
+        "Menolak dan menjelaskan konsekuensi pelanggaran, lalu melaporkan sesuai prosedur.",
+        "Mencatat sebagian agar tidak mencolok.",
+        "Berpura-pura lupa."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.17
+      ],
+      "explanation": "Praktik akuntansi yang tidak jujur adalah pelanggaran etika dan hukum; tolak dengan tegas.",
+      "id": "cat-sjt-008"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Seorang pasien dengan penyakit menular menolak isolasi. Anda...",
+      "options": [
+        "Menghormati keinginan pasien.",
+        "Menjelaskan risiko dan pentingnya isolasi bagi keselamatan bersama.",
+        "Mengusir pasien.",
+        "Mengisolasi tanpa penjelasan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Edukasi dan komunikasi diperlukan agar pasien memahami pentingnya isolasi.",
+      "id": "cat-sjt-009"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Seorang pelanggan marah karena produknya terlambat. Anda menangani keluhan tersebut. Respons terbaik adalah...",
+      "options": [
+        "Membantah bahwa keterlambatan bukan kesalahan Anda.",
+        "Mendengarkan, meminta maaf, dan menawarkan solusi nyata.",
+        "Menutup telepon.",
+        "Menyalahkan bagian pengiriman."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Empati dan solusi adalah kunci penanganan pelanggan yang marah.",
+      "id": "cat-sjt-010"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Seorang manajer melaporkan bawahannya sering absen tanpa keterangan. Sebelum mengambil tindakan, Anda akan...",
+      "options": [
+        "Langsung mengeluarkan surat peringatan.",
+        "Memanggil karyawan untuk klarifikasi dan memeriksa catatan kehadiran.",
+        "Memecat karyawan tersebut.",
+        "Mengabaikan laporan manajer."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.5,
+        0.17
+      ],
+      "explanation": "Proses disiplin yang adil dimulai dengan klarifikasi dan pemeriksaan data.",
+      "id": "cat-sjt-011"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Atasan Anda meminta dokumen penting dalam 10 menit, tetapi Anda belum selesai menyiapkannya. Apa yang Anda lakukan?",
+      "options": [
+        "Memberikan dokumen apa adanya walau belum lengkap.",
+        "Menginformasikan status terkini dan meminta waktu tambahan singkat.",
+        "Diam dan berharap atasan lupa.",
+        "Menyerahkan dokumen orang lain."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.33,
+        1,
+        0.17,
+        0.5
+      ],
+      "explanation": "Komunikasi jujur tentang status pekerjaan adalah sikap profesional.",
+      "id": "cat-sjt-012"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Tamu menawarkan tip besar agar Anda melanggar aturan hotel. Anda...",
+      "options": [
+        "Menerima tip dan melanggar aturan.",
+        "Menolak dengan sopan dan tetap mematuhi aturan.",
+        "Menerima tip tanpa melanggar.",
+        "Melaporkan tamu."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.17,
+        1,
+        0.33,
+        0.5
+      ],
+      "explanation": "Integritas lebih penting daripada imbalan.",
+      "id": "cat-sjt-013"
+    },
+    {
+      "type": "sjt",
+      "subtype": "situational-judgment",
+      "category": "Tes Situasional (SJT)",
+      "text": "Seorang pelanggan meminta kompensasi atas keluhan yang sudah dijelaskan sebagai kesalahan pelanggan sendiri. Anda...",
+      "options": [
+        "Memberikan kompensasi penuh untuk menghindari konflik.",
+        "Menjelaskan dengan sopan dan menawarkan kompensasi yang adil sesuai kebijakan.",
+        "Menolak kasar.",
+        "Mengabaikan pelanggan."
+      ],
+      "correctIndex": 1,
+      "sjtScores": [
+        0.5,
+        1,
+        0.17,
+        0.33
+      ],
+      "explanation": "Solusi yang adil dan sopan menjaga kepuasan tanpa merugikan perusahaan.",
+      "id": "cat-sjt-014"
+    }
+  ]
+}
