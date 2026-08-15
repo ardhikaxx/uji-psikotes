@@ -14,6 +14,13 @@ export function getQuestionBank(
   return JSON.parse(raw) as QuestionBank;
 }
 
+export function getCategoryBank(slug: string): QuestionBank | null {
+  const file = path.join(questionsDir, "category", `${slug}.json`);
+  if (!fs.existsSync(file)) return null;
+  const raw = fs.readFileSync(file, "utf8");
+  return JSON.parse(raw) as QuestionBank;
+}
+
 export interface BankIndexEntry {
   fieldId: string;
   positionId: string;
