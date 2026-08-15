@@ -1,0 +1,263 @@
+{
+  "metadata": {
+    "id": "cat-verbal",
+    "fieldId": "standalone",
+    "positionId": "verbal",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Verbal",
+    "title": "Tes Verbal - Latihan Psikotes",
+    "description": "Latihan sinonim, antonim, analogi kata, dan pemahaman bahasa untuk mengasah kemampuan verbal Anda.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 15,
+    "categoryWeights": [
+      {
+        "name": "Tes Verbal",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"konstruktif\" adalah...",
+      "options": [
+        "Membangun",
+        "Positif",
+        "Destruktif",
+        "Produktif",
+        "Bermanfaat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Konstruktif berarti membangun. Lawannya adalah \"destruktif\" yang berarti merusak.",
+      "id": "cat-verbal-000"
+    },
+    {
+      "type": "verbal",
+      "subtype": "logika-bahasa",
+      "category": "Tes Verbal",
+      "text": "Pilih susunan kalimat yang benar agar menjadi paragraf yang runtut. (1) Karyawan diminta mengisi formulir penilaian. (2) HRD mengumumkan jadwal penilaian kinerja. (3) Hasil penilaian dibahas dalam sesi feedback. (4) Manajer mengevaluasi formulir yang telah diisi.",
+      "options": [
+        "(1)-(2)-(3)-(4)",
+        "(2)-(1)-(4)-(3)",
+        "(2)-(4)-(1)-(3)",
+        "(4)-(2)-(1)-(3)",
+        "(1)-(4)-(2)-(3)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alur logis: pengumuman jadwal → pengisian formulir → evaluasi oleh manajer → pembahasan hasil (feedback).",
+      "id": "cat-verbal-001"
+    },
+    {
+      "type": "verbal",
+      "subtype": "sinonim",
+      "category": "Tes Verbal",
+      "text": "Sinonim yang tepat dari kata \"efisien\" adalah...",
+      "options": [
+        "Boros",
+        "Tepat guna",
+        "Lambat",
+        "Kurang",
+        "Banyak"
+      ],
+      "correctIndex": 1,
+      "explanation": "Efisien berarti tidak membuang-buang sumber daya atau tepat guna.",
+      "id": "cat-verbal-002"
+    },
+    {
+      "type": "verbal",
+      "subtype": "analogi",
+      "category": "Tes Verbal",
+      "text": "Dokter : Rumah Sakit = Guru : ...",
+      "options": [
+        "Pasar",
+        "Sekolah",
+        "Bank",
+        "Kantor",
+        "Museum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dokter bekerja di rumah sakit, seperti guru bekerja di sekolah.",
+      "id": "cat-verbal-003"
+    },
+    {
+      "type": "verbal",
+      "subtype": "pemahaman",
+      "category": "Tes Verbal",
+      "text": "Bacalah paragraf berikut. \"Perusahaan ABC mengalami penurunan kepuasan pelanggan selama dua kuartal terakhir. Hasil survei menunjukkan waktu respons layanan yang lambat dan kurangnya informasi produk dari tim penjualan.\" Faktor utama yang paling mungkin menyebabkan penurunan kepuasan pelanggan adalah...",
+      "options": [
+        "Harga produk yang terlalu tinggi",
+        "Kualitas produk yang buruk",
+        "Layanan yang lambat dan informasi produk kurang",
+        "Persaingan yang semakin ketat",
+        "Perubahan manajemen perusahaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Survei menyebutkan waktu respons lambat dan kurangnya informasi produk sebagai penyebab, sehingga jawaban C paling tepat.",
+      "id": "cat-verbal-004"
+    },
+    {
+      "type": "verbal",
+      "subtype": "analogi",
+      "category": "Tes Verbal",
+      "text": "Pensil : Menulis = Kunci : ...",
+      "options": [
+        "Membuka",
+        "Menutup",
+        "Mengunci",
+        "Menyimpan",
+        "Memutar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pensil digunakan untuk menulis, kunci digunakan untuk membuka (atau mengunci). Jawaban paling umum adalah membuka.",
+      "id": "cat-verbal-005"
+    },
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"intens\" adalah...",
+      "options": [
+        "Kuat",
+        "Dalam",
+        "Dangkal",
+        "Rapat",
+        "Cepat"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intens berarti kuat, pekat, atau mendalam. Lawannya adalah \"dangkal\".",
+      "id": "cat-verbal-006"
+    },
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"realistis\" adalah...",
+      "options": [
+        "Praktis",
+        "Idealistis",
+        "Logis",
+        "Objektif",
+        "Konkret"
+      ],
+      "correctIndex": 1,
+      "explanation": "Realistis berarti sesuai kenyataan. Lawannya adalah \"idealistis\" yang berdasarkan cita-cita semata.",
+      "id": "cat-verbal-007"
+    },
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"prosperitas\" adalah...",
+      "options": [
+        "Kemakmuran",
+        "Kesejahteraan",
+        "Kemiskinan",
+        "Kekayaan",
+        "Kemajuan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Prosperitas berarti kemakmuran. Lawannya adalah \"kemiskinan\".",
+      "id": "cat-verbal-008"
+    },
+    {
+      "type": "verbal",
+      "subtype": "logika-bahasa",
+      "category": "Tes Verbal",
+      "text": "Perhatikan kalimat berikut. \"Setelah menyelesaikan laporan bulanan, tim keuangan mengirimkannya kepada manajer sebelum rapat evaluasi dimulai.\" Urutan peristiwa yang benar adalah...",
+      "options": [
+        "Rapat evaluasi, menyelesaikan laporan, mengirim laporan",
+        "Menyelesaikan laporan, mengirim laporan, rapat evaluasi",
+        "Mengirim laporan, rapat evaluasi, menyelesaikan laporan",
+        "Menyelesaikan laporan, rapat evaluasi, mengirim laporan",
+        "Rapat evaluasi, mengirim laporan, menyelesaikan laporan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kalimat menyatakan laporan diselesaikan lalu dikirim, dan pengiriman terjadi sebelum rapat. Urutan: selesaikan, kirim, rapat.",
+      "id": "cat-verbal-009"
+    },
+    {
+      "type": "verbal",
+      "subtype": "sinonim",
+      "category": "Tes Verbal",
+      "text": "Sinonim yang tepat dari kata \"proaktif\" adalah...",
+      "options": [
+        "Pasif",
+        "Reaktif",
+        "Inisiatif",
+        "Menunggu",
+        "Mundur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Proaktif berarti bertindak lebih dahulu atau memiliki inisiatif.",
+      "id": "cat-verbal-010"
+    },
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"stagnan\" adalah...",
+      "options": [
+        "Beku",
+        "Mandek",
+        "Berkembang",
+        "Diam",
+        "Statis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stagnan berarti tidak berkembang atau mandek. Lawannya adalah \"berkembang\".",
+      "id": "cat-verbal-011"
+    },
+    {
+      "type": "verbal",
+      "subtype": "antonim",
+      "category": "Tes Verbal",
+      "text": "Antonim yang tepat dari kata \"eksplisit\" adalah...",
+      "options": [
+        "Jelas",
+        "Tegas",
+        "Implisit",
+        "Terbuka",
+        "Gamblang"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eksplisit berarti jelas dan terang-terangan. Lawannya adalah \"implisit\" yang berarti tersirat.",
+      "id": "cat-verbal-012"
+    },
+    {
+      "type": "verbal",
+      "subtype": "pemahaman",
+      "category": "Tes Verbal",
+      "text": "Bacalah paragraf berikut. \"Bekerja jarak jauh (remote working) semakin populer setelah pandemi. Banyak perusahaan melaporkan peningkatan produktivitas, namun juga tantangan dalam membangun budaya tim. Beberapa karyawan merasa terisolasi dan sulit memisahkan waktu kerja dan waktu pribadi.\" Berdasarkan paragraf tersebut, pernyataan yang paling tepat adalah...",
+      "options": [
+        "Semua karyawan merasa produktif bekerja jarak jauh",
+        "Remote working hanya membawa dampak positif",
+        "Remote working membawa manfaat dan tantangan sekaligus",
+        "Remote working akan segera ditinggalkan perusahaan",
+        "Karyawan tidak menyukai remote working"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paragraf menyebutkan peningkatan produktivitas sekaligus tantangan, sehingga kesimpulan yang tepat adalah manfaat dan tantangan muncul bersamaan.",
+      "id": "cat-verbal-013"
+    },
+    {
+      "type": "verbal",
+      "subtype": "analogi",
+      "category": "Tes Verbal",
+      "text": "Buku : Ilmu = Makanan : ...",
+      "options": [
+        "Rasa",
+        "Energi",
+        "Lezat",
+        "Masakan",
+        "Camilan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buku adalah sumber ilmu, makanan adalah sumber energi.",
+      "id": "cat-verbal-014"
+    }
+  ]
+}
