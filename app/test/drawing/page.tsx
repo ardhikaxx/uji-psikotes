@@ -247,7 +247,7 @@ export default function DrawingPage() {
 
       <div className="mt-8 flex items-center gap-2 text-sm text-muted-foreground">
         <Download className="size-4" />
-        Gambar tersimpan akan ditampilkan pada halaman Riwayat.
+        Gambar tersimpan akan disimpan pada perangkat Anda.
       </div>
     </div>
   );
