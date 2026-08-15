@@ -116,12 +116,14 @@ function IntroScreen({
 export function ExamScreen({
   fieldId,
   positionId,
+  category,
 }: {
-  fieldId: string;
-  positionId: string;
+  fieldId?: string;
+  positionId?: string;
+  category?: string;
 }) {
   const router = useRouter();
-  const { data: bank, isLoading, error } = useQuestionBank(fieldId, positionId);
+  const { data: bank, isLoading, error } = useQuestionBank(fieldId, positionId, category);
   const { session, startTest, resumeTest, setAnswer, toggleMark, setCurrentIndex, saveRemaining, complete, clear } =
     useTestStore();
 
