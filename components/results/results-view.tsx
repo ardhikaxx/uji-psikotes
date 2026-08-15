@@ -7,9 +7,9 @@ import {
   ArrowLeft,
   Award,
   BookOpen,
+  Calendar,
   Download,
   FileText,
-  History,
   Lightbulb,
   RotateCcw,
   Sparkles,
@@ -101,7 +101,7 @@ export function ResultsView({ sessionId }: { sessionId: string }) {
   React.useEffect(() => {
     const r = loadResult(sessionId);
     if (!r) {
-      router.replace("/history");
+      router.replace("/");
       return;
     }
     // Baca hasil dari localStorage setelah mount (aman untuk hydration).
@@ -183,15 +183,10 @@ export function ResultsView({ sessionId }: { sessionId: string }) {
             </Link>
           </Button>
           <Badge variant="secondary">
-            <History className="size-3" /> {formatDate(result.completedAt)}
+            <Calendar className="size-3" /> {formatDate(result.completedAt)}
           </Badge>
         </div>
         <div className="flex gap-2">
-          <Button variant="outline" size="sm" asChild>
-            <Link href="/history">
-              <History className="size-4" /> Riwayat
-            </Link>
-          </Button>
           <Button variant="outline" size="sm" onClick={handleExport} disabled={exporting}>
             {exporting ? <Download className="animate-spin size-4" /> : <Download className="size-4" />}
             Unduh PDF
@@ -227,31 +222,33 @@ export function ResultsView({ sessionId }: { sessionId: string }) {
         </div>
 
         {/* Category scores */}
-        <Card className="mb-6 print:shadow-none">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Target className="text-primary size-5" />
-              Skor per Kategori
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="h-64">
-              <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={barData}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
-                  <XAxis dataKey="name" fontSize={12} />
-                  <YAxis domain={[0, 100]} fontSize={12} />
-                  <Tooltip />
-                  <Bar dataKey="score" name="Skor" radius={[6, 6, 0, 0]}>
-                    {barData.map((d, i) => (
-                      <Cell key={i} fill={d.score >= 75 ? "#10b981" : d.score >= 55 ? "#6366f1" : "#f43f5e"} />
-                    ))}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-          </CardContent>
-        </Card>
+        {objective.length > 0 && (
+          <Card className="mb-6 print:shadow-none">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2">
+                <Target className="text-primary size-5" />
+                Skor per Kategori
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="h-64">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart data={barData}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
+                    <XAxis dataKey="name" fontSize={12} />
+                    <YAxis domain={[0, 100]} fontSize={12} />
+                    <Tooltip />
+                    <Bar dataKey="score" name="Skor" radius={[6, 6, 0, 0]}>
+                      {barData.map((d, i) => (
+                        <Cell key={i} fill={d.score >= 75 ? "#10b981" : d.score >= 55 ? "#6366f1" : "#f43f5e"} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </CardContent>
+          </Card>
+        )}
 
         {/* Personality radar */}
         {result.personality && radarData.length > 0 && (
@@ -288,7 +285,8 @@ export function ResultsView({ sessionId }: { sessionId: string }) {
         )}
 
         {/* Answer breakdown */}
-        <div className="mb-6 grid gap-4 md:grid-cols-2">
+        {objective.length > 0 && (
+          <div className="mb-6 grid gap-4 md:grid-cols-2">
           <Card className="print:shadow-none">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-base">
@@ -343,7 +341,8 @@ export function ResultsView({ sessionId }: { sessionId: string }) {
               ))}
             </CardContent>
           </Card>
-        </div>
+          </div>
+        )}
 
         {/* Interpretation */}
         <Card className="mb-6 print:shadow-none">

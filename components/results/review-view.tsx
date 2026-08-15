@@ -170,7 +170,7 @@ export function ReviewView({ sessionId }: { sessionId: string }) {
   React.useEffect(() => {
     const r = loadResult(sessionId);
     if (!r) {
-      router.replace("/history");
+      router.replace("/");
       return;
     }
     // Baca hasil dari localStorage setelah mount (aman untuk hydration).
@@ -254,7 +254,7 @@ export function ReviewView({ sessionId }: { sessionId: string }) {
           <Link href="/select-field">Kerjakan Simulasi Lain</Link>
         </Button>
         <Button variant="outline" asChild>
-          <Link href="/history">Lihat Riwayat</Link>
+          <Link href="/">Kembali ke Beranda</Link>
         </Button>
       </div>
     </div>
