@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "id": "cat-data-analysis",
+    "fieldId": "standalone",
+    "positionId": "data-analysis",
+    "fieldName": "Latihan Kategori",
+    "positionName": "Tes Analisis Data",
+    "title": "Tes Analisis Data - Latihan Psikotes",
+    "description": "Latihan membaca grafik, tabel, dan diagram untuk menarik kesimpulan dari data.",
+    "duration": 900,
+    "difficulty": "medium",
+    "maxScore": 100,
+    "totalQuestions": 10,
+    "categoryWeights": [
+      {
+        "name": "Tes Analisis Data",
+        "weight": 100
+      }
+    ]
+  },
+  "questions": [
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-tabel",
+      "category": "Tes Analisis Data",
+      "text": "Perhatikan tabel jumlah karyawan berikut. Departemen manakah yang memiliki jumlah karyawan terbanyak?",
+      "options": [
+        "Produksi",
+        "Pemasaran",
+        "Keuangan",
+        "HRD",
+        "IT"
+      ],
+      "correctIndex": 0,
+      "explanation": "Departemen Produksi memiliki 120 karyawan, jumlah terbanyak di tabel.",
+      "chart": {
+        "type": "table",
+        "title": "Jumlah Karyawan per Departemen",
+        "labels": [
+          "Produksi",
+          "Pemasaran",
+          "Keuangan",
+          "HRD",
+          "IT"
+        ],
+        "datasets": [
+          {
+            "label": "Jumlah",
+            "values": [
+              120,
+              45,
+              30,
+              25,
+              40
+            ]
+          }
+        ]
+      },
+      "id": "cat-data-analysis-000"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-diagram",
+      "category": "Tes Analisis Data",
+      "text": "Berdasarkan diagram lingkaran alokasi anggaran berikut, kategori manakah yang mendapat porsi anggaran paling besar?",
+      "options": [
+        "Operasional",
+        "Pemasaran",
+        "Gaji",
+        "Teknologi",
+        "Riset"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kategori Gaji memiliki porsi 40%, paling besar dibandingkan kategori lainnya.",
+      "chart": {
+        "type": "pie",
+        "title": "Alokasi Anggaran",
+        "labels": [
+          "Operasional",
+          "Pemasaran",
+          "Gaji",
+          "Teknologi",
+          "Riset"
+        ],
+        "datasets": [
+          {
+            "label": "Persentase",
+            "values": [
+              20,
+              15,
+              40,
+              15,
+              10
+            ]
+          }
+        ]
+      },
+      "id": "cat-data-analysis-001"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-grafik",
+      "category": "Tes Analisis Data",
+      "text": "Perhatikan grafik penjualan berikut. Pada kuartal manakah penjualan tertinggi tercapai?",
+      "options": [
+        "Kuartal 1",
+        "Kuartal 2",
+        "Kuartal 3",
+        "Kuartal 4",
+        "Kuartal 2 dan 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kuartal 4 memiliki nilai penjualan tertinggi dibandingkan kuartal lainnya.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan per Kuartal (juta Rp)",
+        "labels": [
+          "Kuartal 1",
+          "Kuartal 2",
+          "Kuartal 3",
+          "Kuartal 4"
+        ],
+        "datasets": [
+          {
+            "label": "Penjualan",
+            "values": [
+              120,
+              150,
+              180,
+              210
+            ],
+            "color": "#2563eb"
+          }
+        ]
+      },
+      "id": "cat-data-analysis-002"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-grafik",
+      "category": "Tes Analisis Data",
+      "text": "Grafik berikut membandingkan penjualan produk A dan B selama lima bulan. Pada bulan berapa selisih penjualan antara produk A dan B paling besar?",
+      "options": [
+        "Bulan 1",
+        "Bulan 2",
+        "Bulan 3",
+        "Bulan 4",
+        "Bulan 5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pada bulan 2, penjualan produk A = 140 dan produk B = 70, selisihnya 70, yang merupakan selisih terbesar.",
+      "chart": {
+        "type": "bar",
+        "title": "Penjualan Produk A vs B",
+        "labels": [
+          "Bulan 1",
+          "Bulan 2",
+          "Bulan 3",
+          "Bulan 4",
+          "Bulan 5"
+        ],
+        "datasets": [
+          {
+            "label": "Produk A",
+            "values": [
+              100,
+              140,
+              130,
+              150,
+              170
+            ],
+            "color": "#2563eb"
+          },
+          {
+            "label": "Produk B",
+            "values": [
+              80,
+              70,
+              95,
+              100,
+              120
+            ],
+            "color": "#f59e0b"
+          }
+        ]
+      },
+      "id": "cat-data-analysis-003"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-tabel",
+      "category": "Tes Analisis Data",
+      "text": "Berdasarkan tabel populasi berikut, berapakah total populasi dari tiga wilayah dengan populasi terbesar?",
+      "options": [
+        "2,5 juta",
+        "2,8 juta",
+        "3,0 juta",
+        "3,2 juta",
+        "3,5 juta"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiga terbesar: Wilayah A (1,2 juta), Wilayah B (1,0 juta), Wilayah C (0,8 juta). Total = 3,0 juta.",
+      "chart": {
+        "type": "table",
+        "title": "Populasi per Wilayah (juta)",
+        "labels": [
+          "Wilayah A",
+          "Wilayah B",
+          "Wilayah C",
+          "Wilayah D",
+          "Wilayah E"
+        ],
+        "datasets": [
+          {
+            "label": "Populasi (juta)",
+            "values": [
+              1.2,
+              1,
+              0.8,
+              0.6,
+              0.4
+            ]
+          }
+        ]
+      },
+      "id": "cat-data-analysis-004"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-grafik",
+      "category": "Tes Analisis Data",
+      "text": "Perhatikan tren pendapatan bulanan berikut. Antara bulan manakah terjadi peningkatan pendapatan paling besar?",
+      "options": [
+        "Jan-Feb",
+        "Feb-Mar",
+        "Mar-Apr",
+        "Apr-Mei",
+        "Mei-Jun"
+      ],
+      "correctIndex": 4,
+      "explanation": "Kenaikan terbesar terjadi antara Mei (110) dan Juni (160), yaitu sebesar 50.",
+      "chart": {
+        "type": "line",
+        "title": "Pendapatan Bulanan (juta Rp)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Pendapatan",
+            "values": [
+              60,
+              70,
+              85,
+              95,
+              110,
+              160
+            ],
+            "color": "#10b981"
+          }
+        ]
+      },
+      "id": "cat-data-analysis-005"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-grafik",
+      "category": "Tes Analisis Data",
+      "text": "Grafik berikut menunjukkan output produksi selama 6 bulan. Berapa total output selama enam bulan tersebut?",
+      "options": [
+        "4.500 unit",
+        "4.800 unit",
+        "5.100 unit",
+        "5.400 unit",
+        "5.700 unit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Total = 700 + 750 + 800 + 850 + 900 + 800 = 4.800 unit.",
+      "chart": {
+        "type": "bar",
+        "title": "Output Produksi (unit)",
+        "labels": [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "Mei",
+          "Jun"
+        ],
+        "datasets": [
+          {
+            "label": "Output",
+            "values": [
+              700,
+              750,
+              800,
+              850,
+              900,
+              800
+            ],
+            "color": "#0d9488"
+          }
+        ]
+      },
+      "id": "cat-data-analysis-006"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-grafik",
+      "category": "Tes Analisis Data",
+      "text": "Perhatikan grafik margin laba berikut. Tahun berapakah margin laba mengalami penurunan paling tajam?",
+      "options": [
+        "2022-2023",
+        "2023-2024",
+        "2024-2025",
+        "2025-2026",
+        "Tidak ada penurunan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Margin turun dari 28% (2024) menjadi 18% (2025), penurunan 10 poin yang merupakan yang paling tajam.",
+      "chart": {
+        "type": "line",
+        "title": "Margin Laba per Tahun (%)",
+        "labels": [
+          "2022",
+          "2023",
+          "2024",
+          "2025",
+          "2026"
+        ],
+        "datasets": [
+          {
+            "label": "Margin",
+            "values": [
+              22,
+              25,
+              28,
+              18,
+              21
+            ],
+            "color": "#8b5cf6"
+          }
+        ]
+      },
+      "id": "cat-data-analysis-007"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-tabel",
+      "category": "Tes Analisis Data",
+      "text": "Tabel berikut menampilkan rincian pengeluaran bulanan. Kategori manakah yang merupakan pengeluaran terbesar kedua?",
+      "options": [
+        "Transportasi",
+        "Makanan",
+        "Sewa",
+        "Hiburan",
+        "Tabungan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urutan terbesar: Sewa (4,5 juta), lalu Makanan (2,5 juta). Jadi pengeluaran terbesar kedua adalah Makanan.",
+      "chart": {
+        "type": "table",
+        "title": "Pengeluaran Bulanan (juta Rp)",
+        "labels": [
+          "Sewa",
+          "Makanan",
+          "Transportasi",
+          "Hiburan",
+          "Tabungan"
+        ],
+        "datasets": [
+          {
+            "label": "Pengeluaran (juta)",
+            "values": [
+              4.5,
+              2.5,
+              1.2,
+              0.8,
+              1.5
+            ]
+          }
+        ]
+      },
+      "id": "cat-data-analysis-008"
+    },
+    {
+      "type": "data-analysis",
+      "subtype": "interpretasi-diagram",
+      "category": "Tes Analisis Data",
+      "text": "Berdasarkan diagram pangsa pasar berikut, berapakah pangsa pasar gabungan dari perusahaan B dan C?",
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%",
+        "40%"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pangsa pasar B = 20% dan C = 15%, sehingga gabungannya 20% + 15% = 35%.",
+      "chart": {
+        "type": "pie",
+        "title": "Pangsa Pasar",
+        "labels": [
+          "Perusahaan A",
+          "Perusahaan B",
+          "Perusahaan C",
+          "Perusahaan D",
+          "Lainnya"
+        ],
+        "datasets": [
+          {
+            "label": "Pangsa (%)",
+            "values": [
+              35,
+              20,
+              15,
+              18,
+              12
+            ]
+          }
+        ]
+      },
+      "id": "cat-data-analysis-009"
+    }
+  ]
+}
